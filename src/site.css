@@ -42,3 +42,7 @@
 .faded-link:active {
     text-decoration: none;
 } 
+
+h2 {
+    margin-bottom: 1rem;
+}
