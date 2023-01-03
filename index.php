@@ -1,0 +1,48 @@
+<?php include 'before.php'; ?>
+<img src="bridge.jpg" class="img-fluid header-image" />
+
+<h2>Osijek Competitive Programming Camp, Winter 2023</h2>
+
+<ul>
+  <li>
+    <b>Dates:</b> 18.-26.02.2023
+  </li>
+  <li>
+    <b>Location:</b> Mathos, University of Osijek, Osijek, Croatia
+  </li>
+  <li>
+    <b>Participation fee:</b> 150€ for onsite participation, 100€ for online.
+  </li>
+</ul>
+
+<h4>What is this?</h4>
+<p>
+  This is a camp to prepare students for ICPC and similar programming competitions. The camp is aimed at
+  the highest level of competition, i.e. teams who wish to show strong results in ICPC regionals and participate seriously
+  in ICPC World Finals.
+</p>
+
+<p>
+  The camp consists of 7 ICPC-style contests, i.e. 5 hours and 9-12 problems each, and 2 days off. The contests are intended for
+  3-person teams.
+</p>
+
+<p>
+  Although regular meals and accommodation are not included in the participation fee, it would be possible to eat at the student cafeteria at a price of approximately 5€ to 8€ per meal. We also negotiate discounts for our participants with local accommodation providers (to be announced).
+  Besides that, the department will organise coffee breaks with some snacks during contests.
+</p>
+
+<h4>Who can participate?</h4>
+<p>
+  Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
+  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a>.
+</p>
+
+<p>
+We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 50% discount for the affected individuals and teams affiliated with Ukrainian institutions.
+</p>
+<p>
+It is also possible to reduce fees individually if you are unable to attend some of the contests (e.g. because of the overlap with SWERC).
+</p>
+
+<?php include 'after.php'; ?>
