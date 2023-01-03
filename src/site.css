@@ -1,0 +1,44 @@
+.header-image {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.osi-partner-logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-height: 5rem;
+}
+
+.footer-area {
+    padding-bottom: 1rem;
+}
+
+.faded-link {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.faded-link:link {
+    text-decoration: none;
+}
+
+.faded-link:visited {
+    text-decoration: none;
+}
+
+.faded-link:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.faded-link:active {
+    text-decoration: none;
+} 
