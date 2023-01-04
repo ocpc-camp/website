@@ -37,6 +37,15 @@ Find out more about us on <a href="http://pinely.com">our website</a>.
 If you want to join our team please send your CV on <a href="mailto:hr@pinely.com">hr@pinely.com</a>.
 </p>
 
+<h4>
+<a href="https://think-cell.com/en/career">
+    <img src="/images/think-cell.svg" width="250px">
+</a>
+</h4>
+<p>
+think-cell is a fast-paced software company in Berlin, Germany, with a focus on developing graphics products that stand out from the crowd. More than 1,000,000 users world-wide rely on our software for their daily business as it makes creating graphical presentations so much easier, faster and more enjoyable. Among our customers are many renowned consulting companies and large international corporations.
+</p>
+
 <h4>Sponsor us</h4>
 <p>
 Interested in joining this list? Contact us at <a href="mailto:ocpc@mathos.hr">ocpc@mathos.hr</a>!
