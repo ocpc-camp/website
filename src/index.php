@@ -39,7 +39,7 @@
 </p>
 
 <p>
-We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 50% discount for the affected individuals and teams affiliated with Ukrainian institutions.
+We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 100€ discount for the affected individuals and teams affiliated with Ukrainian institutions. In other words, the fees would be 50€ and 0€ per person for onsite and online participation correspondingly.
 </p>
 <p>
 It is also possible to reduce fees individually if you are unable to attend some of the contests (e.g. because of the overlap with SWERC).
