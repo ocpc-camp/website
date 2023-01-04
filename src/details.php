@@ -36,6 +36,14 @@
   </li>
 </ul>
 
+<h4>Food and accommodation</h4>
+<p>
+Please note that food and accommodation are <i>not</i> included in the participation fee.
+In Osijek, it is possible to eat at the student cafeteria at a price of approximately 5€ to 8€
+per meal. The department will also organize coffee breaks with some snacks during contests, and
+is negotiating with local accommodation providers about discounts for our participants.
+</p>
+
 <h4>How to register for the camp?</h4>
 <p>
   Please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a> and we will contact you.

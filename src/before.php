@@ -23,6 +23,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="schedule.php">Schedule</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sponsors.php">Sponsors</a>
+                </li>
               </ul>
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">

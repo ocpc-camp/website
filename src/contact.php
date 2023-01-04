@@ -8,11 +8,10 @@
 
 <h4>Organizing team</h4>
 <ul>
+  <li>Mislav Blažević (<a href="https://codeforces.com/profile/mblazev">codeforces</a>)</li>
+  <li>Anton Trygub (<a href="https://codeforces.com/profile/antontrygubO_o">codeforces</a>)</li>
   <li>Oleksandr Kulkov (<a href="https://codeforces.com/profile/adamant">codeforces</a>)</li>
   <li>Tähvend Uustalu (<a href="https://codeforces.com/profile/-is-this-fft-">codeforces</a>)</li>
-  <li>Mislav Blažević (<a href="https://codeforces.com/profile/mblazev">codeforces</a>)</li>
-  <li>Tomislav Prusina (<a href="https://codeforces.com/profile/Tomx">codeforces</a>)</li>
-  <li>Anton Trygub (<a href="https://codeforces.com/profile/antontrygubO_o">codeforces</a>)</li>
 </ul>
 
 <h4>Host university</h4>
