@@ -43,7 +43,7 @@
   </a>
 </h4>
 <p>
-  think-cell is a fast-paced software company in Berlin, Germany, with a focus on developing graphics products that stand out from the crowd. More than 1,000,000 users world-wide rely on our software for their daily business as it makes creating graphical presentations so much easier, faster and more enjoyable. Among our customers are many renowned consulting companies and large international corporations.
+  think-cell is the leading data visualization software for business presentations. Our mission is to offer the most intuitive user interface for generating complex data-driven charts and slides, while at the same time ensuring seamless integration with Microsoft Office. We work on challenging visualization problems, reverse-engineer Microsoft’s code, and reinvent how slides are created. We do this all based on our own pioneering C++ library. think-cell is the only German company funding a C++ ISO committee delegation, so there is a good chance that components we invent will find their way into the standard. Join us (<a href="https://www.think-cell.com/developers">https://www.think-cell.com/developers</a>) as a C++ developer in Berlin or remote!
 </p>
 
 <h4>Sponsor us</h4>
