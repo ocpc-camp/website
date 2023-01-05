@@ -44,6 +44,71 @@ per meal. The department will also organize coffee breaks with some snacks durin
 is negotiating with local accommodation providers about discounts for our participants.
 </p>
 
+<h4>Who are the contest authors?</h4>
+<p>
+  Meet our team of problemsetters who have prepared 7 challenging training contests:
+  <div class="row">
+    <div class="col-lg-3">
+      <h5>Yuhao Du</h5>
+      <ul>
+        <li>IOI 2015 gold medalist</li>
+        <li>AtCoder World Tour Final 2019 champion</li>
+        <li>Author of Yuhao Du Contest 5, 7 and most problems in recent ICPC EC finals</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Dilhan Salgado</h5>
+      <ul>
+        <li>ICPC 2022 World Finalist</li>
+        <li>Codeforces legendary grandmaster in Python</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Anton Trygub</h5>
+      <ul>
+        <li>IMO 2017 gold medalist</li>
+        <li>NAC 22 winner</li>
+        <li>Contest coordinator</li>
+        <li>Codeforces legendary grandmaster</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Aeren</h5>
+      <ul>
+        <li>ICPC 2023 World Finalist</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Jatin Garg</h5>
+      <ul>
+        <li>Codeforces grandmaster</li>
+        <li>ICPC 2021 and 2022 World Finalist</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Adam Gasienica-Samak</h5>
+      <ul>
+        <li>Codeforces grandmaster</li>
+        <li>EJOI 2021 gold medalist</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Kent Huang</h5>
+      <ul>
+        <li>ICPC 2021 World Finalist</li>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <h5>Oleksandr Kulkov</h5>
+      <ul>
+        <li>Maintainer of <a href="https://cp-algorithms/">cp-algorithms</li>
+        <li>Author of nearly 50 <a href="https://codeforces.com/blog/entry/108940">competitive
+            programming problems</a></li>
+      </ul>
+    </div>
+  </div>
+</p>
+
 <h4>How to register for the camp?</h4>
 <p>
   Please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a> and we will contact you.
