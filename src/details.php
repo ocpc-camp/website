@@ -101,7 +101,7 @@ is negotiating with local accommodation providers about discounts for our partic
     <div class="col-lg-3">
       <h5>Oleksandr Kulkov</h5>
       <ul>
-        <li>Maintainer of <a href="https://cp-algorithms/">cp-algorithms</li>
+        <li>Maintainer of <a href="https://cp-algorithms.com/">cp-algorithms</a></li>
         <li>Author of nearly 50 <a href="https://codeforces.com/blog/entry/108940">competitive
             programming problems</a></li>
       </ul>
