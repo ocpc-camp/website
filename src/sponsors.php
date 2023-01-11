@@ -38,7 +38,7 @@
 </p>
 
 <h4>
-  <a href="https://think-cell.com/developers">
+  <a href="https://www.think-cell.com/osijek2023">
     <img src="images/think-cell.svg" width="250px">
   </a>
 </h4>
