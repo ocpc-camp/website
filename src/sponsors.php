@@ -4,7 +4,7 @@
 
 <h4>
   <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london">
-    <img src="images/Jane Street.svg" width="150px">
+    <img src="/images/Jane Street.svg" width="150px">
   </a>
 </h4>
 <p>
@@ -15,7 +15,7 @@
 
 <h4>
   <a href="https://pinely.com/">
-    <img src="images/Pinely.svg">
+    <img src="/images/Pinely.svg">
   </a>
 </h4>
 <p>
