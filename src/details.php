@@ -38,10 +38,56 @@
 
 <h4>Food and accommodation</h4>
 <p>
-Please note that food and accommodation are <i>not</i> included in the participation fee.
-In Osijek, it is possible to eat at the student cafeteria at a price of approximately 5€ to 8€
-per meal. The department will also organize coffee breaks with some snacks during contests, and
-is negotiating with local accommodation providers about discounts for our participants.
+  Please note that food and accommodation are <i>not</i> included in the participation fee.
+</p>
+<p>
+  We will organise coffee breaks on venues during contests. There will also be options to eat at student eateries that are reasonably close to it:
+</p>
+<ul>
+  <li><a href="http://www.stucos.unios.hr/?page_id=114">Restoran Istarska</a> is 15 minutes from the building, and works at <b>8:00-21:00 Mon-Fri</b>. 
+  <li><a href="http://www.stucos.unios.hr/?page_id=121">Restoran Campus</a> is a bit further, but also works on weekends at <b>11:30-18:30</b>.
+</ul>
+<p>
+  Both places provide food at around 3€-5€ per meal. The hostels that we recommend below also offer daily meals (esp. relevant for breakfast on weekends).
+</p>
+<p>
+  For accommodation, we recommend one of the two hostels below.
+</p>
+<h5>Hostel <a href = "https://www.hicroatia.com/hostel/hi-hostel-stara-pekara-osijek/">Stara Pekara</a></h5>
+<p>
+  Base prices for one night are:
+</p>
+<ul>
+  <li> One-bed apartment 38€, with discount <b>34.2€</b>.
+  <li> Two-bed apartment 28.5€ per person, with discount
+    <b>25.65€ per person</b>.
+</ul>
+<p>
+  Currently there are 10 four-bed apartments, 4 two-bed apartments, and 2 one-bed apartments.
+</p>
+<p>
+  Reservations are first come, first served and are by mail
+  <a href="mailto:osijek@hicroatia.com">osijek@hicroatia.com</a>.
+  You can also eat there: Breakfast is 5€, lunch is 7€ and dinner is 8€.
+</p>
+<p>
+  If you want to go with Stara Pekara, please mention "<b>Department of Mathematics - OCPC</b>" when booking for a 10% discount.
+</p>
+<h5>Hostel <a href = "https://sokolcentar.com/">Sokol Centar</a></h5>
+<p>
+  The prices per night are below:
+  <ul>
+    <li>Four-bed room (per person) - <b>23€</b>;
+    <li>Three-bed room (per person) - <b>26€</b>;
+    <li>Double room (per person) - <b>32€</b>;
+    <li>Single room (per person) - <b>47€</b>.
+  </ul>
+  Residence tax for adults (per person) 1.33€. Those interested can contact the hostel via:
+  <ul>
+    <li>Contact form: <a href="https://sokolcentar.com/smjestaj/">https://sokolcentar.com/smjestaj/</a>
+    <li>E-mail: <a href="mailto:booking@zito.hr">booking@zito.hr</a>
+    <li>Tel.: +385 99 4971 007
+  </ul>
 </p>
 
 <h4>Who are the contest authors?</h4>
