@@ -3,23 +3,89 @@
 <h2>Schedule</h2>
 
 <p>
-The camp consists of 7 contest days and
-2 days off inbetween. The schedule of a typical contest day will look
-like this:
+  The camp consists of 7 contest days and
+  2 days off inbetween.
 </p>
 
-<ul>
-  <li>~1h Breakfast</li>
-  <li>5h Contest</li>
-  <li>~1h Lunch</li>
-  <li>~1.5h Contest analysis and discussion</li>
-  <li>Free time</li>
-  <li>~1h Dinner</li>
-  <li>Free time</li>
-</ul>
-
-<p>
-A precise schedule will be published later.
-</p>
+<div class="row">
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 1, February 18</h6>
+    <ul>
+      <li><b>09:30 - 10:00</b> Registration</li>
+      <li><b>10:00 - 10:30</b> Opening ceremony</li>
+      <li><b>10:30 - 12:30</b> Practice round & lunch</li>
+      <li><b>12:30 - 17:30</b> Contest</li>
+      <li><b>17:30 - 18:30</b> Recommended time for dinner</li>
+      <li><b>18:30 - 20:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 2, February 19</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 3, February 20</h6>
+    Day off. Activities TBD.
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 4, February 21</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 5, February 22</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 6, February 23</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 7, February 24</h6>
+    Day off. Activities TBD.
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 8, February 25</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+    </ul>
+  </div>
+  <div class="col-lg-4 schedule-cell">
+    <h6>Day 9, February 26</h6>
+    <ul>
+      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
+      <li><b>10:00 - 15:00</b> Contest</li>
+      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
+      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
+      <li><b>18:00 - 19:00</b> Closing ceremony</li>
+    </ul>
+  </div>
+</div>
 
 <?php include 'after.php'; ?>
