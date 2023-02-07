@@ -6,6 +6,10 @@
     font-size: 1.1rem;
 }
 
+.site-logo {
+    height: 2rem;
+}
+
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
