@@ -72,9 +72,9 @@ in particular:
 
 <h3>Universal Cup mirrors</h3>
 <p>
-  Two of our contests will be mirrored as Universal Cup stages. If you are a camp participant,
-  please do not participate in the Universal Cup stages on 18th and 25th February; or if you do,
-  please do not participate in the corresponding contests in the camp.
+  Two of our contests will be mirrored as <a href="https://ucup.ac/">Universal Cup</a> stages.
+  If you are a camp participant, please do not participate in the Universal Cup stages on 18th
+  and 25th February; or if you do, please do not participate in the corresponding contests in the camp.
 </p>
 
 <p>
