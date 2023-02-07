@@ -43,7 +43,22 @@
   </a>
 </h4>
 <p>
-  think-cell is the leading data visualization software for business presentations. Our mission is to offer the most intuitive user interface for generating complex data-driven charts and slides, while at the same time ensuring seamless integration with Microsoft Office. We work on challenging visualization problems, reverse-engineer Microsoft’s code, and reinvent how slides are created. We do this all based on our own pioneering C++ library. think-cell is the only German company funding a C++ ISO committee delegation, so there is a good chance that components we invent will find their way into the standard. Join us (<a href="https://www.think-cell.com/developers">https://www.think-cell.com/developers</a>) as a C++ developer in Berlin or remote!
+  think-cell is the leading data visualization software for business presentations. Our mission is to offer the most intuitive user interface for generating complex data-driven charts and slides, while at the same time ensuring seamless integration with Microsoft Office. We work on challenging visualization problems, reverse-engineer Microsoft’s code, and reinvent how slides are created. We do this all based on our own pioneering C++ library. think-cell is the only German company funding a C++ ISO committee delegation, so there is a good chance that components we invent will find their way into the standard.
+</p>
+<p>
+  Do you believe in beauty when it comes to programming? Do you have a vivid interest in elegant algorithms? Are you fluent in C++? If so, we would like to meet you. Here is what we offer in a nutshell:
+  <ul>
+    <li> A wide array of <b>extremely challenging C++ development tasks</b>
+    <li> <b>An international team of brilliant minds</b>
+    <li> A working environment that makes this team stay and grow
+    <li> Enough time to make sure that every detail of your solution is perfect
+    <li> A flat organization and plenty of room for your ideas
+    <li> <b>No scheduled meetings</b>
+    <li> Family-friendly working hours, <b>no deadlines, no overtime</b>
+    <li> <b>Support for relocation</b>
+    <li> A competitive salary from the start and a raise to <b>EUR 130,000 annually</b> after only one year
+  </ul>
+  <b><a href="https://www.think-cell.com/osijek2023">Join us</a> as a C++ developer in Berlin or remote!</b>
 </p>
 
 <h4>Sponsor us</h4>
