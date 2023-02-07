@@ -24,6 +24,9 @@
                   <a class="nav-link" href="/schedule.php">Schedule</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="/contest-info.php">Contest info</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="/sponsors.php">Sponsors</a>
                 </li>
               </ul>
