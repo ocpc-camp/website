@@ -158,6 +158,9 @@
 <h4>How to register for the camp?</h4>
 <p>
   Please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a> and we will contact you.
+  The registration deadline is <b>04.02.2022</b> for onsite participants and <b>10.02.2022</b>
+  for online participants. The deadline for payment of the participation fees is <b>13.02.2022</b>;
+  however we can be flexible here as long as you stay in touch with us.
 </p>
 
 <a href="legal.php">Terms and Conditions</a>
