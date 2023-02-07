@@ -6,6 +6,8 @@
     <title>Osijek Competitive Programming Camp</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/site.css?v=4" />
+    <link rel="icon" href="/images/ocpc_favicon.png" />
+    <link rel="apple-touch-icon" href="/images/ocpc_favicon.png" />
   </head>
   <body>
     <div class="container body-content">
