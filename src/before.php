@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Osijek Competitive Programming Camp</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/site.css?v=3" />
+    <link rel="stylesheet" href="/site.css?v=4" />
   </head>
   <body>
     <div class="container body-content">
