@@ -7,6 +7,10 @@
   2 days off inbetween.
 </p>
 
+<p>
+  All times are in CET (UTC +1)
+</p>
+
 <div class="row">
   <div class="col-lg-4 schedule-cell">
     <h6>Day 1, February 18</h6>
