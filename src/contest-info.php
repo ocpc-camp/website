@@ -56,8 +56,18 @@ in particular:
 
 <h3>Onsite rules</h3>
 <p>
-  Onsite teams will be given access to computers in the host university. Technical data and a
-  list of installed IDEs will be posted later.
+  Onsite teams will be given access to computers in the host university. You will be provided a
+  VirtualBox virtual machine running Xubuntu 22.04. Within the virtual machine you have sudo
+  permissions and you are allowed to do anything you want to it. Several common editors, IDEs
+  and utilities have been pre-installed:
+  <ul>
+    <li> Editors: vim, gvim, nvim, emacs, nano, geany, kate, gedit </li>
+    <li> IDEs: IntelliJ IDEA Community, PyCharm Community, Visual Studio Code </li>
+    <li> Compilers: g++, pypy3 </li>
+    <li> gdb </li>
+  </ul>
+  You may also use the host operating system (Windows 10) if you prefer, but we can't guarantee
+  the availability of any particular program.
 </p>
 
 <p>

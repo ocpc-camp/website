@@ -28,7 +28,7 @@
 </p>
 
 <p>
-  Although regular meals and accommodation are not included in the participation fee, it would be possible to eat at the student cafeteria at a price of approximately 5€ to 8€ per meal. We also negotiate discounts for our participants with local accommodation providers (to be announced).
+  Although regular meals and accommodation are not included in the participation fee, it would be possible to eat at the student cafeteria at a price of approximately 5€ to 8€ per meal. We also have some discounts for our participants with local accommodation providers (see the details page).
   Besides that, the department will organise coffee breaks with some snacks during contests.
 </p>
 
