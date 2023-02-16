@@ -29,6 +29,9 @@
                   <a class="nav-link" href="/contest-info.php">Contest info</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="/teams.php">Teams</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="/sponsors.php">Sponsors</a>
                 </li>
               </ul>

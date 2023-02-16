@@ -2,6 +2,15 @@
 
 <h2>Contest info</h2>
 
+<table>
+  <tr>
+    <td><b>Test contest</b></td><td>
+      <a href="https://ocpc2023w-test.eolymp.io">login</a>
+      <a href="https://osijek2023w.eolymp.space/s/test">scoreboard</a></td>
+  </tr>
+</table>
+
+<h3>Rules</h3>
 <p>
 Contests will mostly follow
 <a href="https://www.win.tue.nl/~wstomv/contests/acm-icpc-rules-summary.html">classical ICPC rules</a>,

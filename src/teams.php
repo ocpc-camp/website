@@ -1,0 +1,81 @@
+<?php include 'before.php'; ?>
+
+<h2>Teams</h2>
+<ol>
+  <li>I came just to see the problems (Radoslav Dimitrov)</li>
+  <li>Kyiv PI: Ocko (Dmytro Omelian)</li>
+  <li>Ivano Frankivsk NMU: Peaches (Mansi Udita Singh)</li>
+  <li>Odesa NMU: ONU_Pigs (Oleksandr Marmaliuk, Eugene Hromov, Danylo Zhykul)</li>
+  <li>FAT (Temirkhan Zimanov, Alikhan Zimanov, Fedor Popov)</li>
+  <li>UNC Chapel Hill: KAD (Alex Zamani)</li>
+  <li>g1dr4ch (Illia Permiakov)</li>
+  <li>HS 14 Wroclaw + HS 8 Warsaw: PokorFanClub (Kamil Szymczak, Rafał Mańczyk, Olaf Surgut)</li>
+  <li>Kyiv NU: 0_GB_RAM (Kostiantyn Lutsenko, Kostiantyn Savchuk, Vladyslav Zavodnyk)</li>
+  <li>s_FHTAGN (Rybalchenko Yan)</li>
+  <li>UNSW Sydney: Hell Hunt (Joseph Luo, Tsingying Xu, Tao He)</li>
+  <li>Beijing UPT: Three Konjaks (Qingliang Ou, Tianze Zhang, Jiahe Wang)</li>
+  <li>SLOZNO (Nikita Sydorenko, Oleksii Tychkovskyi, Borys Nyzhnyk)</li>
+  <li>Lviv NU: LNU Stallions (Maksym Shcherba, Petro Tarnavskyi, Yarema Stiahar)</li>
+  <li>UAIC: UAIC1 (Teodorescu Vlad, Nechita Vlad-Mihai, Chiriac Matei)</li>
+  <li>Ivano Frankivisk NMU: peaky_blinders (abhinav)</li>
+  <li>Kyoto U: Heno World (Yuya Kadono, Chuta Yamaoka, Tomohito Omori)</li>
+  <li>Zagreb U: Zagreb (Dorijan Lendvaj, Krešimir Nežmah, Patrick Pavić)</li>
+  <li>Sogang U: Redshift (Suhyun Park, Junseok Lee, Seongwoo Chae)</li>
+  <li>Karlsruhe IT: Hasso's Race Mice (Christopher Weyand, David Stangl, Michael Zündorf)</li>
+  <li>UCLA: Iterative Snake (Dean Menezes)</li>
+  <li>HoMaMaOvO (Riku Kawasaki, Masaki Nishimoto, Yui Hosaka)</li>
+  <li>Wisconsin-Madison U: Longest SubRoutine (Mingrui Liu, Ziyi Zhang, Nitit Jongsawatsataporn)</li>
+  <li>Tartu U: KalaSeadus § (Semjon Kravtšenko, Kregor Ööbik)</li>
+  <li>UAIC: UAIC2 (Rata Ovidiu, Dumitrescu Alex, Popoveniuc Cezar)</li>
+  <li>Hasso Plattner Institute: Seems to be O(k!) (Konrad Letz, Tobias Roehr, Lukas Hagen)</li>
+  <li>Zaporizhzhia NU: ZNU_Dark_Horse (Mykyta Posunko, Volodymyr Odaiskyi, Oleh Dovhalenko)</li>
+  <li>Hasso Plattner Institute: Hexaflexagons (Niko Hastrich, Jonas Schmidt)</li>
+  <li>Seoul NU: NewTrend (Hyunseo Jeong, Jaemin Park, Seohyun Choi)</li>
+  <li>Harbour.Space: Harbour.Space P+P+P (Yahor Dubovik, Batyr Sardarbekov, Sergei Zolotarev)</li>
+  <li>Tartu U: Bubblegum Bitset (Marko Tsengov, Andres Alumets)</li>
+  <li>Yerevan SU: Gyambus (Samvel Andreasyan, Robert Kocharyan)</li>
+  <li>KhNURE: [KhNURE] KIVI (Valera Grinenko, Kostiantyn Denysov, Ihor Barenblat)</li>
+  <li>Bergen U + Charles U: Ἄλγος±1 (Magnus Hokland Hegdahl, Andreas Alberg, Tymofii Reizin)</li>
+  <li>Lviv NU: LNU NextGen (Bohdan Chaika, Yura Ferendovich, Roman Hredil)</li>
+  <li>Uzhhorod NU: UzhNU_OLDS (Illia Kryvoviaz, Ivan Fekete, Yaroslav Bulyna)</li>
+  <li>Jagiellonian U: Jagiellonian 2 (Justyna Jaworska, Jan Klimczak, Rafał Pyzik)</li>
+  <li>Uzhhorod NU: UzhNU_RE_team (Oleksandr Stehura, Vasyl Merenych, Oleksandr Hroskopf)</li>
+  <li>Oxford U: nwerc is bad (Radostin Chonev, Harris Leung, Viktor Kozhuharov)</li>
+  <li>Jagiellonian U: Panowie (Maksym Zub, Kacper Topolski, Andrei Mishchanka)</li>
+  <li>Jagiellonian U: Jageillonian 5 (Vladyslav Denysiuk, Roman Yanushevskyi, Oleh Naver)</li>
+  <li>Jagiellonian U: Drużyna  (Jacek Salata, Grzegorz Gawryał, Antoni Długosz)</li>
+  <li>Nanyang TU: Epiphyllum (Mingyuan Zhang, Jiawei Ren, Chenyang Gu)</li>
+  <li>UNSW Sydney: Why am I here (Zhizhou Ma, Sylvia Huang, Kevin Zhu)</li>
+  <li>Bucharest U: [UniBuc] SuteAlbastre (Alexandru Enache, Ion-Marian Anghelina, Gabriel-Sebastian Buță)</li>
+  <li>Bucharest U: [UniBuc] Echipa Aproape Sarata (Bogdan Ioan Popa, Voicu Mihai-Valeriu, Alexandru Ardelean)</li>
+  <li>Bucharest U: [UniBuc] Duck and Horseman doing Calculus (Mihai Adrian Oprea, Dumitru Ilie, Ilie-Daniel Apostol)</li>
+  <li>IIT Delhi: AuditFail (Tamajit Banerjee)</li>
+  <li>Uzhhorod NU: troubleMakers (Roman Pitsura, Serhii Loshak, Yurii Popovych)</li>
+  <li>Nanyang TU: Cheesy Leopard (Siyang Shao, Zhengyu Shi, Zong Yu Lee / Fanyi Pu)</li>
+  <li>Nanyang TU: UknoWho (Lingxuan Zhao, Xuhang Zhou, Zhengyu Wen / Huu An Phan)</li>
+  <li>Jagiellonian U: RPG (Jakub Gonera, Grzegorz Ryn, Kacper Paciorek)</li>
+  <li>UNICAMP: Você beijaria Matheus Leal Viana? (Naim Shaikhzadeh Santos, Tiago Domingos Almeida Souza, Yan Silva Tavares)</li>
+  <li>RUET: RUET_Aftermath (Risal Shahriar Shefin, Adnan Zawad Toky, Sayeef Mahmud)</li>
+  <li>Bucharest U: Echipa Dulce-Amaruie (Alexandra Udrostoiu)</li>
+  <li>Warsaw U: UW1 (Tomasz Nowak, Arkadiusz Czarkowski, Bartłomiej Czarkowski)</li>
+  <li>National Taiwan U: ckiseki (Bo-Yu Chou, Yu-Hsun Chiang, Ping-Hsuan Lin)</li>
+  <li>806 (Belousov Egor, Inyutin Maxim, Smirnov Artyom)</li>
+  <li>National Taiwan U: 8BQube (Brian Tsai, Po-Hsuan Su, Chung-Yi Cheng)</li>
+  <li>Warsaw U: Polish Mafia (Wojtek Nadara, Mateusz Radecki, Marek Sokołowski)</li>
+  <li>Karlsruhe IT: Kindergarten Timelimit (Jonathan Dransfeld, Lucas Schwebler, Yidi Zang)</li>
+  <li>Lonely wolves (Temirlan Baibolov, Mikhail Piklyaev, Temirlan Satylkhanov)</li>
+  <li>Kharkiv PI: KhPI_zeleboba (Pavlo Pasko, Dmytro Kazakov, Dmytro Roshchupkin)</li>
+  <li>BINUS: BINUS1 (Vio Albert Ferdinand, Rico Filberto)</li>
+  <li>BINUS: BINUS2 (Owen Djonatan)</li>
+  <li>BINUS: BINUS3 (Christoffer Edbert Karuniawan)</li>
+  <li>Warsaw U: UW :3 (Kacper Kluk, Rafał Łyżwa, Maja Kądziołka)</li>
+  <li>Shahjalal UST: BerlekampMassey (Fahim Tajwar Saikat)</li>
+  <li>ADA University: AzCoders (Huseyn Hajiyev)</li>
+  <li>BUET: BUET Potatoes (Md Sabbir Rahman, Sk. Sabit Bin Mosaddek, Kazi Md Irshad)</li>
+  <li>BUET: BUET Sommohito (Iftekhar Hakim Kaowsar, Mahdi Hasnat Siyam, Apurba Saha)</li>
+  <li>BUET: BUET_Comedians_of_Errors (Ahmed Hossain, Md. Shariful Islam, Md. Hasanul Islam)</li>
+  <li>BUET: BUET_HaloByte (Sohaib, Noshin Naval, Sachin Deb)</li>
+  <li>BUET: BUET_Codefellas (Saad Mohammad Rafid Pial, Md. Azizul Hague Nadim, Md. Ishrak Ahsan)</li>
+</ol>
+
+<?php include 'after.php'; ?>
