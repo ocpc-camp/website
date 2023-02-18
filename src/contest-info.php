@@ -8,6 +8,16 @@
     <td><a href="https://ocpc2023w-test.eolymp.io">login</a></td>
     <td><a href="https://osijek2023w.eolymp.space/s/test">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 1: Anton Trygub Contest 1</b></td>
+    <td><a href="https://osijek2023w-d1.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Combined scoreboard</b> (for tracking upsolving progress)</td>
+    <td></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/all-contests?mode=UPSOLVE">scoreboard</td>
+  </tr> 
 </table>
 
 <h3>Rules</h3>
