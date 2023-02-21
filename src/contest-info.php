@@ -14,7 +14,17 @@
     <td><a href="https://osijek2023w.eolymp.space/s/d1">scoreboard</a></td>
   </tr>
   <tr>
-    <td><b>Combined scoreboard</b> (for tracking upsolving progress)</td>
+    <td><b>Day 2: Oleksandr Kulkov Contest 3</b></td>
+    <td><a href="https://osijek2023w-d2.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d2">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 4: Jatin Garg Contest 1</b></td>
+    <td><a href="https://osijek2023w-d4.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d4">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Combined scoreboard</b></td>
     <td></td>
     <td><a href="https://osijek2023w.eolymp.space/s/all-contests?mode=UPSOLVE">scoreboard</td>
   </tr> 
