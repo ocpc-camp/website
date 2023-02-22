@@ -9,7 +9,7 @@
     <td><a href="https://osijek2023w.eolymp.space/s/test">scoreboard</a></td>
   </tr>
   <tr>
-    <td><b>Day 1: Anton Trygub Contest 1</b></td>
+    <td><b>Day 1: Anton Trygub Contest</b></td>
     <td><a href="https://osijek2023w-d1.eolymp.io">login</a></td>
     <td><a href="https://osijek2023w.eolymp.space/s/d1">scoreboard</a></td>
   </tr>
@@ -19,7 +19,7 @@
     <td><a href="https://osijek2023w.eolymp.space/s/d2">scoreboard</a></td>
   </tr>
   <tr>
-    <td><b>Day 4: Jatin Garg Contest 1</b></td>
+    <td><b>Day 4: Jatin Garg Contest</b></td>
     <td><a href="https://osijek2023w-d4.eolymp.io">login</a></td>
     <td><a href="https://osijek2023w.eolymp.space/s/d4">scoreboard</a></td>
   </tr>
@@ -27,6 +27,11 @@
     <td><b>Day 5: Adam Gąsienica-Samek Contest</b></td>
     <td><a href="https://osijek2023w-d5.eolymp.io">login</a></td>
     <td><a href="https://osijek2023w.eolymp.space/s/d5">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 6: Yuhao Du Contest 11</b></td>
+    <td><a href="https://osijek2023w-d6.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d6">scoreboard</a></td>
   </tr>
   <tr>
     <td><b>Combined scoreboard</b></td>
