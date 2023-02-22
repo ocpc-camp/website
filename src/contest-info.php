@@ -24,6 +24,11 @@
     <td><a href="https://osijek2023w.eolymp.space/s/d4">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 5: Adam Gąsienica-Samek Contest</b></td>
+    <td><a href="https://osijek2023w-d5.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d5">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>Combined scoreboard</b></td>
     <td></td>
     <td><a href="https://osijek2023w.eolymp.space/s/all-contests?mode=UPSOLVE">scoreboard</td>
