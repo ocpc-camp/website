@@ -104,7 +104,7 @@
       <li><b>10:00 - 15:00</b> Contest</li>
       <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
       <li><b>16:30 - 18:00</b> Analysis & discussion</li>
-      <li><b>18:00 - 19:00</b> Closing ceremony</li>
+      <li><b>20:00 - </b> Closing ceremony</li>
     </ul>
   </div>
 </div>
