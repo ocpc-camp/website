@@ -34,6 +34,11 @@
     <td><a href="https://osijek2023w.eolymp.space/s/d6">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 8: Dilhan Salgado Contest</b></td>
+    <td><a href="https://osijek2023w-d8.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d8">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>Combined scoreboard</b></td>
     <td></td>
     <td><a href="https://osijek2023w.eolymp.space/s/all-contests?mode=UPSOLVE">scoreboard</td>

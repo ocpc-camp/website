@@ -41,7 +41,7 @@
     <h6>Day 3, February 20</h6>
     Day off.
     <ul>
-      <li><b>??:00 - ??:00</b> Bowling</li>
+      <li><b>16:00 - 19:00</b> Bowling (our bus leaves from the university at <b>15:30</b>)</li>
     </ul>
   </div>
 </div>
@@ -82,7 +82,7 @@
     <h6>Day 7, February 24</h6>
     Day off.
     <ul>
-      <li><b>??:00 - ??:00</b> Paintball</li>
+      <li><b>12:00 - 17:00</b> Paintball</li>
     </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
