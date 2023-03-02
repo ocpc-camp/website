@@ -32,6 +32,9 @@
                   <a class="nav-link" href="/teams.php">Teams</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="/rating.html">Rating</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="/sponsors.php">Sponsors</a>
                 </li>
               </ul>
