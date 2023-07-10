@@ -1,0 +1,3 @@
+<?php include 'before.php'; ?>
+
+<?php include 'after.php'; ?>

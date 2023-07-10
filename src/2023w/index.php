@@ -5,7 +5,7 @@
 
 <ul>
   <li>
-    <b>Dates:</b> 16.-24.09.2023
+    <b>Dates:</b> 18.-26.02.2023
   </li>
   <li>
     <b>Location:</b> Mathos, University of Osijek, Osijek, Croatia
@@ -35,14 +35,14 @@
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
-  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a> (CHANGE LINK).
+  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a>.
 </p>
 
 <p>
 We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 100€ discount for the affected individuals and teams affiliated with Ukrainian institutions. In other words, the fees would be 50€ and 0€ per person for onsite and online participation correspondingly.
 </p>
 <p>
-It is also possible to reduce fees individually if you are unable to attend some of the contests.
+It is also possible to reduce fees individually if you are unable to attend some of the contests (e.g. because of the overlap with SWERC).
 </p>
 
 <?php include 'after.php'; ?>

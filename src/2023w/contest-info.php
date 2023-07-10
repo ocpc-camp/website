@@ -2,6 +2,54 @@
 
 <h2>Contest info</h2>
 
+<table class="table">
+  <tr>
+    <td><b>Test contest</b></td>
+    <td><a href="https://ocpc2023w-test.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/test">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 1: Anton Trygub Contest</b></td>
+    <td><a href="https://osijek2023w-d1.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 2: Oleksandr Kulkov Contest 3</b></td>
+    <td><a href="https://osijek2023w-d2.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d2">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 4: Jatin Garg Contest</b></td>
+    <td><a href="https://osijek2023w-d4.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d4">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 5: Adam Gąsienica-Samek Contest</b></td>
+    <td><a href="https://osijek2023w-d5.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d5">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 6: Yuhao Du Contest 11</b></td>
+    <td><a href="https://osijek2023w-d6.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d6">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 8: Dilhan Salgado Contest</b></td>
+    <td><a href="https://osijek2023w-d8.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d8">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 9: Magical Story of LaLa</b></td>
+    <td><a href="https://osijek2023w-d9.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/d9">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Combined scoreboard</b></td>
+    <td></td>
+    <td><a href="https://osijek2023w.eolymp.space/s/all-contests?mode=UPSOLVE">scoreboard</td>
+  </tr> 
+</table>
+
 <h3>Rules</h3>
 <p>
 Contests will mostly follow
@@ -42,7 +90,7 @@ in particular:
   prompting ChatGPT) is forbidden.
 </p>
 <p>
-  Terms and conditions of <a href="legal.php">the camp</a> and
+  Terms and conditions of <a href="/legal.php">the camp</a> and
   <a href="https://support.eolymp.com/policies/terms">the contest system</a> apply.
 </p>
 
@@ -67,7 +115,7 @@ in particular:
     <li> Compilers: g++, pypy3 </li>
     <li> gdb </li>
   </ul>
-  You may also use the host operating system (Windows 10 or 11) if you prefer, but we can't guarantee
+  You may also use the host operating system (Windows 10) if you prefer, but we can't guarantee
   the availability of any particular program.
 </p>
 
@@ -81,18 +129,16 @@ in particular:
   Onsite teams will have access to a printer.
 </p>
 
-<h3>Camp materials and silence period</h3>
+<h3>Universal Cup mirrors</h3>
 <p>
-  One of our contests will be mirrored in <a href="https://ucup.ac/">Universal Cup</a>.
-  For the rest of the contests however, we will have a silence period until the end of
-  November 2023, during which camp materials will not be released to the public.
-  Therefore, we ask participants to not discuss the problems in public until that date.
-  However, participants are allowed to use camp problems in small-scale, private trainings,
-  e.g. local university training contests. The silence period will also ensure that
-  participants in such trainings won't have seen the problems before.
+  Two of our contests will be mirrored as <a href="https://ucup.ac/">Universal Cup</a> stages.
+  If you are a camp participant, please do not participate in the Universal Cup stages on 18th
+  and 25th February; or if you do, please do not participate in the corresponding contests in the camp.
 </p>
+
 <p>
-  After the camp ends, we will give all participants access to camp materials.
+  If you would like your participation in the camp to contribute to your Universal Cup rating,
+  contact us and mention your Universal Cup login name.
 </p>
 
 <?php include 'after.php'; ?>
