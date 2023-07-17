@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col">
       Sponsors
-
-      idk jane street?
+      <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london"><img src="/images/Jane Street.svg" class="img-fluid osi-partner-logo" width="150"/></a>
+      <a href="https://pinely.com/"><img src="/images/Pinely.svg" class="img-fluid osi-partner-logo" /></a>
     </div>
     <div class="col-md-auto">
       Host

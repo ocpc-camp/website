@@ -1,7 +1,7 @@
 <?php include 'before.php'; ?>
 <img src="/images/bridge.jpg" class="img-fluid header-image" />
 
-<h2>Osijek Competitive Programming Camp, Winter 2023</h2>
+<h2>Osijek Competitive Programming Camp, Fall 2023</h2>
 
 <ul>
   <li>
@@ -27,15 +27,10 @@
   3-person teams.
 </p>
 
-<p>
-  Although regular meals and accommodation are not included in the participation fee, it would be possible to eat at the student cafeteria at a price of approximately 5€ to 8€ per meal. We also have some discounts for our participants with local accommodation providers (see the details page).
-  Besides that, the department will organise coffee breaks with some snacks during contests.
-</p>
-
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
-  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form <a href="https://forms.gle/purdpaoDVnAUyPR66">here</a> (CHANGE LINK).
+  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form (form to be posted).
 </p>
 
 <p>

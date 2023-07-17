@@ -19,7 +19,7 @@ in particular:
     </ul>
   </li>
   <li>It is possible to ask for clarifications about the problem in case of possible ambiguity
-    or error. The answers will typically be restricted to “Yes”, “No” or “No comments”;</li>
+    or error. The answers will typically be restricted to "Yes", "No" or "No comments";</li>
   <li>The scoreboard is public and updated during the contest, except for the last hour, during
     which it will be frozen.</li>
 </ul>
@@ -72,9 +72,9 @@ in particular:
 </p>
 
 <p>
-  We allow onsite teams to use their own computer instead. In particular, if you rely on very
-  specific IDEs, we encourage you to bring your own computer. Keep in mind though that the rule
-  about using only one computer still applies.
+  We allow onsite teams to use their own computer instead. In particular, if you rely on a very
+  particular workflow (e.g. a specific IDE, many customizations), we encourage you to bring your own
+  computer. Keep in mind though that the rule about using only one computer still applies.
 </p>
 
 <p>
@@ -83,7 +83,14 @@ in particular:
 
 <h3>Camp materials and silence period</h3>
 <p>
-  One of our contests will be mirrored in <a href="https://ucup.ac/">Universal Cup</a>.
+  Most of our contests are fresh and developed for this camp. A small number of contests
+  may be based on previous contests that have not been released to the general public.
+  If you have seen some problems of a contest before, you can't participate on that day
+  (and your participation fee will be reduced accordingly). We will privately contact participants
+  who might be affected.
+</p>
+<p>
+  One of our contests will be a part of <a href="https://ucup.ac/">Universal Cup</a>.
   For the rest of the contests however, we will have a silence period until the end of
   November 2023, during which camp materials will not be released to the public.
   Therefore, we ask participants to not discuss the problems in public until that date.
