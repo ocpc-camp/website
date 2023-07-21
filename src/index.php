@@ -30,7 +30,7 @@
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
-  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill the form (form to be posted).
+  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill <a href="https://forms.gle/LjpuHwEuPzcCvaJh6">this form.</a>
 </p>
 
 <p>

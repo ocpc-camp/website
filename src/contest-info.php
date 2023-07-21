@@ -2,6 +2,23 @@
 
 <h2>Contest info</h2>
 
+<h3>Camp materials and silence period</h3>
+<p>
+  Based on your feedback, we will have a silence period until the end of
+  November 2023, during which camp materials will not be released to the public.
+  Therefore, we ask participants to not discuss the problems in public until that date.
+</p>
+<p>
+  After the camp ends, we will give all participants access to camp materials.
+</p>
+<p>
+  Most of our contests are fresh and developed for this camp. A small number of contests
+  may be based on previous contests that have not been released to the general public.
+  If you have seen some problems of a contest before, you can't participate on that day
+  (and your participation fee will be reduced accordingly). We will privately contact participants
+  who might be affected.
+</p>
+
 <h3>Rules</h3>
 <p>
 Contests will mostly follow
@@ -79,27 +96,6 @@ in particular:
 
 <p>
   Onsite teams will have access to a printer.
-</p>
-
-<h3>Camp materials and silence period</h3>
-<p>
-  Most of our contests are fresh and developed for this camp. A small number of contests
-  may be based on previous contests that have not been released to the general public.
-  If you have seen some problems of a contest before, you can't participate on that day
-  (and your participation fee will be reduced accordingly). We will privately contact participants
-  who might be affected.
-</p>
-<p>
-  One of our contests will be a part of <a href="https://ucup.ac/">Universal Cup</a>.
-  For the rest of the contests however, we will have a silence period until the end of
-  November 2023, during which camp materials will not be released to the public.
-  Therefore, we ask participants to not discuss the problems in public until that date.
-  However, participants are allowed to use camp problems in small-scale, private trainings,
-  e.g. local university training contests. The silence period will also ensure that
-  participants in such trainings won't have seen the problems before.
-</p>
-<p>
-  After the camp ends, we will give all participants access to camp materials.
 </p>
 
 <?php include 'after.php'; ?>

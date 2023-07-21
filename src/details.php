@@ -54,7 +54,8 @@
 
 <h4>How to register for the camp?</h4>
 <p>
-  We will soon open a form for registration.
+  Please fill out the form <a href="https://forms.gle/LjpuHwEuPzcCvaJh6">here</a>, and we will be
+  in touch.
 </p>
 
 <a href="legal.php">Terms and Conditions</a>
