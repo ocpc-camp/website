@@ -10,7 +10,13 @@
     <div class="col">
       Partners
       <a href="https://icpc.foundation/">
-        <img src="/images/ICPC.svg" class="img-fluid osi-partner-logo "/>
+        <img src="/images/ICPC.svg" class="img-fluid osi-partner-logo" />
+      </a>
+      <a href="https://artofproblemsolving.com/">
+        <img src="/images/aops.svg" class="img-fluid osi-partner-logo" />
+      </a>
+      <a href="https://www.wolfram.com/">
+        <img src="/images/wolfram.png" class="img-fluid osi-partner-logo" />
       </a>
     </div>
     <div class="col-md-auto">
