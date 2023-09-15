@@ -4,7 +4,7 @@
 
 <p>
   The camp consists of 7 contest days and 2 days off inbetween.
-  All times are in CET (UTC +1). The schedule may still change.
+  All times are in CEST (UTC +2). The schedule may still change.
 </p>
 
 <div class="row">
