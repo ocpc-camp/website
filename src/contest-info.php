@@ -2,6 +2,19 @@
 
 <h2>Contest info</h2>
 
+<table class="table">
+  <tr>
+    <td><b>Test contest</b></td>
+    <td><a href="https://ocpc2023s-test.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/test">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 1: Jeroen Op de Beek Contest</b></td>
+    <td><a href="https://osijek2023s-d1.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+</table>
+
 <h3>Camp materials and silence period</h3>
 <p>
   Based on your feedback, we will have a silence period until the end of
