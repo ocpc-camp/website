@@ -32,7 +32,8 @@
     <h6>Day 3, September 18</h6>
     Day off.
     <ul>
-      <li><b>??:?? - ??:??</b> Activity, TBD</li>
+      <li><b>16:00 - 17:30</b> Laser tag (group 1)</li>
+      <li><b>17:30 - 19:00</b> Laser tag (group 2)</li>
     </ul>
   </div>
 </div>
