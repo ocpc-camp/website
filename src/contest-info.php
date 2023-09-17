@@ -13,6 +13,11 @@
     <td><a href="https://osijek2023s-d1.eolymp.io">login</a></td>
     <td><a href="https://osijek2023s.eolymp.space/s/d1">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 2: Zagreb Contest</b></td>
+    <td><a href="https://osijek2023s-d1.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d2">scoreboard</a></td>
+  </tr>
 </table>
 
 <h3>Camp materials and silence period</h3>
