@@ -19,7 +19,7 @@
     <td><a href="https://osijek2023s.eolymp.space/s/d2">scoreboard</a></td>
   </tr>
   <tr>
-    <td><b>Day 4: Qinhuangdoa Contest</b></td>
+    <td><b>Day 4: Qinhuangdao Contest</b></td>
     <td><a href="https://osijek2023s-d4.eolymp.io">login</a></td>
     <td><a href="https://osijek2023s.eolymp.space/s/d4">scoreboard</a></td>
   </tr>
