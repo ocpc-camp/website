@@ -71,7 +71,9 @@
     <h6>Day 7, September 22</h6>
     Day off.
     <ul>
-      <li><b>??:?? - ??:??</b> Activity, TBD</li>
+      <li><b>16:00 - 17:00</b> Escape room (group 1)</li>
+      <li><b>17:30 - 18:30</b> Escape room (group 2)</li>
+      <li><b>20:30 - 21:30</b> Escape room (group 3)</li>
     </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
