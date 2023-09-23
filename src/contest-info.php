@@ -34,6 +34,11 @@
     <td><a href="https://osijek2023s.eolymp.space/s/d6">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 8: Songyang Chen Contest 4</b></td>
+    <td><a href="https://osijek2023s-d8.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d8">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>Combined scoreboard</b></td>
     <td></td>
     <td><a href="https://osijek2023s.eolymp.space/s/all-contests">scoreboard</a></td>
