@@ -39,6 +39,11 @@
     <td><a href="https://osijek2023s.eolymp.space/s/d8">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 9: Polish Kids Contest</b></td>
+    <td><a href="https://osijek2023s-d9.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d9">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>Combined scoreboard</b></td>
     <td></td>
     <td><a href="https://osijek2023s.eolymp.space/s/all-contests">scoreboard</a></td>
