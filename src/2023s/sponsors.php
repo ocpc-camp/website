@@ -8,12 +8,7 @@
   </a>
 </h4>
 <p>
-  Jane Street is a quantitative trading firm with offices worldwide. We hire smart, humble people who love to solve problems, build systems, and test theories. You’ll learn something new every day in our office—whether it’s connecting with a colleague to share perspectives, or participating in a talk, class, or game night. Our success is driven by our people and we never stop improving.
-</p>
-
-<p>
-Find out more about our open roles and apply <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations">here</a>.
-Like puzzles? So do we! Every month or two, we’ll post a new puzzle to <a href ="https://www.janestreet.com/puzzles/">this page</a>. If you think you’ve solved a puzzle, submit your solution!
+  Jane Street is a quantitative trading firm with offices worldwide. We hire smart, humble people who love to solve problems, build systems, and test theories. You'll learn something new every day in our office—whether it's connecting with a colleague to share perspectives, or participating in a talk, class, or game night. Our success is driven by our people and we never stop improving.
 </p>
 
 <br>

@@ -29,12 +29,6 @@
                   <a class="nav-link" href="contest-info.php">Contest info</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="teams.php">Teams</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="rating.html">Rating</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="sponsors.php">Sponsors</a>
                 </li>
               </ul>
@@ -46,4 +40,4 @@
             </div>
           </div>
         </nav>
-        <b>You are viewing an archived website for a previous edition of the camp. Click <a href="/">here</a> to access the website for the current camp.</b>
+            <b>You are viewing an archived website for a previous edition of the camp. Click <a href="/">here</a> to access the website for the current camp.</b>

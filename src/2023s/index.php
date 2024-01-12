@@ -1,11 +1,11 @@
 <?php include 'before.php'; ?>
 <img src="/images/bridge.jpg" class="img-fluid header-image" />
 
-<h2>Osijek Competitive Programming Camp, Winter 2024</h2>
+<h2>Osijek Competitive Programming Camp, Fall 2023</h2>
 
 <ul>
   <li>
-    <b>Dates:</b> 17.-25.02.2024
+    <b>Dates:</b> 16.-24.09.2023
   </li>
   <li>
     <b>Location:</b> Mathos, University of Osijek, Osijek, Croatia
@@ -30,8 +30,7 @@
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
-  representing universities. Participants need to be registered in teams. If you are interested in participating,
-  please fill in the form <a href="https://forms.gle/sNwpR4mpbuhEXwQ76">here</a>.
+  representing universities. Participants need to be registered in teams. If you are interested in participating, please fill <a href="https://forms.gle/LjpuHwEuPzcCvaJh6">this form.</a>
 </p>
 
 <p>

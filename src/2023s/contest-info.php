@@ -2,11 +2,58 @@
 
 <h2>Contest info</h2>
 
+<table class="table">
+  <tr>
+    <td><b>Test contest</b></td>
+    <td><a href="https://ocpc2023s-test.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/test">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 1: Jeroen Op de Beek Contest</b></td>
+    <td><a href="https://osijek2023s-d1.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 2: Zagreb Contest</b></td>
+    <td><a href="https://osijek2023s-d2.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d2">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 4: Qinhuangdao Contest</b></td>
+    <td><a href="https://osijek2023s-d4.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d4">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 5: Jatin Yadav Contest</b></td>
+    <td><a href="https://osijek2023s-d5.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d5">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 6: Estonian Contest</b></td>
+    <td><a href="https://osijek2023s-d6.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d6">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 8: Songyang Chen Contest 4</b></td>
+    <td><a href="https://osijek2023s-d8.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d8">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 9: Polish Kids Contest</b></td>
+    <td><a href="https://osijek2023s-d9.eolymp.io">login</a></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/d9">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>Combined scoreboard</b></td>
+    <td></td>
+    <td><a href="https://osijek2023s.eolymp.space/s/all-contests">scoreboard</a></td>
+  </tr>
+</table>
+
 <h3>Camp materials and silence period</h3>
 <p>
   Based on your feedback, we will have a silence period until the end of
-  World Finals 2023 (which has been postponed to somewhere during 2024),
-  during which camp materials will not be released to the public.
+  November 2023, during which camp materials will not be released to the public.
   Therefore, we ask participants to not discuss the problems in public until that date.
 </p>
 <p>
