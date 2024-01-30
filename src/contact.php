@@ -8,7 +8,6 @@
 
 <h4>Organizing team</h4>
 <ul>
-  <li>Mislav Blažević (<a href="https://codeforces.com/profile/mblazev">codeforces</a>)</li>
   <li>Oleksandr Kulkov (<a href="https://codeforces.com/profile/adamant">codeforces</a>)</li>
   <li>Tähvend Uustalu (<a href="https://codeforces.com/profile/-is-this-fft-">codeforces</a>)</li>
   <li>Josipa Sabljo</li>
