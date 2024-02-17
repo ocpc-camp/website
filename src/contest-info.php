@@ -2,6 +2,18 @@
 
 <h2>Contest info</h2>
 
+<table class="table">
+  <tr>
+    <td><b>Test contest</b></td>
+    <td><a href="https://osijek2024w.eolymp.space/contests/kp04o8i8fh0p5ecta9theqjaj8">login</a></td>
+  </tr>
+  <tr>
+    <td><b>Day 1: Anton Trygub Contest 2</b></td>
+    <td><a href="https://osijek2024w.eolymp.space/contests/1p98bkcd2951l6f4kecm412g6g">login</a></td>
+    <td><a href="https://osijek2024w.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+</table>
+
 <h3>Camp materials and silence period</h3>
 <p>
   Based on your feedback, we will have a silence period until the end of
