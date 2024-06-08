@@ -2,58 +2,10 @@
 
 <h2>Contest info</h2>
 
-<table class="table">
-  <tr>
-    <td><b>Test contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/kp04o8i8fh0p5ecta9theqjaj8">login</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Day 1: Anton Trygub Contest 2</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/1p98bkcd2951l6f4kecm412g6g">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d1">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 2: Portuguese Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/sri1d20gl95kb9f8g44haog8d8">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d2">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 4: Latvian Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/b3amafs3i56fbe5lc9m485h420">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d4">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 5: Battr Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/f71cbkpdp94vl09m8o8ao3aa28">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d5">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 6: Potyczki Algorytmiczne Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/21rbg5mfap37185o9so4im4oog">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d6">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 8: Borys Minaiev Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/tjlkpng86d1q360pq64qh2boj0">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d8">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>Day 9: Potluck Contest</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/contests/p4dvu5bhep32d4r0lo1ppns8fo">login</a></td>
-    <td><a href="https://osijek2024w.eolymp.space/s/d9">scoreboard</a></td>
-  </tr>
-  <tr>
-    <td><b>All contests</b></td>
-    <td><a href="https://osijek2024w.eolymp.space/en/s/all">solve counts</a></td>
-    <td><a href="http://acmallukrainian.ho.ua/camps/osijek/2024/winter/combined/standings.html">ratings</a></td>
-  </tr>
-</table>
-
 <h3>Camp materials and silence period</h3>
 <p>
-  Based on your feedback, we will have a silence period until the end of
-  World Finals 2023 (which has been postponed to somewhere during 2024),
+  Based on your feedback, we will have a silence period that lasts for at least
+  a month or two after the camp (specific dates TBA)
   during which camp materials will not be released to the public.
   Therefore, we ask participants to not discuss the problems in public until that date.
 </p>

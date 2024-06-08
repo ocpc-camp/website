@@ -1,6 +1,3 @@
-<ol>
-<li>
-</ol>
 <?php include 'before.php'; ?>
 
 <h2>Contact</h2>
@@ -13,6 +10,7 @@
 <ul>
   <li>Oleksandr Kulkov (<a href="https://codeforces.com/profile/adamant">codeforces</a>)</li>
   <li>Tähvend Uustalu (<a href="https://codeforces.com/profile/-is-this-fft-">codeforces</a>)</li>
+  <li>Josipa Sabljo</li>
 </ul>
 
 <h4>Host university</h4>

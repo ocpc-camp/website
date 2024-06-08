@@ -3,25 +3,6 @@
 <h2>Our Sponsors</h2>
 
 <h4>
-  <a href="https://www.quantco.com/">
-    <img src="/images/quantco.svg" width="100px">
-  </a>
-</h4>
-<p>
-  QuantCo is a machine-learning company founded seven years ago by four Harvard & Stanford PhDs. We have since grown to eleven offices in the US, UK, Germany, and Switzerland. Our team of over two hundred people creates tangible economic impact by combining data science, deep learning, and medical expertise with business acumen.
-</p>
-<p>
-  We currently focus on the domains of algorithmic pricing, cancer detection, patient risk prediction, fraud detection, and demand forecasting. Our customers include some of the largest financial, retail, industrial, and healthcare companies in Europe and the US.
-</p>
-<p>
-  We are excited about writing mission-critical code that reaches millions of people and impacts billions of dollars. If you feel the same way, we look forward to hearing from you!
-</p>
-<p>
-  Website: <a href="https://www.quantco.com/">https://www.quantco.com/</a> <br>
-  Application Portal: <a href="https://jobs.lever.co/quantco-">https://jobs.lever.co/quantco-</a>
-</p>
-
-<h4>
   <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london">
     <img src="/images/Jane Street.svg" width="150px">
   </a>

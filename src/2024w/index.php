@@ -5,13 +5,13 @@
 
 <ul>
   <li>
-    <b>Dates:</b> 31.08-08.09.2024
+    <b>Dates:</b> 17.-25.02.2024
   </li>
   <li>
     <b>Location:</b> Mathos, University of Osijek, Osijek, Croatia
   </li>
   <li>
-    <b>Participation fee:</b> TBA.
+    <b>Participation fee:</b> 150€ for onsite participation, 100€ for online.
   </li>
 </ul>
 
@@ -30,12 +30,12 @@
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
-  representing universities. Participants need to be registered in teams. We will soon open
-  a registration form for interested teams.
+  representing universities. Participants need to be registered in teams. If you are interested in participating,
+  please fill in the form <a href="https://forms.gle/sNwpR4mpbuhEXwQ76">here</a>.
 </p>
 
 <p>
-We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 100€ discount for the affected individuals and teams affiliated with Ukrainian institutions. In other words, the fees would be TBA and TBA per person for onsite and online participation correspondingly.
+We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a 100€ discount for the affected individuals and teams affiliated with Ukrainian institutions. In other words, the fees would be 50€ and 0€ per person for onsite and online participation correspondingly.
 </p>
 <p>
 It is also possible to reduce fees individually if you are unable to attend some of the contests.
