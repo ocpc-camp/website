@@ -21,15 +21,15 @@
   <div class="col-lg-4 schedule-cell">
     <h6>Day 2, February 18</h6>
     <ul>
-      <li><b>09:00 - 10:00</b> Recommended time for breakfast</li>
       <li><b>10:00 - 15:00</b> Contest</li>
-      <li><b>15:00 - 16:30</b> Recommended time for lunch</li>
       <li><b>16:30 - 18:00</b> Analysis & discussion</li>
     </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
     <h6>Day 3, February 19</h6>
-    Day off. Activities TBD.
+    <ul>
+      <li><b>14:00</b> Paintball</li>
+    </ul>
   </div>
 </div>
 <div class="row">
@@ -58,7 +58,9 @@
 <div class="row">
   <div class="col-lg-4 schedule-cell">
     <h6>Day 7, February 23</h6>
-    Day off. Activities TBD.
+    <ul>
+      <li><b>14:00 - 23:00</b> Escape room</li>
+    </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
     <h6>Day 8, February 24</h6>
@@ -72,7 +74,7 @@
     <ul>
       <li><b>10:00 - 15:00</b> Contest</li>
       <li><b>16:30 - 18:00</b> Analysis & discussion</li>
-      <li><b>20:00 - </b> Closing dinner</li>
+      <li><b>19:30 - </b> Closing dinner</li>
     </ul>
   </div>
 </div>
