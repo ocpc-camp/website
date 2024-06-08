@@ -1,7 +1,7 @@
 <?php include 'before.php'; ?>
 <img src="/images/bridge.jpg" class="img-fluid header-image" />
 
-<h2>Osijek Competitive Programming Camp, Winter 2024</h2>
+<h2>Osijek Competitive Programming Camp, Summer 2024</h2>
 
 <ul>
   <li>
