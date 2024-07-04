@@ -4,7 +4,7 @@
 
 <h4>
   <a href="https://www.quantco.com/">
-    <img src="/images/quantco.svg" width="100px">
+    <img src="/images/quantco_horizontal.svg" height="60px">
   </a>
 </h4>
 <p>
@@ -43,22 +43,24 @@ Like puzzles? So do we! Every month or two, we’ll post a new puzzle to <a href
   </a>
 </h4>
 <p>
-  Pinely is a privately owned & funded algorithmic trading firm that is growing by leaps and bounds. We are based in Singapore, the Netherlands and Cyprus and our main focus is set on high frequency and ultra low latency trading.
+  Pinely is a dynamic algorithmic trading firm, privately owned & funded, with a presence in Singapore, the Netherlands, and Cyprus. We specialize in high-frequency and ultra-low latency trading, striving to be among the top trading companies worldwide.
 </p>
+
 <p>
-  We work in synergy to create a leading-edge & robust technology with the sole aim of exceling and establishing ourselves amongst the top trading companies around the globe. Our core team constantly faces various challenges such as developing strategies for trading, optimizing trading systems to achieve the lowest latency reactions to various market events, saving and processing large volumes of historical data.
+Our team tackles everyday challenges like developing trading strategies, optimizing systems for minimal latency, saving and processing large volumes of historical data.
+Our flat structure and collaborative environment make everyone feel heard and cultivate a culture fueled by ideas and a love for innovation.
 </p>
+
 <p>
-  We are a team of mathematicians, programmers, engineers and computer scientists, driven by an immense passion for knowledge. The work we do requires a high ability to create effective C++ code, algorithmic thinking and mathematical intuition, which attracts winners, awardees and medalists of various competitions in their respective fields such as ICPC, IMC, HITB PRO CTF and Google HashCode etc.
+We are a team of mathematicians, programmers, engineers, and computer scientists, united by a passion for knowledge. Our work demands exceptional C++ coding, algorithmic thinking, and mathematical intuition, attracting top talent, including winners and awardees of such respective challenges as ICPC, IMC, HITB PRO CTF, Google HashCode, etc.
 </p>
+
 <p>
-  At Pinely we have a flat organizational structure with a collegial environment and an idea-driven culture to stay ahead of the curve.
+Learn more about us on our <a href="https://pinely.com/">website</a>.
 </p>
+
 <p>
-  Find out more about us on <a href="http://pinely.com">our website</a>.
-</p>
-<p>
-  If you want to join our team please send your CV on <a href="mailto:hr@pinely.com">hr@pinely.com</a>.
+  To join our team, please send your CV to hr@pinely.com.
 </p>
 
 <h4>Sponsor us</h4>
