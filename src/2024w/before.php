@@ -34,13 +34,11 @@
               </ul>
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="archive.php">Archive</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="contact.php">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-    
+        <b>You are viewing an archived website for a previous edition of the camp. Click <a href="/">here</a> to access the website for the current camp.</b>
+
