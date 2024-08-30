@@ -2,6 +2,14 @@
 
 <h2>Contest info</h2>
 
+<table class="table">
+  <tr>
+    <td><b>Day 1: Kharkiv Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/vi93qv5e9d4ib4h5jbemqj4lng">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d1">scoreboard</a></td>
+  </tr>
+</table>
+
 <h3>Camp materials and silence period</h3>
 <p>
   Based on your feedback, we will have a silence period that lasts for at least
