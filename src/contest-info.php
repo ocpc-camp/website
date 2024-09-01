@@ -8,6 +8,11 @@
     <td><a href="https://osijek2024s.eolymp.space/contests/vi93qv5e9d4ib4h5jbemqj4lng">login</a></td>
     <td><a href="https://osijek2024s.eolymp.space/s/d1">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 2: Jagiellonian Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/tufm09ngol12b0nmj9sorgvjls">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d2">scoreboard</a></td>
+  </tr>
 </table>
 
 <h3>Camp materials and silence period</h3>
