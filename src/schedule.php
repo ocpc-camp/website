@@ -34,8 +34,11 @@
     </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
-    <h6>Day 3, September 2</h6>
-    Day off. Activities TBD.
+    <h6>Day 3, September 2</
+    Day off.
+    <ul>
+      <li><b>14:00 - </b> Paintball</li>
+    </ul>
   </div>
 </div>
 <div class="row">

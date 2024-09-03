@@ -13,7 +13,14 @@
     <td><a href="https://osijek2024s.eolymp.space/contests/tufm09ngol12b0nmj9sorgvjls">login</a></td>
     <td><a href="https://osijek2024s.eolymp.space/s/d2">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 4: wuhudsm Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/fdh9pkghr157lfkvm3dmsvdi0k">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d4">scoreboard</a></td>
+  </tr>
 </table>
+
+Interactive standings: <a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">link</a>
 
 <h3>Camp materials and silence period</h3>
 <p>
