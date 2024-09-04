@@ -18,6 +18,11 @@
     <td><a href="https://osijek2024s.eolymp.space/contests/fdh9pkghr157lfkvm3dmsvdi0k">login</a></td>
     <td><a href="https://osijek2024s.eolymp.space/s/d4">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 5: Potluck Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/8eoisg1iet4arfc36k5djviulo">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d5">scoreboard</a></td>
+  </tr>
 </table>
 
 Interactive standings: <a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">link</a>
