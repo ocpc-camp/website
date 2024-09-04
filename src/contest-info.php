@@ -23,9 +23,17 @@
     <td><a href="https://osijek2024s.eolymp.space/contests/8eoisg1iet4arfc36k5djviulo">login</a></td>
     <td><a href="https://osijek2024s.eolymp.space/s/d5">scoreboard</a></td>
   </tr>
+  <tr>
+    <td><b>Day 6: Chinese NOI Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/fg46cul3k97el8qug8ss88adig">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d6">scoreboard</a></td>
+  </tr>
+  <tr>
+    <td><b>All contests</td>
+    <td><a href="https://osijek2024s.eolymp.space/s/all">solve counts</a></td>
+    <td><a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">ratings</a></td>
+  </tr>
 </table>
-
-Interactive standings: <a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">link</a>
 
 <h3>Camp materials and silence period</h3>
 <p>
