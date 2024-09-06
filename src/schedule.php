@@ -34,7 +34,7 @@
     </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
-    <h6>Day 3, September 2</
+    <h6>Day 3, September 2</h6>
     Day off.
     <ul>
       <li><b>14:00 - </b> Paintball</li>
@@ -70,7 +70,11 @@
 <div class="row">
   <div class="col-lg-4 schedule-cell">
     <h6>Day 7, September 6</h6>
-    Day off. Activities TBD.
+    Day off.
+    <ul>
+      <li><b>10:00 - 13:00</b> QuantCo event</li>
+      <li><b>16:00 - 19:00</b> Bowling</li>
+    </ul>
   </div>
   <div class="col-lg-4 schedule-cell">
     <h6>Day 8, September 7</h6>
