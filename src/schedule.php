@@ -89,8 +89,8 @@
     Farhod Contest <br>
     <ul>
       <li><b>10:00 - 15:00</b> Contest</li>
-      <li><b>16:30 - 18:00</b> Analysis & discussion</li>
-      <li><b>20:00? - </b> Closing dinner</li>
+      <li><b>15:30 - 17:00</b> Analysis & discussion</li>
+      <li><b>19:00 - </b> Closing dinner</li>
     </ul>
   </div>  
 </div>

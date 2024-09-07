@@ -29,6 +29,11 @@
     <td><a href="https://osijek2024s.eolymp.space/s/d6">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 8: Xi'an Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/h0vktfrh250030ra4ktdp3g3h8">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d8">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>All contests</td>
     <td><a href="https://osijek2024s.eolymp.space/s/all">solve counts</a></td>
     <td><a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">ratings</a></td>
