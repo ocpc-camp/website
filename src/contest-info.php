@@ -34,6 +34,11 @@
     <td><a href="https://osijek2024s.eolymp.space/s/d8">scoreboard</a></td>
   </tr>
   <tr>
+    <td><b>Day 9: Farhod Contest</b></td>
+    <td><a href="https://osijek2024s.eolymp.space/contests/3q79kcoead4vfee7klv0cvujc8">login</a></td>
+    <td><a href="https://osijek2024s.eolymp.space/s/d9">scoreboard</a></td>
+  </tr>
+  <tr>
     <td><b>All contests</td>
     <td><a href="https://osijek2024s.eolymp.space/s/all">solve counts</a></td>
     <td><a href="http://acmallukrainian.ho.ua/camps/osijek/2024/fall">ratings</a></td>
