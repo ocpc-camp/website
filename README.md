@@ -9,4 +9,4 @@ cd docs
 jekyll serve
 ```
 
-The site will be served locally at http://127.0.0.1:4000.
+The site will be served at http://127.0.0.1:4000.
