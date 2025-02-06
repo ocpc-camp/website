@@ -1,0 +1,127 @@
+- id: "quantco"
+  name: "QuantCo"
+  tier: "platinum"
+  logo_src: "/images/quantco_horizontal.svg"
+  logo_alt: "QuantCo Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      QuantCo is a machine-learning company founded by four Harvard & Stanford
+      PhDs, with offices across the US, UK, Germany, and Switzerland. We combine
+      data science, deep learning, and business acumen to deliver real-world impact.
+    - >
+      We create mission-critical code that reaches millions of people and affects
+      billions of dollars. By leveraging interdisciplinary expertise and a passion
+      for innovation, we help major organizations solve their most complex challenges.
+  modal_paragraphs:
+    - >
+      QuantCo is a machine-learning company founded seven years ago by four 
+      Harvard & Stanford PhDs. We have since grown to eleven offices in the US,
+      UK, Germany, and Switzerland, focusing on algorithmic pricing, cancer
+      detection, patient risk prediction, fraud detection, and demand forecasting.
+    - >
+      We are excited about writing mission-critical code that reaches millions of
+      people and impacts billions of dollars. If you feel the same way, we look forward
+      to hearing from you!
+  buttons:
+    - text: "Website"
+      url: "https://www.quantco.com/"
+    - text: "Apply"
+      url: "https://jobs.lever.co/quantco-"
+
+- id: "janestreet"
+  name: "Jane Street"
+  tier: "gold"
+  logo_src: "/images/Jane Street.svg"
+  logo_alt: "Jane Street Logo"
+  logo_style: "max-width:150px;"
+  short_paragraphs:
+    - >
+      Jane Street is a quantitative trading firm known for problem-solving, building
+      systems, and constant improvement across global offices.
+  modal_paragraphs:
+    - >
+      Jane Street is a quantitative trading firm with offices worldwide. We hire
+      smart, humble people who love to solve problems. Our success is driven by our
+      people, and we never stop improving.
+    - >
+      Find out more about our open roles 
+      <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
+      target="_blank">here</a>. Like puzzles? So do we! Check out 
+      <a href="https://www.janestreet.com/puzzles/">our puzzle page</a>.
+  buttons:
+    - text: "Open Roles"
+      url: "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
+    - text: "Puzzles"
+      url: "https://www.janestreet.com/puzzles/"
+
+- id: "pinely"
+  name: "Pinely"
+  tier: "gold"
+  logo_src: "/images/Pinely.svg"
+  logo_alt: "Pinely Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Pinely is a dynamic algorithmic trading firm specializing in high-frequency,
+      ultra-low latency trading, with a presence in Singapore, the Netherlands,
+      and Cyprus.
+  modal_paragraphs:
+    - >
+      Pinely is a dynamic algorithmic trading firm, privately owned & funded.
+      We specialize in high-frequency and ultra-low latency trading, striving
+      to be among the top trading companies worldwide.
+    - >
+      Our team consists of mathematicians, programmers, and engineers who excel
+      at C++ coding, algorithmic thinking, and mathematical intuition. Email us
+      at <a href="mailto:hr@pinely.com">hr@pinely.com</a> to learn more.
+  buttons:
+    - text: "Website"
+      url: "https://pinely.com/"
+    - text: "Email Us"
+      url: "mailto:hr@pinely.com"
+
+- id: "ordercapital"
+  name: "Order Capital"
+  tier: "gold"
+  logo_src: "/images/OrCa.svg"
+  logo_alt: "Order Capital Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Order Capital is a company group that specializes in software development
+      and automated trading, leveraging modern technologies and research to make
+      rational decisions in quantitative trading.
+  modal_paragraphs:
+    - >
+      By applying the latest breakthroughs in machine learning, we constantly
+      improve the predictive power of our models, allowing us to excel in
+      high-frequency trading.
+    - >
+      Want to learn more? Visit 
+      <a href="https://ordercapital.com" target="_blank">ordercapital.com</a>.
+      Send your CV to <a href="mailto:hr@ordercapital.com">hr@ordercapital.com</a>!
+  buttons:
+    - text: "Website"
+      url: "https://ordercapital.com"
+    - text: "Email Us"
+      url: "mailto:hr@ordercapital.com"
+
+- id: "wincent"
+  name: "Wincent"
+  tier: "bronze"
+  logo_src: "/images/Wincent.svg"
+  logo_alt: "Wincent Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Wincent is a high-frequency trading (HFT) company active in the crypto market,
+      trading across 13 exchanges and ~70 cryptocurrencies.
+  modal_paragraphs:
+    - >
+      Wincent is a global leader in market making, with advanced algorithms
+      operating since 2017. We value a competitive mindset and foster a culture
+      of innovation, driving success in the fast-paced world of HFT.
+  buttons:
+    - text: "Website"
+      url: "https://wincent.com/"

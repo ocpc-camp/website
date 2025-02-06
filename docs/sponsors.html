@@ -1,5 +1,6 @@
 ---
 ---
+
 {% include_relative before.html %}
 
 <div class="container my-5">
@@ -7,250 +8,109 @@
 
   <!-- ================== PLATINUM SPONSOR (FULL WIDTH) ================== -->
   <div class="row g-4 mb-4">
-    <!-- Single column spanning the entire row -->
-    <div class="col-12">
-      <div class="card h-100">
-        <div class="card-body d-flex flex-column" style="background-color: #f8f9fa; border: 2px solid #adb5bd;">
-          <!-- Logo -->
-          <div class="text-center mb-3">
-            <img
-              src="/images/quantco_horizontal.svg"
-              alt="QuantCo Logo"
-              class="img-fluid"
-              style="max-height:60px;"
-            />
-          </div>
-          
-          <!-- Short Preview -->
-          <p class="card-text">
-            <p>
-            QuantCo is a machine-learning company founded by four Harvard & Stanford PhDs, with offices across the US, UK, Germany, and Switzerland. We combine data science, deep learning, and business acumen to deliver real-world impact in domains like algorithmic pricing, cancer detection, patient risk prediction, fraud detection, and demand forecasting.
-            </p><p>
-            We create mission-critical code that reaches millions of people and affects billions of dollars. By leveraging interdisciplinary expertise and a passion for innovation, we help major financial, retail, industrial, and healthcare organizations solve their most complex challenges.
-            </p>
-          </p>
-
-          <!-- "Read More" + Buttons -->
-          <div class="mt-auto">
-            <button
-              class="btn btn-outline-primary btn-sm w-100"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#quantcoModal"
-            >
-              Read More
-            </button>
-            <div class="d-grid gap-2 mt-2">
-              <a
-                href="https://www.quantco.com/"
-                target="_blank"
-                class="btn btn-secondary btn-sm"
-              >
-                Website
-              </a>
-              <a
-                href="https://jobs.lever.co/quantco-"
-                target="_blank"
-                class="btn btn-secondary btn-sm"
-              >
-                Apply
-              </a>
+    <!-- Loop through sponsors where tier == 'platinum' -->
+    {% assign platinum_sponsors = site.data.sponsors | where: "tier", "platinum" %}
+    {% for sponsor in platinum_sponsors %}
+      <div class="col-12">
+        <div class="card h-100">
+          <div
+            class="card-body d-flex flex-column"
+            style="background-color: #f8f9fa; border: 2px solid #adb5bd;"
+          >
+            <!-- Logo -->
+            <div class="text-center mb-3">
+              <img
+                src="{{ sponsor.logo_src }}"
+                alt="{{ sponsor.logo_alt }}"
+                class="img-fluid"
+                style="{{ sponsor.logo_style }}"
+              />
             </div>
-          </div>
 
-        </div> <!-- End card-body -->
-      </div> <!-- End card -->
-    </div> <!-- End col-12 -->
+            <!-- Short Preview -->
+            {% for paragraph in sponsor.short_paragraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+
+            <!-- "Read More" + Buttons -->
+            <div class="mt-auto">
+              <button
+                class="btn btn-outline-primary btn-sm w-100"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#{{ sponsor.id }}Modal"
+              >
+                Read More
+              </button>
+              <div class="d-grid gap-2 mt-2">
+                {% for button in sponsor.buttons %}
+                  <a
+                    href="{{ button.url }}"
+                    target="_blank"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    {{ button.text }}
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div> <!-- End card-body -->
+        </div> <!-- End card -->
+      </div> <!-- End col-12 -->
+    {% endfor %}
   </div> <!-- End row for platinum sponsor -->
-  
+
   <!-- ================== OTHER SPONSORS (MULTI-COLUMN) ================== -->
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-    
-    <!-- ========== JANE STREET CARD ========== -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex flex-column">
-          <div class="text-center mb-3">
-            <img
-              src="/images/Jane Street.svg"
-              alt="Jane Street Logo"
-              class="img-fluid"
-              style="max-width:150px;"
-            />
-          </div>
-          <p class="card-text">
-            Jane Street is a quantitative trading firm known for
-            problem-solving, building systems, and constant improvement
-            across global offices.
-          </p>
-          <div class="mt-auto">
-            <button
-              class="btn btn-outline-primary btn-sm w-100"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#janeStreetModal"
-            >
-              Read More
-            </button>
-            <div class="d-grid gap-2 mt-2">
-              <a
-                href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
-                class="btn btn-secondary btn-sm"
-                target="_blank"
-              >
-                Open Roles
-              </a>
-              <a
-                href="https://www.janestreet.com/puzzles/"
-                class="btn btn-secondary btn-sm"
-                target="_blank"
-              >
-                Puzzles
-              </a>
+    {% assign other_sponsors = site.data.sponsors | where_exp: "item", "item.tier != 'platinum'" %}
+    {% for sponsor in other_sponsors %}
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <!-- Logo -->
+            <div class="text-center mb-3">
+              <img
+                src="{{ sponsor.logo_src }}"
+                alt="{{ sponsor.logo_alt }}"
+                class="img-fluid"
+                style="{{ sponsor.logo_style }}"
+              />
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- ========== PINELY CARD ========== -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex flex-column">
-          <div class="text-center mb-3">
-            <img
-              src="/images/Pinely.svg"
-              alt="Pinely Logo"
-              class="img-fluid"
-              style="max-height:60px;"
-            />
-          </div>
-          <p class="card-text">
-            Pinely is a dynamic algorithmic trading firm specializing in
-            high-frequency, ultra-low latency trading, with a presence
-            in Singapore, the Netherlands, and Cyprus.
-          </p>
-          <div class="mt-auto">
-            <button
-              class="btn btn-outline-primary btn-sm w-100"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#pinelyModal"
-            >
-              Read More
-            </button>
-            <div class="d-grid gap-2 mt-2">
-              <a
-                href="https://pinely.com/"
-                class="btn btn-secondary btn-sm"
-                target="_blank"
+            
+            <!-- Short Preview -->
+            {% for paragraph in sponsor.short_paragraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+            
+            <!-- "Read More" + Buttons -->
+            <div class="mt-auto">
+              <button
+                class="btn btn-outline-primary btn-sm w-100"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#{{ sponsor.id }}Modal"
               >
-                Website
-              </a>
-              <a
-                href="mailto:hr@pinely.com"
-                class="btn btn-secondary btn-sm"
-              >
-                Email Us
-              </a>
+                Read More
+              </button>
+              <div class="d-grid gap-2 mt-2">
+                {% for button in sponsor.buttons %}
+                  <a
+                    href="{{ button.url }}"
+                    target="_blank"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    {{ button.text }}
+                  </a>
+                {% endfor %}
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- ========== ORDER CAPITAL CARD ========== -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex flex-column">
-          <!-- Logo -->
-          <div class="text-center mb-3">
-            <img
-              src="/images/OrCa.svg"
-              alt="Order Capital Logo"
-              class="img-fluid"
-              style="max-height:60px;"
-            />
-          </div>
-          <!-- Short Preview -->
-          <p class="card-text">
-            Order Capital is a company group that specializes in software development
-            and automated trading. By leveraging modern technologies and research,
-            we make rational decisions in quantitative trading and uncover new ways
-            for business development.
-          </p>
-          <!-- "Read More" + Buttons -->
-          <div class="mt-auto">
-            <button
-              class="btn btn-outline-primary btn-sm w-100"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#orderCapitalModal"
-            >
-              Read More
-            </button>
-            <div class="d-grid gap-2 mt-2">
-              <a
-                href="https://ordercapital.com"
-                target="_blank"
-                class="btn btn-secondary btn-sm"
-              >
-                Website
-              </a>
-              <a
-                href="mailto:hr@ordercapital.com"
-                class="btn btn-secondary btn-sm"
-              >
-                Email Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== WINCENT CARD ========== -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex flex-column">
-          <div class="text-center mb-3">
-            <img
-              src="/images/Wincent.svg"
-              alt="Wincent Logo"
-              class="img-fluid"
-              style="max-height:60px;"
-            />
-          </div>
-          <p class="card-text">
-            Wincent is a high-frequency trading (HFT) company active
-            in the crypto market, trading across 13 exchanges and
-            ~70 cryptocurrencies.
-          </p>
-          <div class="mt-auto">
-            <button
-              class="btn btn-outline-primary btn-sm w-100"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#wincentModal"
-            >
-              Read More
-            </button>
-            <div class="d-grid gap-2 mt-2">
-              <a
-                href="https://wincent.com/"
-                class="btn btn-secondary btn-sm"
-                target="_blank"
-              >
-                Website
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+            
+          </div> <!-- End card-body -->
+        </div> <!-- End card -->
+      </div> <!-- End col -->
+    {% endfor %}
   </div> <!-- End row for other sponsors -->
-  
+
   <!-- ================== SPONSOR US SECTION ================== -->
   <div class="mt-5 text-center">
     <h4>Sponsor Us</h4>
@@ -262,24 +122,24 @@
 </div>
 
 <!-- ========================= MODALS SECTION ========================= -->
-
-<!-- ========== QUANTCO MODAL (PLATINUM) ========== -->
+{% for sponsor in site.data.sponsors %}
 <div
   class="modal fade"
-  id="quantcoModal"
+  id="{{ sponsor.id }}Modal"
   tabindex="-1"
-  aria-labelledby="quantcoModalLabel"
+  aria-labelledby="{{ sponsor.id }}ModalLabel"
   aria-hidden="true"
 >
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
+      <!-- Modal header: Logo in place of title -->
       <div class="modal-header">
         <div class="flex-grow-1 text-center">
           <img
-            src="/images/quantco_horizontal.svg"
-            alt="QuantCo Logo"
+            src="{{ sponsor.logo_src }}"
+            alt="{{ sponsor.logo_alt }}"
             class="img-fluid"
-            style="max-height:60px;"
+            style="{{ sponsor.logo_style }}"
           />
         </div>
         <button
@@ -290,244 +150,13 @@
         ></button>
       </div>
       <div class="modal-body">
-        <p>
-          QuantCo is a machine-learning company founded seven years ago by four 
-          Harvard &amp; Stanford PhDs. We have since grown to eleven offices in 
-          the US, UK, Germany, and Switzerland. Our team of over two hundred 
-          people creates tangible economic impact by combining data science, 
-          deep learning, and medical expertise with business acumen.
-        </p>
-        <p>
-          We currently focus on the domains of algorithmic pricing, cancer 
-          detection, patient risk prediction, fraud detection, and demand 
-          forecasting. Our customers include some of the largest financial, 
-          retail, industrial, and healthcare companies in Europe and the US.
-        </p>
-        <p>
-          We are excited about writing mission-critical code that reaches 
-          millions of people and impacts billions of dollars. If you feel 
-          the same way, we look forward to hearing from you!
-        </p>
-        <p>
-          Website:
-          <a href="https://www.quantco.com/">https://www.quantco.com/</a>
-          <br />
-          Application Portal:
-          <a href="https://jobs.lever.co/quantco-">https://jobs.lever.co/quantco-</a>
-        </p>
+        {% for paragraph in sponsor.modal_paragraphs %}
+          <p>{{ paragraph | markdownify }}</p>
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
-
-<!-- ========== JANE STREET MODAL ========== -->
-<div
-  class="modal fade"
-  id="janeStreetModal"
-  tabindex="-1"
-  aria-labelledby="janeStreetModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="flex-grow-1 text-center">
-          <img
-            src="/images/Jane Street.svg"
-            alt="Jane Street Logo"
-            class="img-fluid"
-            style="max-width:150px;"
-          />
-        </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          Jane Street is a quantitative trading firm with offices worldwide. 
-          We hire smart, humble people who love to solve problems, build 
-          systems, and test theories. You’ll learn something new every day in 
-          our office—whether it’s connecting with a colleague to share 
-          perspectives, or participating in a talk, class, or game night. Our 
-          success is driven by our people and we never stop improving.
-        </p>
-        <p>
-          Find out more about our open roles and apply 
-          <a 
-            href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            here</a>. 
-          Like puzzles? So do we! Every month or two, we’ll post a new puzzle to 
-          <a href="https://www.janestreet.com/puzzles/">this page</a>. If you 
-          think you’ve solved a puzzle, submit your solution!
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ========== PINELY MODAL ========== -->
-<div
-  class="modal fade"
-  id="pinelyModal"
-  tabindex="-1"
-  aria-labelledby="pinelyModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="flex-grow-1 text-center">
-          <img
-            src="/images/Pinely.svg"
-            alt="Pinely Logo"
-            class="img-fluid"
-            style="max-height:60px;"
-          />
-        </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          Pinely is a dynamic algorithmic trading firm, privately owned &amp;
-          funded, with a presence in Singapore, the Netherlands, and Cyprus. 
-          We specialize in high-frequency and ultra-low latency trading, 
-          striving to be among the top trading companies worldwide.
-        </p>
-        <p>
-          Our team tackles everyday challenges like developing trading 
-          strategies, optimizing systems for minimal latency, saving and 
-          processing large volumes of historical data.
-          Our flat structure and collaborative environment make everyone feel 
-          heard and cultivate a culture fueled by ideas and a love for innovation.
-        </p>
-        <p>
-          We are a team of mathematicians, programmers, engineers, and computer 
-          scientists, united by a passion for knowledge. Our work demands 
-          exceptional C++ coding, algorithmic thinking, and mathematical 
-          intuition, attracting top talent, including winners and awardees of 
-          such respective challenges as ICPC, IMC, HITB PRO CTF, Google 
-          HashCode, etc.
-        </p>
-        <p>
-          Learn more about us on our 
-          <a href="https://pinely.com/" target="_blank" rel="noopener">website</a>.
-        </p>
-        <p>
-          To join our team, please send your CV to 
-          <a href="mailto:hr@pinely.com">hr@pinely.com</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ========== WINCENT MODAL ========== -->
-<div
-  class="modal fade"
-  id="wincentModal"
-  tabindex="-1"
-  aria-labelledby="wincentModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="flex-grow-1 text-center">
-          <img
-            src="/images/Wincent.svg"
-            alt="Wincent Logo"
-            class="img-fluid"
-            style="max-height:60px;"
-          />
-        </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          Wincent is a high-frequency trading (HFT) company that has been 
-          active in the crypto market since 2017. With advanced algorithms 
-          operating across 13 exchanges and trading approximately 70 
-          cryptocurrencies, Wincent is a global leader in market making. 
-          The company values a competitive mindset and fosters a culture of 
-          innovation, driving success in the fast-paced world of trading.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ========== ORDER CAPITAL MODAL ========== -->
-<div
-  class="modal fade"
-  id="orderCapitalModal"
-  tabindex="-1"
-  aria-labelledby="orderCapitalModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <!-- Logo in place of modal title -->
-      <div class="modal-header">
-        <div class="flex-grow-1 text-center">
-          <img
-            src="/images/OrCa.svg"
-            alt="Order Capital Logo"
-            class="img-fluid"
-            style="max-height:60px;"
-          />
-        </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          Order Capital is a company group that specializes in software development
-          and automated trading. We use all the advantages of modern technologies
-          and research to make rational decisions in quantitative trading and to
-          uncover new ways for business development.
-        </p>
-        <p>
-          By applying the latest breakthrough in machine learning, we are constantly
-          improving the predictive power of our models, which allows us to make the
-          right decision in the most sophisticated conditions.
-        </p>
-        <p>
-          Our ultra-low latency platform fully automates the trading process and
-          significantly reduces the likelihood of errors. This is the key to achieving
-          a stable result in high-frequency trading.
-        </p>
-        <p>
-          Want to learn more about us?
-          Visit our website at
-          <a href="https://ordercapital.com" target="_blank">ordercapital.com</a>.
-          Excited to join our team? We’d love to hear from you—
-          send your CV to
-          <a href="mailto:hr@ordercapital.com">hr@ordercapital.com</a>!
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+{% endfor %}
 
 {% include_relative after.html %}
