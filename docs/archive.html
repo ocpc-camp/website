@@ -2,20 +2,38 @@
 ---
 {% include_relative before.html %}
 
-<h2>Archive of Camps and Contests</h2>
+<h2 class="mb-4 text-center">Archive of Camps and Contests</h2>
 
-{% for season_data in site.data.archives %}
-  <h3>{{ season_data.season }}</h3>
-  <ul>
-    <li><a href="{{ season_data.archive_link }}">Website archive</a></li>
-    {% for contest in season_data.contests %}
-      <li>
-        <a href="{{ contest.url }}" title="{{ contest.title }}">
-          {{ contest.day }}: {{ contest.name }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  {% for season_data in site.data.archives %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ season_data.season }}</h5>
+          <p>
+            <strong>Website archive:</strong>
+            <a href="{{ season_data.archive_link }}">
+              {{ season_data.archive_link }}
+            </a>
+          </p>
+          <ul class="list-unstyled">
+            {% for contest in season_data.contests %}
+              <li class="mb-1">
+                <a 
+                  href="{{ contest.url }}" 
+                  title="{{ contest.title }}"
+                  class="text-decoration-none"
+                >
+                  <i class="bi bi-link-45deg"></i> 
+                  {{ contest.day }}: {{ contest.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 {% include_relative after.html %}
