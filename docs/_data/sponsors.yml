@@ -2,6 +2,7 @@
   name: "QuantCo"
   tier: "platinum"
   logo_src: "/images/quantco_horizontal.svg"
+  footer_logo_src: "/images/quantco.svg"
   logo_alt: "QuantCo Logo"
   logo_style: "max-height:60px;"
   short_paragraphs:
@@ -172,3 +173,18 @@
   buttons:
     - text: "Website"
       url: "https://wincent.com/"
+
+
+- id: "icpc"
+  name: "ICPC"
+  tier: "partner"
+  logo_src: "/images/ICPC.svg"
+  logo_alt: "ICPC Logo"
+  footer_url: "https://icpc.foundation/"
+
+- id: "mathos"
+  name: "Mathos"
+  tier: "partner"
+  logo_src: "/images/mathos.svg"
+  logo_alt: "Mathos Logo"
+  footer_url: "https://www.mathos.unios.hr/en/"

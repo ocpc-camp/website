@@ -5,56 +5,23 @@
   <!-- Sponsors Section -->
   <h5 class="mb-3">Sponsors</h5>
   <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
-    <div class="col text-center">
-      <a href="https://www.quantco.com/" target="_blank" rel="noopener">
-        <img
-          src="/images/quantco.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Quantco Logo"
-        />
-      </a>
-    </div>
-    <div class="col text-center">
-      <a
-        href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london"
-        target="_blank"
-        rel="noopener"
-      >
-        <img
-          src="/images/Jane Street.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Jane Street Logo"
-        />
-      </a>
-    </div>
-    <div class="col text-center">
-      <a href="https://pinely.com/" target="_blank" rel="noopener">
-        <img
-          src="/images/Pinely.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Pinely Logo"
-        />
-      </a>
-    </div>
-    <div class="col text-center">
-      <a href="https://ordercapital.com/" target="_blank" rel="noopener">
-        <img
-          src="/images/OrCa.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Order Capital Logo"
-        />
-      </a>
-    </div>
-    <div class="col text-center">
-      <a href="https://wincent.com/" target="_blank" rel="noopener">
-        <img
-          src="/images/Wincent.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Wincent Logo"
-        />
-      </a>
-    </div>
-    <!-- Add more sponsor logos here using the same pattern -->
+    {% assign sponsor_list = site.data.sponsors 
+       | where_exp: "item", "item.tier != 'partner'" %}
+    {% for sponsor in sponsor_list %}
+      <div class="col text-center">
+        <a 
+          href="{% if sponsor.buttons and sponsor.buttons.size > 0 %}{{ sponsor.buttons[0].url }}{% else %}#{% endif %}"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="{{ sponsor.footer_logo_src | default: sponsor.logo_src }}"
+            alt="{{ sponsor.footer_logo_alt | default: sponsor.logo_alt }}"
+            class="img-fluid osi-partner-logo"
+          />
+        </a>
+      </div>
+    {% endfor %}
   </div>
 
   <hr class="my-4" />
@@ -62,31 +29,28 @@
   <!-- Partners Section -->
   <h5 class="mb-3">Partners</h5>
   <div class="row row-cols-2 row-cols-sm-2 g-3">
-    <div class="col text-center">
-      <a href="https://icpc.foundation/" target="_blank" rel="noopener">
-        <img
-          src="/images/ICPC.svg"
-          class="img-fluid osi-partner-logo"
-          alt="ICPC Logo"
-        />
-      </a>
-    </div>
-    <div class="col-auto text-center">
-      <a href="https://www.mathos.unios.hr/en/" target="_blank" rel="noopener">
-        <img
-          src="/images/mathos.svg"
-          class="img-fluid osi-partner-logo"
-          alt="Mathos Logo"
-        />
-      </a>
-    </div>
-    <!-- Add more partner logos here using the same pattern -->
+    {% assign partner_list = site.data.sponsors | where: "tier", "partner" %}
+    {% for partner in partner_list %}
+      <div class="col text-center">
+        <a 
+          href="{{ partner.footer_url | default: '#' }}" 
+          target="_blank" 
+          rel="noopener"
+        >
+          <img
+            src="{{ partner.footer_logo_src | default: partner.logo_src }}"
+            alt="{{ partner.footer_logo_alt | default: partner.logo_alt }}"
+            class="img-fluid osi-partner-logo"
+          />
+        </a>
+      </div>
+    {% endfor %}
   </div>
 
 </div>
 <!-- End Footer -->
 
-<!-- Bootstrap JS Bundle (make sure you have also included Bootstrap CSS in <head>) -->
+<!-- Bootstrap JS Bundle -->
 <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

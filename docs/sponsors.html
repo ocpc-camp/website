@@ -1,6 +1,5 @@
 ---
 ---
-
 {% include_relative before.html %}
 
 <div class="container my-5">
@@ -8,7 +7,6 @@
 
   <!-- ================== PLATINUM SPONSOR (FULL WIDTH) ================== -->
   <div class="row g-4 mb-4">
-    <!-- Loop through sponsors where tier == 'platinum' -->
     {% assign platinum_sponsors = site.data.sponsors | where: "tier", "platinum" %}
     {% for sponsor in platinum_sponsors %}
       <div class="col-12">
@@ -60,9 +58,10 @@
     {% endfor %}
   </div> <!-- End row for platinum sponsor -->
 
-  <!-- ================== OTHER SPONSORS (MULTI-COLUMN) ================== -->
+  <!-- ================== OTHER SPONSORS (NON-PLATINUM, NON-PARTNER) ================== -->
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-    {% assign other_sponsors = site.data.sponsors | where_exp: "item", "item.tier != 'platinum'" %}
+    {% assign other_sponsors = site.data.sponsors 
+       | where_exp: "item", "item.tier != 'platinum' and item.tier != 'partner'" %}
     {% for sponsor in other_sponsors %}
       <div class="col">
         <div class="card h-100">
@@ -104,7 +103,6 @@
                 {% endfor %}
               </div>
             </div>
-            
           </div> <!-- End card-body -->
         </div> <!-- End card -->
       </div> <!-- End col -->
@@ -122,7 +120,9 @@
 </div>
 
 <!-- ========================= MODALS SECTION ========================= -->
-{% for sponsor in site.data.sponsors %}
+{% assign displayed_sponsors = site.data.sponsors 
+   | where_exp: "item", "item.tier != 'partner'" %}
+{% for sponsor in displayed_sponsors %}
 <div
   class="modal fade"
   id="{{ sponsor.id }}Modal"
