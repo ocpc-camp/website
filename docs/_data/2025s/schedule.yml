@@ -1,6 +1,6 @@
 total_days: 9
 days:
-  - date: "February 15"
+  - date: "June 21"
     label: "Contest TBA"
     blocks:
       - time: "09:30 - 10:00"
@@ -14,7 +14,7 @@ days:
       - time: "18:30 - 20:00"
         text: "Analysis & discussion"
 
-  - date: "February 16"
+  - date: "June 22"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
@@ -22,12 +22,12 @@ days:
       - time: "16:30 - 18:00"
         text: "Analysis & discussion"
 
-  - date: "February 17"
+  - date: "June 23"
     label: "Day off."
     blocks:
       - text: "Activities TBA"
 
-  - date: "February 18"
+  - date: "June 24"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
@@ -35,7 +35,7 @@ days:
       - time: "16:30 - 18:00"
         text: "Analysis & discussion"
 
-  - date: "February 19"
+  - date: "June 25"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
@@ -43,7 +43,7 @@ days:
       - time: "16:30 - 18:00"
         text: "Analysis & discussion"
 
-  - date: "February 20"
+  - date: "June 26"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
@@ -51,12 +51,12 @@ days:
       - time: "16:30 - 18:00"
         text: "Analysis & discussion"
 
-  - date: "February 21"
+  - date: "June 27"
     label: "Day off."
     blocks:
       - text: "Activities TBA"
 
-  - date: "February 22"
+  - date: "June 28"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
@@ -64,12 +64,12 @@ days:
       - time: "16:30 - 18:00"
         text: "Analysis & discussion"
 
-  - date: "February 23"
+  - date: "June 29"
     label: "Contest TBA"
     blocks:
       - time: "10:00 - 15:00"
         text: "Contest"
       - time: "15:30 - 17:00"
         text: "Analysis & discussion"
-      - time: "TBA - "
+      - time: "TBA"
         text: "Closing dinner"

@@ -1,43 +1,3 @@
-- id: "quantco"
-  name: "QuantCo"
-  tier: "platinum"
-  logo_src: "/images/quantco_horizontal.svg"
-  footer_logo_src: "/images/quantco.svg"
-  logo_alt: "QuantCo Logo"
-  logo_style: "max-height:60px;"
-  short_paragraphs:
-    - >
-      QuantCo is a machine-learning company founded by four Harvard & Stanford PhDs, with offices across the US, UK, Germany, and Switzerland. We combine data science, deep learning, and business acumen to deliver real-world impact in domains like algorithmic pricing, cancer detection, patient risk prediction, fraud detection, and demand forecasting.
-    - >
-      We create mission-critical code that reaches millions of people and affects billions of dollars. By leveraging interdisciplinary expertise and a passion for innovation, we help major financial, retail, industrial, and healthcare organizations solve their most complex challenges.
-  modal_paragraphs:
-    - >
-      QuantCo is a machine-learning company founded seven years ago by four 
-      Harvard & Stanford PhDs. We have since grown to eleven offices in 
-      the US, UK, Germany, and Switzerland. Our team of over two hundred 
-      people creates tangible economic impact by combining data science, 
-      deep learning, and medical expertise with business acumen.
-    - >
-      We currently focus on the domains of algorithmic pricing, cancer 
-      detection, patient risk prediction, fraud detection, and demand 
-      forecasting. Our customers include some of the largest financial, 
-      retail, industrial, and healthcare companies in Europe and the US.
-    - >
-      We are excited about writing mission-critical code that reaches 
-      millions of people and impacts billions of dollars. If you feel 
-      the same way, we look forward to hearing from you!
-    - >
-      Website:
-      <a href="https://www.quantco.com/">https://www.quantco.com/</a>
-      <br />
-      Application Portal:
-      <a href="https://jobs.lever.co/quantco-">https://jobs.lever.co/quantco-</a>
-  buttons:
-    - text: "Website"
-      url: "https://www.quantco.com/"
-    - text: "Apply"
-      url: "https://jobs.lever.co/quantco-"
-
 - id: "janestreet"
   name: "Jane Street"
   tier: "gold"
@@ -112,69 +72,6 @@
     - text: "Email Us"
       url: "mailto:hr@pinely.com"
 
-- id: "ordercapital"
-  name: "Order Capital"
-  tier: "gold"
-  logo_src: "/images/OrCa.svg"
-  logo_alt: "Order Capital Logo"
-  logo_style: "max-height:60px;"
-  short_paragraphs:
-    - >
-      Order Capital is a company group that specializes in software development
-      and automated trading. By leveraging modern technologies and research,
-      we make rational decisions in quantitative trading and uncover new ways
-      for business development.
-  modal_paragraphs:
-    - >
-      Order Capital is a company group that specializes in software development
-      and automated trading. We use all the advantages of modern technologies
-      and research to make rational decisions in quantitative trading and to
-      uncover new ways for business development.
-    - >
-      By applying the latest breakthrough in machine learning, we are constantly
-      improving the predictive power of our models, which allows us to make the
-      right decision in the most sophisticated conditions.
-    - >
-      Our ultra-low latency platform fully automates the trading process and
-      significantly reduces the likelihood of errors. This is the key to achieving
-      a stable result in high-frequency trading.
-    - >
-      Want to learn more about us?
-      Visit our website at
-      <a href="https://ordercapital.com" target="_blank">ordercapital.com</a>.
-      Excited to join our team? We’d love to hear from you—
-      send your CV to
-      <a href="mailto:hr@ordercapital.com">hr@ordercapital.com</a>!
-  buttons:
-    - text: "Website"
-      url: "https://ordercapital.com"
-    - text: "Email Us"
-      url: "mailto:hr@ordercapital.com"
-
-- id: "wincent"
-  name: "Wincent"
-  tier: "bronze"
-  logo_src: "/images/Wincent.svg"
-  logo_alt: "Wincent Logo"
-  logo_style: "max-height:60px;"
-  short_paragraphs:
-    - >
-      Wincent is a high-frequency trading (HFT) company active
-      in the crypto market, trading across 13 exchanges and
-      ~70 cryptocurrencies.
-  modal_paragraphs:
-    - >
-      Wincent is a high-frequency trading (HFT) company that has been 
-      active in the crypto market since 2017. With advanced algorithms 
-      operating across 13 exchanges and trading approximately 70 
-      cryptocurrencies, Wincent is a global leader in market making. 
-      The company values a competitive mindset and fosters a culture of 
-      innovation, driving success in the fast-paced world of trading.
-  buttons:
-    - text: "Website"
-      url: "https://wincent.com/"
-
-
 - id: "icpc"
   name: "ICPC"
   tier: "partner"
@@ -182,9 +79,9 @@
   logo_alt: "ICPC Logo"
   footer_url: "https://icpc.foundation/"
 
-- id: "mathos"
-  name: "Mathos"
+- id: "fmi"
+  name: "Facultatea de Matematică și Informatică"
   tier: "partner"
-  logo_src: "/images/mathos.svg"
-  logo_alt: "Mathos Logo"
-  footer_url: "https://www.mathos.unios.hr/en/"
+  logo_src: "/images/Fmi logo/fmi-logo2.svg.svg"
+  logo_alt: "FMI Logo"
+  footer_url: "https://fmi.unibuc.ro/"
