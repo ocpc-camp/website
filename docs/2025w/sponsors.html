@@ -5,7 +5,7 @@
 <div class="container my-5">
   <h2 class="mb-4 text-center">Our Sponsors</h2>
 
-  {% assign non_partner_sponsors = site.data.2025s.sponsors | where_exp: 'item', 'item.tier != "partner"' %}
+  {% assign non_partner_sponsors = site.data.2025w.sponsors | where_exp: 'item', 'item.tier != "partner"' %}
   {% assign platinum_sponsors = non_partner_sponsors | where: "tier", "platinum" %}
   {% assign other_sponsors = non_partner_sponsors | where_exp: 'item', 'item.tier != "platinum"' %}
 

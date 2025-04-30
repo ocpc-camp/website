@@ -5,7 +5,7 @@
   <!-- Sponsors Section -->
   <h5 class="mb-3">Sponsors</h5>
   <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
-    {% assign sponsor_list = site.data.2025s.sponsors 
+    {% assign sponsor_list = site.data.2025w.sponsors 
        | where_exp: "item", "item.tier != 'partner'" %}
     {% for sponsor in sponsor_list %}
       <div class="col text-center">
@@ -29,7 +29,7 @@
   <!-- Partners Section -->
   <h5 class="mb-3">Partners</h5>
   <div class="row row-cols-2 row-cols-sm-2 g-3">
-    {% assign partner_list = site.data.2025s.sponsors | where: "tier", "partner" %}
+    {% assign partner_list = site.data.2025w.sponsors | where: "tier", "partner" %}
     {% for partner in partner_list %}
       <div class="col text-center">
         <a 
