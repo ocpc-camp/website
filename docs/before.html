@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Osijek Competitive Programming Camp</title>
+    <title>OCPC{% if page.title %} – {{ page.title }}{% endif %}</title>
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+    <script src="/js/discordInvite.js"></script>
+    <script>
+      discordInvite.init({
+      inviteCode: 'yEWjcPs5qZ',
+      title: 'OCPC',
+    });
+    discordInvite.render();
+    </script>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/site.css?v=4" />
+    <link rel="stylesheet" href="/css/discordInvite.css" />
     <link rel="icon" href="/images/ocpc_favicon.png" />
     <link rel="apple-touch-icon" href="/images/ocpc_favicon.png" />
   </head>
