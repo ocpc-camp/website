@@ -11,12 +11,33 @@ title: Archive
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">{{ season_data.season }}</h5>
-          <p>
-            <strong>Website archive:</strong>
-            <a href="{{ season_data.archive_link }}">
-              {{ season_data.archive_link }}
-            </a>
-          </p>
+            <div class="d-flex flex-wrap gap-2 small mb-2">
+            {% if season_data.archive_link %}
+              <a href="{{ season_data.archive_link }}" class="text-decoration-none">
+                <strong>Website</strong>
+              </a>
+            {% endif %}
+            {% if season_data.announcement %}
+              <a href="{{ season_data.announcement }}" class="text-decoration-none">
+                <strong>Announcement</strong>
+              </a>
+            {% endif %}
+            {% if season_data.wrap %}
+              <a href="{{ season_data.wrap }}" class="text-decoration-none">
+                <strong>Wrap</strong>
+              </a>
+            {% endif %}
+          </div>
+          {% if season_data.mirrors %}
+            <div class="d-flex flex-wrap gap-2 small mb-2 align-items-baseline">
+              <strong class="me-2">Mirrors:</strong>
+              {% for mirror in season_data.mirrors %}
+                <a href="{{ mirror.url }}" class="text-decoration-none">
+                  {{ mirror.name }}
+                </a>
+              {% endfor %}
+            </div>
+          {% endif %}
           <ul class="list-unstyled">
             {% for contest in season_data.contests %}
               <li class="mb-1">

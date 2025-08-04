@@ -1,78 +1,99 @@
-- season: "Winter 2025"
-  archive_link: "2025w"
+- season: Summer 2025
+  announcement: https://codeforces.com/blog/entry/142531
+  mirrors:
+    - name: India
+      url: https://codeforces.com/blog/entry/143921
+    - name: Indonesia
+      url: https://codeforces.com/blog/entry/144819
 
-- season: "Fall 2024"
-  archive_link: "2024s"
+- season: Winter 2025
+  archive_link: 2025w
+  announcement: https://codeforces.com/blog/entry/138091
+  wrap: https://codeforces.com/blog/entry/140021
+  mirrors:
+    - name: "Singapore"
+      url: "https://codeforces.com/blog/entry/136381"
+
+- season: Fall 2024
+  archive_link: 2024s
+  announcement: https://codeforces.com/blog/entry/130557
+  wrap: https://codeforces.com/blog/entry/133836
   contests:
-    - day: "Day 2"
-      name: "Jagiellonian Contest"
-      url: "https://codeforces.com/gym/105869"
+    - day: Day 2
+      name: Jagiellonian Contest
+      url: https://codeforces.com/gym/105869
       title: "OCPC Fall 2024 Day 2 Jagiellonian Contest (The 3rd Universal Cup. Stage 35: Kraków)"
-    - day: "Day 5"
-      name: "OCPC Potluck Contest 2"
-      url: "https://codeforces.com/gym/105698"
+    - day: Day 5
+      name: OCPC Potluck Contest 2
+      url: https://codeforces.com/gym/105698
       title: "OCPC 2024 Summer, Day 5: OCPC Potluck Contest 2"
-    - day: "Day 8"
-      name: "Xi'an Contest"
-      url: "https://codeforces.com/gym/105471"
+    - day: Day 8
+      name: Xi'an Contest
+      url: https://codeforces.com/gym/105471
       title: "The 2023 ICPC Asia Xian Regional Contest (The 3rd Universal Cup. Stage 9: Xian)"
 
-- season: "Winter 2024"
-  archive_link: "2024w"
+- season: Winter 2024
+  archive_link: 2024w
+  announcement: https://codeforces.com/blog/entry/124573
+  wrap: https://codeforces.com/blog/entry/126432
   contests:
-    - day: "Day 1"
-      name: "Anton Trygub Contest 2"
-      url: "https://codeforces.com/gym/105384"
+    - day: Day 1
+      name: Anton Trygub Contest 2
+      url: https://codeforces.com/gym/105384
       title: "Anton Trygub Contest 2 (The 3rd Universal Cup, Stage 3: Ukraine)"
-    - day: "Day 6"
-      name: "Potyczki Algorytmiczne Contest"
-      url: "https://codeforces.com/gym/105646"
+    - day: Day 6
+      name: Potyczki Algorytmiczne Contest
+      url: https://codeforces.com/gym/105646
       title: "Osijek Competitive Programming Camp, Winter 2024, Day 6: Potyczki Algorytmiczne Contest (The 3rd Universal Cup. Stage 2: Zielona Góra)"
-    - day: "Day 8"
-      name: "Borys Minaiev Contest"
-      url: "https://codeforces.com/gym/105699"
+    - day: Day 8
+      name: Borys Minaiev Contest
+      url: https://codeforces.com/gym/105699
       title: "OCPC 2024 Winter, Day 8: Borys Minaiev Contest 1 (The 3rd Universal Cup. Stage 27: London)"
-    - day: "Day 9"
-      name: "Potluck Contest"
-      url: "https://codeforces.com/gym/105388"
+    - day: Day 9
+      name: Potluck Contest
+      url: https://codeforces.com/gym/105388
       title: "OCPC Potluck Contest 1 (The 3rd Universal Cup. Stage 6: Osijek)"
 
-- season: "Fall 2023"
-  archive_link: "2023s"
+- season: Fall 2023
+  archive_link: 2023s
+  announcement: https://codeforces.com/blog/entry/118484
+  wrap: https://codeforces.com/blog/entry/121684
   contests:
-    - day: "Day 1"
-      name: "Jeroen Op de Beek Contest"
-      url: "https://codeforces.com/gym/105214"
+    - day: Day 1
+      name: Jeroen Op de Beek Contest
+      url: https://codeforces.com/gym/105214
       title: "OCPC Fall 2023 - Day 1: Jeroen Op de Beek Contest"
-    - day: "Day 6"
-      name: "Estonian Contest"
-      url: "https://codeforces.com/gym/104925"
+    - day: Day 6
+      name: Estonian Contest
+      url: https://codeforces.com/gym/104925
       title: "Osijek Competitive Programming Camp, Fall 2023. Day 6: Estonian Contest (The 2nd Universal Cup. Stage 19: Estonia)"
 
-- season: "Winter 2023"
-  archive_link: "2023w"
+- season: Winter 2023
+  archive_link: 2023w
+  announcement: https://codeforces.com/blog/entry/110945
+  wrap: https://codeforces.com/blog/entry/113438
   contests:
-    - day: "Day 1"
-      name: "Anton Trygub Contest"
-      url: "https://codeforces.com/gym/104197"
+    - day: Day 1
+      name: Anton Trygub Contest
+      url: https://codeforces.com/gym/104197
       title: "Anton Trygub Contest 1 (The 1st Universal Cup, Stage 4: Ukraine)"
-    - day: "Day 2"
-      name: "Oleksandr Kulkov Contest 3"
-      url: "https://codeforces.com/gym/104234"
+    - day: Day 2
+      name: Oleksandr Kulkov Contest 3
+      url: https://codeforces.com/gym/104234
       title: "OCPC 2023, Oleksandr Kulkov Contest 3"
-    - day: "Day 5"
-      name: "Adam Gąsienica-Samek Contest"
-      url: "https://codeforces.com/gym/104479"
+    - day: Day 5
+      name: Adam Gąsienica-Samek Contest
+      url: https://codeforces.com/gym/104479
       title: "Adam Gąsienica‑Samek Contest 1"
-    - day: "Day 6"
-      name: "Yuhao Du Contest 11"
-      url: "https://codeforces.com/gym/105645"
+    - day: Day 6
+      name: Yuhao Du Contest 11
+      url: https://codeforces.com/gym/105645
       title: "Osijek Competitive Programming Camp, Winter 2023, Day 6: Yuhao Du Contest 11 (The 1st Universal Cup. Stage 10: Zhejiang)"
-    - day: "Day 8"
-      name: "Dilhan Salgado Contest"
-      url: "https://codeforces.com/gym/105644"
+    - day: Day 8
+      name: Dilhan Salgado Contest
+      url: https://codeforces.com/gym/105644
       title: "Osijek Competitive Programming Camp, Winter 2023, Day 8: Dilhan Salgado Contest (The 1st Universal Cup. Stage 5: Osijek)"
-    - day: "Day 9"
-      name: "Magical Story of LaLa"
-      url: "https://codeforces.com/gym/104334"
+    - day: Day 9
+      name: Magical Story of LaLa
+      url: https://codeforces.com/gym/104334
       title: "Osijek Competitive Programming Camp, Winter 2023, Day 9: Magical Story of LaLa (The 1st Universal Cup. Stage 14: Ranoa)"
