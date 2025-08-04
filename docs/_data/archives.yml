@@ -1,5 +1,7 @@
 - season: Summer 2025
+  archive_link: /
   announcement: https://codeforces.com/blog/entry/142531
+  rating: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/combined/standings.html
   mirrors:
     - name: India
       url: https://codeforces.com/blog/entry/143921
@@ -10,6 +12,7 @@
   archive_link: 2025w
   announcement: https://codeforces.com/blog/entry/138091
   wrap: https://codeforces.com/blog/entry/140021
+  rating: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/combined/standings.html
   mirrors:
     - name: "Singapore"
       url: "https://codeforces.com/blog/entry/136381"
@@ -18,6 +21,7 @@
   archive_link: 2024s
   announcement: https://codeforces.com/blog/entry/130557
   wrap: https://codeforces.com/blog/entry/133836
+  rating: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/combined/standings.html
   contests:
     - day: Day 2
       name: Jagiellonian Contest
@@ -36,6 +40,7 @@
   archive_link: 2024w
   announcement: https://codeforces.com/blog/entry/124573
   wrap: https://codeforces.com/blog/entry/126432
+  rating: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/combined/standings.html
   contests:
     - day: Day 1
       name: Anton Trygub Contest 2
@@ -72,6 +77,7 @@
   archive_link: 2023w
   announcement: https://codeforces.com/blog/entry/110945
   wrap: https://codeforces.com/blog/entry/113438
+  rating: 2023w/rating.html
   contests:
     - day: Day 1
       name: Anton Trygub Contest
