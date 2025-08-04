@@ -4,6 +4,10 @@
 - season: "Fall 2024"
   archive_link: "2024s"
   contests:
+    - day: "Day 2"
+      name: "Jagiellonian Contest"
+      url: "https://codeforces.com/gym/105869"
+      title: "OCPC Fall 2024 Day 2 Jagiellonian Contest (The 3rd Universal Cup. Stage 35: Kraków)"
     - day: "Day 5"
       name: "OCPC Potluck Contest 2"
       url: "https://codeforces.com/gym/105698"
