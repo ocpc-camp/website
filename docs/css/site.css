@@ -65,3 +65,10 @@ h2 {
   height: 280px;
   object-fit: cover;
 }
+
+.review-photo { height: 180px; object-fit: cover; }
+
+/* Toggle label swap */
+a[data-bs-toggle="collapse"] .when-expanded { display: none; }
+a[data-bs-toggle="collapse"][aria-expanded="true"] .when-expanded { display: inline; }
+a[data-bs-toggle="collapse"][aria-expanded="true"] .when-collapsed { display: none; }
