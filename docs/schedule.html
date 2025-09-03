@@ -6,7 +6,7 @@ title: Schedule
 <h2>Schedule</h2>
 
 <p>
-  The camp consists of {{ site.data.2025s.schedule.total_days }} contest days and 
+  The camp consists of {{ site.data['2025s'].schedule.total_days }} contest days and 
   2 days off in between.
 </p>
 
@@ -17,7 +17,7 @@ title: Schedule
 </p>
 
 {% comment %}
-  Loop over site.data.2025s.schedule.days
+  Loop over site.data['2025s'].schedule.days
   for each item, "day" is an object with fields:
     - date
     - label
@@ -25,7 +25,7 @@ title: Schedule
   
   We want 3 columns per row, so we use modulo again.
 {% endcomment %}
-{% for day in site.data.2025s.schedule.days %}
+{% for day in site.data['2025s'].schedule.days %}
   {% assign index_mod = forloop.index0 | modulo: 3 %}
 
   {% if index_mod == 0 %}

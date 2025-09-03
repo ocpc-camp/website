@@ -1,0 +1,29 @@
+members:
+  - name: "Oleksandr Kulkov"
+    role: "Organizer, OCPC co-founder"
+    photo: "/images/team/adamant.jpg"
+    orgs: ["OCPC", "ETH Zürich"]
+    facts:
+      - Co-founded OCPC in 2023
+      - ICPC Foundation <a href="https://www.linkedin.com/feed/update/urn:li:activity:7368330111089131522/">Outstanding Community Engagement Award</a> (2025)
+      - First award at ACM ICPC NEERC 2016
+      - Champion of Helvetic Coding Contest 2024
+      - Author of <a href="https://codeforces.com/blog/entry/108940">over 60</a> programming problems
+      - Ex-Codeforces Grandmaster
+    links:
+      codeforces: adamant
+      linkedin: oleksandr-kulkov
+      email: oleksandr@ocpc.camp
+
+  - name: "Tähvend Uustalu"
+    role: "Organizer, OCPC co-founder"
+    photo: "/images/team/taehvend.jpg"
+    orgs: ["OCPC"]
+    facts:
+      - Co-founded OCPC in 2023
+      - IOI 2017 Bronze medal
+      - ICPC 2019 World Finals participant
+      - Codeforces Grandmaster
+    links:
+      codeforces: -is-this-fft-
+      linkedin: tähvend-uustalu-03034b203

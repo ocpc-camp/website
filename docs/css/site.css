@@ -60,3 +60,8 @@ h2 {
 .schedule-cell {
     margin-bottom: 1.5rem;
 }
+
+.team-photo {
+  height: 280px;
+  object-fit: cover;
+}

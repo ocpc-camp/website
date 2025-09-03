@@ -35,6 +35,64 @@ title: Index
   3-person teams.
 </p>
 
+<h4 class="mt-4">Who are we?</h4>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for m in site.data['2025s'].team.members %}
+    <div class="col">
+      <div class="card h-100">
+        {% if m.photo %}
+          <img src="{{ m.photo }}" class="card-img-top team-photo" alt="{{ m.name }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+            <span>{{ m.name }}</span>
+            {% if m.award_img %}
+              <img src="{{ m.award_img }}" alt="" class="award-mini" loading="lazy" width="16" height="16">
+            {% endif %}
+          </h5>
+          {% if m.role %}
+            <div class="text-muted small mb-2">{{ m.role }}</div>
+          {% endif %}
+          {% if m.orgs %}
+            <div class="small mb-2">
+              {% for o in m.orgs %}
+                <span class="badge text-bg-light me-1">{{ o }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if m.facts %}
+            <ul class="list-unstyled small mb-0">
+              {% for fact in m.facts %}
+                <li>• {{ fact }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if m.links %}
+          <div class="card-footer bg-white border-0 pt-0">
+            <div class="d-flex flex-wrap gap-2 small">
+              {% if m.links.codeforces %}
+                <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+              {% endif %}
+              {% if m.links.linkedin %}
+                <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+              {% endif %}
+              {% if m.links.github %}
+                <a href="{{ m.links.github }}" class="text-decoration-none" target="_blank" rel="noopener">GitHub</a>
+              {% endif %}
+              {% if m.links.email %}
+                <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 <h4>Who can participate?</h4>
 <p>
   Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
