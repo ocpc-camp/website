@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OCPC{% if page.title %} – {{ page.title }}{% endif %}</title>
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
-    <script src="/js/discordInvite.js"></script>
+    <script src="/js/discord.js"></script>
     <script>
-      discordInvite.init({
-      inviteCode: 'yEWjcPs5qZ',
-      title: 'OCPC',
-    });
-    discordInvite.render();
+      document.addEventListener('DOMContentLoaded', function() {
+        initDiscordInvite('yEWjcPs5qZ');
+      });
     </script>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/site.css?v=4" />
-    <link rel="stylesheet" href="/css/discordInvite.css" />
+    <link rel="stylesheet" href="/css/discord.css" />
     <link rel="icon" href="/images/ocpc_favicon.png" />
     <link rel="apple-touch-icon" href="/images/ocpc_favicon.png" />
   </head>
