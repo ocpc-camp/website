@@ -1,5 +1,8 @@
+- season: Winter 2026
+  archive_link: 2026w
+
 - season: Summer 2025
-  archive_link: /
+  archive_link: 2025s
   announcement: https://codeforces.com/blog/entry/142531
   wrap: https://codeforces.com/blog/entry/146017
   rating: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/combined/standings.html

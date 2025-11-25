@@ -1,0 +1,75 @@
+total_days: 9
+days:
+  - date: "January 24"
+    label: "Contest day"
+    blocks:
+      - time: "09:30 - 10:00"
+        text: "Registration"
+      - time: "10:00 - 10:30"
+        text: "Opening notes"
+      - time: "10:30 - 12:30"
+        text: "Practice round & lunch"
+      - time: "12:30 - 17:30"
+        text: "Contest"
+      - time: "18:30 - 20:00"
+        text: "Analysis & discussion"
+
+  - date: "January 25"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "January 26"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "January 27"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "January 28"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "January 29"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "January 30"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "January 31"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "February 1"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "15:30 - 17:00"
+        text: "Analysis & discussion"
+      - time: "TBA"
+        text: "Closing dinner"

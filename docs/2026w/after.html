@@ -1,0 +1,56 @@
+<hr />
+<!-- Footer Start -->
+<div class="container footer-area">
+
+  <!-- Sponsors Section -->
+  <h5 class="mb-3">Sponsors</h5>
+  <div class="row row-cols-2 row-cols-sm-3 row-cols-md-2 g-3">
+    {% assign sponsor_list = site.data.2026w.sponsors 
+       | where_exp: "item", "item.tier != 'partner'" %}
+    {% for sponsor in sponsor_list %}
+      <div class="col text-center">
+        <a 
+          href="{% if sponsor.buttons and sponsor.buttons.size > 0 %}{{ sponsor.buttons[0].url }}{% else %}#{% endif %}"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="{{ sponsor.footer_logo_src | default: sponsor.logo_src }}"
+            alt="{{ sponsor.footer_logo_alt | default: sponsor.logo_alt }}"
+            class="img-fluid osi-partner-logo"
+          />
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr class="my-4" />
+
+  <!-- Partners Section -->
+  <h5 class="mb-3">Partners</h5>
+  <div class="row row-cols-2 row-cols-sm-2 g-3">
+    {% assign partner_list = site.data.2026w.sponsors | where: "tier", "partner" %}
+    {% for partner in partner_list %}
+      <div class="col text-center">
+        <a 
+          href="{{ partner.footer_url | default: '#' }}" 
+          target="_blank" 
+          rel="noopener"
+        >
+          <img
+            src="{{ partner.footer_logo_src | default: partner.logo_src }}"
+            alt="{{ partner.footer_logo_alt | default: partner.logo_alt }}"
+            class="img-fluid osi-partner-logo"
+          />
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+<!-- End Footer -->
+
+<!-- Bootstrap JS Bundle -->
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

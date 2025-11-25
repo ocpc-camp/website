@@ -1,0 +1,56 @@
+---
+title: Schedule
+---
+{% include_relative before.html %}
+
+<h2>Schedule</h2>
+
+<p>
+  The camp consists of {{ site.data['2026w'].schedule.total_days }} contest days and 
+  2 days off in between.
+</p>
+
+<p>
+  All times are in CET (UTC +2). Online participants have the opportunity to
+  start the contest in a 24h window, starting anytime after the start of the
+  original contest. Schedule may be subject to change, please follow us on
+  Discord for most up to date info.
+</p>
+
+{% comment %}
+  Loop over site.data['2026w'].schedule.days
+  for each item, "day" is an object with fields:
+    - date
+    - label
+    - blocks (array of {time, text} or {text})
+  
+  We want 3 columns per row, so we use modulo again.
+{% endcomment %}
+{% for day in site.data['2026w'].schedule.days %}
+  {% assign index_mod = forloop.index0 | modulo: 3 %}
+
+  {% if index_mod == 0 %}
+    <div class="row">
+  {% endif %}
+
+    <div class="col-lg-4 schedule-cell">
+      <h6>Day {{ forloop.index }}, {{ day.date }}</h6>
+      {{ day.label }}<br>
+      <ul>
+        {% for block in day.blocks %}
+          <li>
+            {% if block.time %}
+              <b>{{ block.time }}</b>
+            {% endif %}
+            {{ block.text }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  {% if index_mod == 2 or forloop.last %}
+    </div><!-- Close .row after 3 columns or if it's the last item -->
+  {% endif %}
+{% endfor %}
+
+{% include_relative after.html %}

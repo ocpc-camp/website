@@ -1,0 +1,179 @@
+---
+title: Index
+---
+{% include_relative before.html %}
+<img src="/images/Bucharest_Business_District.jpg" class="img-fluid header-image" />
+
+<div class="text-center my-4">
+  <p class="lead mb-2">Join our Discord server to stay updated:</p>
+  <div data-discord-invite></div>
+</div>
+
+<h2>OCPC, Summer 2025</h2>
+
+<ul>
+  <li>
+    <b>Dates:</b> 21.06-29.06.2025
+  </li>
+  <li>
+    <b>Location:</b> Faculty of Mathematics and Computer Science, University of Bucharest, Bucharest, Romania
+  </li>
+  <li>
+    <b>Participation fee:</b> 201€ per team.
+  </li>
+</ul>
+
+<h4>What is this?</h4>
+<p>
+  This is a camp to prepare students for ICPC and similar programming competitions. The camp is aimed at
+  the highest level of competition, i.e. teams who wish to show strong results in ICPC regionals and participate seriously
+  in ICPC World Finals.
+</p>
+
+<p>
+  The camp consists of 7 ICPC-style contests, i.e. 5 hours and 9-12 problems each, and 2 days off. The contests are intended for
+  3-person teams.
+</p>
+
+<h4 class="mt-4">Who are we?</h4>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for m in site.data['2025s'].team.members %}
+    <div class="col">
+      <div class="card h-100">
+        {% if m.photo %}
+          <img src="{{ m.photo }}" class="card-img-top team-photo" alt="{{ m.name }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+            <span>{{ m.name }}</span>
+          </h5>
+          {% if m.role %}
+            <div class="text-muted small mb-2">{{ m.role }}</div>
+          {% endif %}
+          {% if m.orgs %}
+            <div class="small mb-2">
+              {% for o in m.orgs %}
+                <span class="badge text-bg-light me-1">{{ o }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if m.facts %}
+            <ul class="list-unstyled small mb-0">
+              {% for fact in m.facts %}
+                <li>• {{ fact }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if m.links %}
+          <div class="card-footer bg-white border-0 pt-0">
+            <div class="d-flex flex-wrap gap-2 small">
+              {% if m.links.codeforces %}
+                <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+              {% endif %}
+              {% if m.links.linkedin %}
+                <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+              {% endif %}
+              {% if m.links.email %}
+                <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h4 class="mt-4">What people say about us?</h4>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for r in site.data['2025s'].reviews.reviews %}
+    {% assign rev_id = 'rev-' | append: forloop.index %}
+    <div class="col">
+      <div class="card h-100">
+
+        {% if r.photo %}
+          <img src="{{ r.photo }}" class="card-img-top review-photo" alt="{{ r.name | default: 'Anonymous' }}">
+        {% endif %}
+
+        <div class="card-body d-flex flex-column">
+
+          {% if r.short %}
+            <p class="card-text mb-2">“{{ r.short }}”</p>
+          {% endif %}
+
+          {% if r.extra %}
+            <div class="collapse" id="{{ rev_id }}">
+              <p class="card-text mb-2">“{{ r.extra }}”</p>
+            </div>
+            <a class="small text-decoration-none" data-bs-toggle="collapse" href="#{{ rev_id }}"
+               role="button" aria-expanded="false" aria-controls="{{ rev_id }}">
+              <span class="when-collapsed">Read more</span>
+              <span class="when-expanded">Read less</span>
+            </a>
+          {% endif %}
+
+          <div class="mt-3 small">
+            <div><strong>{{ r.name | default: "Anonymous" }}</strong></div>
+
+            {% assign meta = "" %}
+            {% if r.affiliation %}
+              {% assign meta = meta | append: r.affiliation %}
+            {% endif %}
+            {% if r.season %}
+              {% if meta != "" %}{% assign meta = meta | append: " · " %}{% endif %}
+              {% assign meta = meta | append: r.season %}
+            {% endif %}
+            {% if meta != "" %}
+              <div class="text-muted">{{ meta }}</div>
+            {% endif %}
+
+            {% if r.facts %}
+              <ul class="list-unstyled small mb-3">
+                {% for f in r.facts %}
+                  <li>• {{ f }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% if r.links %}
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                {% if r.links.cf %}
+                  {% assign cf = r.links.cf %}
+                  <a href="{% if cf contains '://' %}{{ cf }}{% else %}https://codeforces.com/profile/{{ cf }}{% endif %}"
+                     class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+                {% endif %}
+                {% if r.links.atcoder %}
+                  {% assign ac = r.links.atcoder %}
+                  <a href="{% if ac contains '://' %}{{ ac }}{% else %}https://atcoder.jp/users/{{ ac }}{% endif %}"
+                     class="text-decoration-none" target="_blank" rel="noopener">AtCoder</a>
+                {% endif %}
+              </div>
+            {% endif %}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h4>Who can participate?</h4>
+<p>
+  Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
+  representing universities. Participants need to be registered in teams. To register,
+  please fill in the form <a href="https://forms.gle/pvspC2kZa2pn4S3U9">here</a>.
+</p>
+
+<p>
+We support and empathise with those affected by the ongoing war in Ukraine, therefore we offer a free participation for the affected individuals and teams affiliated with Ukrainian institutions.
+</p>
+<p>
+It is also possible to reduce fees individually if you are unable to attend some of the contests.
+</p>
+
+{% include_relative after.html %}

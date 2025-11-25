@@ -1,0 +1,62 @@
+---
+- id: "hudsonrivertrading"
+  name: "Hudson River Trading"
+  tier: "gold"
+  logo_src: "/images/HRT.svg"
+  logo_alt: "Hudson River Trading Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Hudson River Trading is a leading quantitative trading firm powered by a community of curious and technical minds who share a passion for complex problems, cutting-edge technology, and elegant code.
+  modal_paragraphs:
+    - >
+      Hudson River Trading (HRT) is where cutting-edge technology meets world-class trading.
+      Founded in 2002 by computer scientists and mathematicians who believed that math and technology would transform financial markets, today we have built one of the world’s foremost computing environments for research and development where global experts across disciplines work together to solve the most complex problems in trading.
+    - >
+      Our mission is simple: hire the brightest minds, empower them with the tools and freedom to excel, and create an environment where they can do their best work together.
+    - >
+      Whether your expertise lies in math, computer science, physics, or beyond, we welcome deep thinkers from a range of backgrounds. If you’re interested in building the future of trading, we’d love to hear from you — check out our <a href="https://www.hudsonrivertrading.com/careers/">open roles</a> or learn more about us on our <a href="https://www.hudsonrivertrading.com/">website</a>.
+  buttons:
+    - text: "Website"
+      url: "https://www.hudsonrivertrading.com/"
+    - text: "Open Roles"
+      url: "https://www.hudsonrivertrading.com/careers/"
+  
+- id: "silares"
+  name: "Silares (SLRS)"
+  tier: "gold"
+  logo_src: "/images/silares-red.svg"
+  logo_alt: "Silares Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Silares (SLRS) is a quantitative trading and research firm in SoHo, specializing in ultra-low-latency systems for global markets and AI, built by a collaborative, meritocratic team focused on innovation.
+  modal_paragraphs:
+    - >
+      Silares (SLRS) is a quantitative trading and research firm based in SoHo.
+    - >
+      We build ultra-low-latency systems for global markets and artificial intelligence. Our highly technical team believes in treating complex systems as intellectual disciplines, something that can be studied, refined, and innovated upon.
+    - >
+      We're a small team built on collaboration and meritocracy. We avoid the bureaucracy inherent in larger firms and labs, executing ideas directly into production where the best ideas win and the people who build them share in the returns.
+    - >
+      Company website: <a href="https://www.silares.com/" target="_blank">www.silares.com</a>
+  buttons:
+    - text: "Website"
+      url: "https://www.silares.com/"
+    - text: "Email"
+      url: "mailto:info@silares.com"
+
+
+- id: "icpc"
+  name: "ICPC"
+  tier: "partner"
+  logo_src: "/images/ICPC.svg"
+  logo_alt: "ICPC Logo"
+  footer_url: "https://icpc.foundation/"
+
+- id: "mathos"
+  name: "Mathos"
+  tier: "partner"
+  logo_src: "/images/mathos.svg"
+  logo_alt: "Mathos Logo"
+  footer_url: "https://www.mathos.unios.hr/en/"
