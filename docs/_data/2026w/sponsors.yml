@@ -1,4 +1,36 @@
 ---
+- id: "janestreet"
+  name: "Jane Street"
+  tier: "gold"
+  logo_src: "/images/Jane Street.svg"
+  logo_alt: "Jane Street Logo"
+  logo_style: "max-width:150px;"
+  short_paragraphs:
+    - >
+      Jane Street is a quantitative trading firm known for
+      problem-solving, building systems, and constant improvement
+      across global offices.
+  modal_paragraphs:
+    - >
+      Jane Street is a quantitative trading firm with offices worldwide. 
+      We hire smart, humble people who love to solve problems, build 
+      systems, and test theories. You’ll learn something new every day in 
+      our office—whether it’s connecting with a colleague to share 
+      perspectives, or participating in a talk, class, or game night. Our 
+      success is driven by our people and we never stop improving.
+    - >
+      Find out more about our open roles and apply 
+      <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
+      target="_blank">here</a>. 
+      Like puzzles? So do we! Every month or two, we’ll post a new puzzle to 
+      <a href="https://www.janestreet.com/puzzles/">this page</a>. If you 
+      think you’ve solved a puzzle, submit your solution!
+  buttons:
+    - text: "Open Roles"
+      url: "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"
+    - text: "Puzzles"
+      url: "https://www.janestreet.com/puzzles/"
+
 - id: "hudsonrivertrading"
   name: "Hudson River Trading"
   tier: "gold"
@@ -45,6 +77,48 @@
       url: "https://www.silares.com/"
     - text: "Email"
       url: "mailto:info@silares.com"
+
+- id: "pinely"
+  name: "Pinely"
+  tier: "gold"
+  logo_src: "/images/Pinely.svg"
+  logo_alt: "Pinely Logo"
+  logo_style: "max-height:60px;"
+  short_paragraphs:
+    - >
+      Pinely is a dynamic algorithmic trading firm specializing in
+      high-frequency, ultra-low latency trading, with a presence
+      in Singapore, the Netherlands, and Cyprus.
+  modal_paragraphs:
+    - >
+      Pinely is a dynamic algorithmic trading firm, privately owned &amp; 
+      funded, with a presence in Singapore, the Netherlands, and Cyprus. 
+      We specialize in high-frequency and ultra-low latency trading, 
+      striving to be among the top trading companies worldwide.
+    - >
+      Our team tackles everyday challenges like developing trading 
+      strategies, optimizing systems for minimal latency, saving and 
+      processing large volumes of historical data.
+      Our flat structure and collaborative environment make everyone feel 
+      heard and cultivate a culture fueled by ideas and a love for innovation.
+    - >
+      We are a team of mathematicians, programmers, engineers, and computer 
+      scientists, united by a passion for knowledge. Our work demands 
+      exceptional C++ coding, algorithmic thinking, and mathematical 
+      intuition, attracting top talent, including winners and awardees of 
+      such respective challenges as ICPC, IMC, HITB PRO CTF, Google 
+      HashCode, etc.
+    - >
+      Learn more about us on our 
+      <a href="https://pinely.com/" target="_blank" rel="noopener">website</a>.
+    - >
+      To join our team, please send your CV to 
+      <a href="mailto:hr@pinely.com">hr@pinely.com</a>.
+  buttons:
+    - text: "Website"
+      url: "https://pinely.com/"
+    - text: "Email Us"
+      url: "mailto:hr@pinely.com"
 
 
 - id: "icpc"
