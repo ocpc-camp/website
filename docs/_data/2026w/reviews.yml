@@ -22,7 +22,7 @@ reviews:
   - name: Voicu Mihai-Valeriu
     affiliation: ICHB
     season: 2023w, 2023s, 2024w, 2025w
-    photo: /images/reviews/voicu.jpg
+    #photo: /images/reviews/voicu.jpg
     links: { cf: ntherner }
     facts:
       - 6th place in IOI 2024 (Gold)
