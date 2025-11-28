@@ -1,4 +1,11 @@
 reviews:
+  - name: Patrick Pavic
+    affiliation: University of Zagreb
+    season: 2023w, 2024w, 2025w
+    links: { cf: ppavic, atcoder: ppavic }
+    facts:
+      - ICPC 2025 World Finals Silver Medalist
+    short: OCPC has helped us grow as a team, with an almost endless supply of fun ICPC contests, sometimes with interesting twists! And after contests you can always hang out with other cool CPers :)
   - name: Andres Alumets
     affiliation: U of Tartu
     season: 2023w, 2023s, 2024s, 2024w, 2025w
