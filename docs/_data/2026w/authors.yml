@@ -1,0 +1,65 @@
+authors:
+  - name: Amirreza Mazinani
+    handle: AmirrzwM
+    facts:
+      - ICPC World Finalist (2024, 2025)
+      - Author of Codeforces and Rayan Rounds
+      - INOI (Iranian National Olympiad in Informatics) Silver Medalist
+
+  - name: Mohammad Parsa Elahimanesh
+    handle: MohammadParsaElahimanesh
+    facts:
+      - Author of Codeforces and Rayan Rounds
+      - INOI Silver Medalist
+      - Top problem solver on Quera
+
+  - name: AmirReza PourAkhavan
+    handle: Arpa
+    facts:
+      - Two times ICPC World Finalist
+      - Former Codeforces Contest Coordinator
+
+  - name: Tähvend Uustalu
+    handle: -is-this-fft-
+    facts:
+      - ICPC 2019 World Finalist
+      - Google Hash Code 2020 finalist
+
+  - handle: Pyqe
+    facts:
+      - IOI gold medalist
+      - Author of IOI 2024 Nile and Tree
+
+  - handle: Kinon
+    facts:
+      - IMO bronze, silver, and gold medalist
+
+  - handles: [gloria_mundi, burg113]
+    names: ["Sebastian K.", "Lennart B."]
+    facts:
+      - 2025 GCPC winners
+      - 2024 and 2025 NWERC silver medalists
+
+  - name: Yixiong Gao
+    handle: SGColin
+    facts:
+      - Problemsetter for ICPC Asia East contests
+      - Universal Cup Staff
+
+  - name: Songyang Chen
+    handle: Claris
+    facts:
+      - ICPC 2017 and 2018 World Finalist
+      - Top contributor of QOJ
+
+  - handles: [marks39, ssk4988]
+    names: ["Tyler Marks", "Sachin Sivakumar"]
+    facts:
+      - 2025 North America Big South champions
+      - Participants in the 2025 NAC and WF
+      - Currently coaching for UCF
+
+  - name: KCPC
+    facts:
+      - A Competitive Programming Club of Kyoto Univ
+      - Regular participant at the WF

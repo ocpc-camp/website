@@ -88,6 +88,66 @@ title: Index
   {% endfor %}
 </div>
 
+<h4 class="mt-4">Problem Authors</h4>
+<p>
+  We'd like to thank and praise the authors of the contests in the camp:
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for a in site.data['2026w'].authors.authors %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {% if a.team %}
+            <h5 class="card-title mb-1">{{ a.team }}</h5>
+            <div class="small mb-2">
+              {% for h in a.handles %}
+                {% if forloop.first == false %} & {% endif %}{% if a.names[forloop.index0] != "" %}{{ a.names[forloop.index0] }}{% else %}{{ h }}{% endif %}
+              {% endfor %}
+            </div>
+          {% elsif a.name %}
+            <h5 class="card-title mb-1">{{ a.name }}</h5>
+          {% elsif a.handle %}
+            <h5 class="card-title mb-1">{{ a.handle }}</h5>
+          {% elsif a.handles %}
+            <h5 class="card-title mb-1">
+              {% for h in a.handles %}
+                {% if forloop.first == false %} & {% endif %}{% if a.names[forloop.index0] != "" %}{{ a.names[forloop.index0] }}{% else %}{{ h }}{% endif %}
+              {% endfor %}
+            </h5>
+          {% endif %}
+          
+          {% if a.rank %}
+            <div class="text-muted small mb-2">{{ a.rank }}</div>
+          {% endif %}
+          
+          {% if a.facts %}
+            <ul class="list-unstyled small mb-0">
+              {% for fact in a.facts %}
+                <li>• {{ fact }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if a.handle or a.handles %}
+          <div class="card-footer bg-white border-0 pt-0">
+            <div class="d-flex flex-wrap gap-2 small">
+              {% if a.handle %}
+                <a href="https://codeforces.com/profile/{{ a.handle }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+              {% elsif a.handles %}
+                <span>Codeforces:</span>
+                {% for h in a.handles %}
+                  <a href="https://codeforces.com/profile/{{ h }}" class="text-decoration-none" target="_blank" rel="noopener">[{{ forloop.index }}]</a>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 <h4 class="mt-4">What people say about us?</h4>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
