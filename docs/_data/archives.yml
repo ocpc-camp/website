@@ -39,6 +39,10 @@
       name: Xi'an Contest
       url: https://codeforces.com/gym/105471
       title: "The 2023 ICPC Asia Xian Regional Contest (The 3rd Universal Cup. Stage 9: Xian)"
+    - day: Day 9
+      name: Farhod Contest
+      url: https://codeforces.com/gym/106296
+      title: "The 4th Universal Cup. Extra Stage 3: Osijek (Farhod Contest)"
 
 - season: Winter 2024
   archive_link: 2024w
