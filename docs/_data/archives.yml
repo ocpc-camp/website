@@ -1,5 +1,6 @@
 - season: Winter 2026
   archive_link: 2026w
+  announcement: https://codeforces.com/blog/entry/148847
 
 - season: Summer 2025
   archive_link: 2025s
@@ -20,6 +21,11 @@
   mirrors:
     - name: "Singapore"
       url: "https://codeforces.com/blog/entry/136381"
+  contests:
+    - day: Day 9
+      name: New World
+      url: https://codeforces.com/gym/106299
+      title: "Osijek Competitive Programming Camp, Winter 2025, Day 9: New World"
 
 - season: Fall 2024
   archive_link: 2024s
@@ -31,6 +37,10 @@
       name: Jagiellonian Contest
       url: https://codeforces.com/gym/105869
       title: "OCPC Fall 2024 Day 2 Jagiellonian Contest (The 3rd Universal Cup. Stage 35: Kraków)"
+    - day: Day 4
+      name: wuhudsm Contest
+      url: https://codeforces.com/gym/106298
+      title: "OCPC 2024 Summer, Day 4: wuhudsm Contest"
     - day: Day 5
       name: OCPC Potluck Contest 2
       url: https://codeforces.com/gym/105698
@@ -80,6 +90,10 @@
       name: Estonian Contest
       url: https://codeforces.com/gym/104925
       title: "Osijek Competitive Programming Camp, Fall 2023. Day 6: Estonian Contest (The 2nd Universal Cup. Stage 19: Estonia)"
+    - day: Day 9
+      name: Polish Kids Contest
+      url: https://codeforces.com/gym/106307
+      title: "Osijek Competitive Programming Camp, Fall 2023, Day 9: Polish Kids Contest"
 
 - season: Winter 2023
   archive_link: 2023w
