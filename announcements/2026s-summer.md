@@ -122,5 +122,5 @@ Finally, we say special thanks to
 - Codeforces for support and guidance;
 - [eolymp](https://eolymp.com) for providing an online judge for the contests;
 - City University of Hong Kong and Alexandru Ioan Cuza University of Iași for hosting the two editions;
-- the University of Osijek, which provided a physical location for the camp in its earlier editions;
+- the University of Osijek, which provided a physical location for the camp in its earlier editions and continues to assist with administrative and financial handling;
 - [user:BigBag,2026-06-20] for consistently making very useful combined scoreboards at https://acmallukrainian.ho.ua/camps/.
