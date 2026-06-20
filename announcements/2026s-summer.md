@@ -26,7 +26,9 @@ simpler and easier to get onto the Codeforces front page.
 ## Conventions used here
 
 - Sponsors are shown **per site**: Jane Street appears in **both** (Hong Kong Platinum, Iași Gold); Pinely and Order Capital are Iași Gold. ICPC sits in the top header as the Foundation partner; each site shows its own host-university partner (CityU / UAIC).
+- Each site's logos sit on **one line under its title**, with a small italic caption below — no "supported by" / "hosted in partnership with" labels. Sponsors are sized a touch larger than the host-university mark.
 - Order Capital renders a little taller (`54px` vs `40px`) to balance visual weight against the wider Jane Street / Pinely marks.
+- **Contact:** the root `contact.html` only redirects to the portal in the multi-site setup, so the post links the **per-site** contact pages (HK / Iași). **Visa** is handled once in Registration, linking the portal `info.html` (applies to both sites).
 - Discord invite: `yEWjcPs5qZ` (same as the site).
 
 ---
@@ -53,27 +55,24 @@ Both editions are organized by [user:adamant,2026-06-20] and [user:-is-this-fft-
 - **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
 
 <center>
-<b>Hong Kong — supported by</b><br>
-<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="55px" style="margin:10px 16px;"></a>
+<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="55px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://www.cityu.edu.hk/"><img src="https://ocpc.camp/images/cityu.svg" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
-<center><i>Hosted in partnership with</i>
-<a href="https://www.cityu.edu.hk/"><img src="https://ocpc.camp/images/cityu.svg" height="34px" style="margin:0 8px;vertical-align:middle;"></a></center>
+<center><i>Jane Street · City University of Hong Kong</i></center>
 
 ### Iași, Romania — September 2026
 
 - **Venue:** Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
 - **Onsite host:** [user:juve45,2026-06-20] (Alexandru Ioniță, UAIC Iași).
-- **Visa:** if you need a visa to enter Romania, please plan ahead — see the [Info page](https://ocpc.camp/2026s/info.html).
 - **Exact dates:** ⟨TBA⟩. Expected start time **10:00 EEST**.
 
 <center>
-<b>Iași — supported by</b><br>
-<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="40px" style="margin:10px 16px;vertical-align:middle;"></a>
-<a href="https://pinely.com/"><img src="https://ocpc.camp/images/Pinely.svg" height="40px" style="margin:10px 16px;vertical-align:middle;"></a>
-<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="54px" style="margin:10px 16px;vertical-align:middle;"></a>
+<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="40px" style="margin:0 16px;vertical-align:middle;"></a>
+<a href="https://pinely.com/"><img src="https://ocpc.camp/images/Pinely.svg" height="40px" style="margin:0 16px;vertical-align:middle;"></a>
+<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="54px" style="margin:0 16px;vertical-align:middle;"></a>
+<a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="36px" style="margin:0 16px;vertical-align:middle;"></a>
 </center>
-<center><i>Hosted in partnership with</i>
-<a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="40px" style="margin:0 8px;vertical-align:middle;"></a></center>
+<center><i>Jane Street · Pinely · Order Capital · Alexandru Ioan Cuza University of Iași</i></center>
 
 ### Details
 
@@ -94,13 +93,13 @@ After the camp, we will have a silence period during which camp materials will n
 
 If you would like to get a feel of the contests, you can find links to some of the previously published camp contests **[here](https://ocpc.camp/archive.html)**.
 
-If you have any questions, please feel free to [send us an email](https://ocpc.camp/contact.html), or join our **[Discord server](https://discord.gg/yEWjcPs5qZ)**!
+If you have any questions, please join our **[Discord server](https://discord.gg/yEWjcPs5qZ)**, or reach out via the contact page for [Hong Kong](https://ocpc.camp/2026s/hk/contact.html) or [Iași](https://ocpc.camp/2026s/iasi/contact.html).
 
 ### Registration
 
 Registration is through a **single shared form for all sites** ⟨link — or: opening soon⟩ — you pick your location (Hong Kong or Iași) in the form.
 
-We ask you to register before ⟨remote deadline⟩ if you want to participate remotely and before ⟨onsite deadline⟩ if you want to participate onsite. If you require a visa, please register **as soon as possible**, as it might take a few weeks to receive (depending on your location).
+We ask you to register before ⟨remote deadline⟩ if you want to participate remotely and before ⟨onsite deadline⟩ if you want to participate onsite. If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
 
 Also, if your university or organization has a lively ICPC community that may be interested in attending, and you have contacts of people in charge (e.g. coaches), we would highly appreciate if you could share some details in a direct message to me. Thanks!
 
