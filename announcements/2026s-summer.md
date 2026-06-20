@@ -59,7 +59,6 @@ Both editions are organized by us together with local hosts at each site, and us
 
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:SGColin,2026-06-20] (City University of Hong Kong).
-- **Local teams:** **in-person participation is free** for teams representing Hong Kong universities.
 - **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
 
 ### Iași, Romania — September 2026
@@ -85,7 +84,8 @@ We support and empathize with those affected by the ongoing war in Ukraine, ther
 Additionally, we offer the following discounts:
 
 - **Early bird discount:** reduced fee of **147€ per team** if you register before ⟨early-bird deadline⟩.
-- **Hardship discount:** fee reduction to **49€ per team**, on request, if the default fee makes it a financial burden for you. We do not require any proof or documentation and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
+- **Hardship discount:** fee reduction to **48€ per team**, on request, if the default fee makes it a financial burden for you. We do not require any proof or documentation and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
+- **Hong Kong local teams:** in-person participation in the Hong Kong edition is **free** for teams representing Hong Kong universities.
 
 **Online participation.** Online teams get a **24-hour virtual window** for each contest, opening at the same time as the onsite start at your chosen site — you can begin your run any time within it. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online).
 
