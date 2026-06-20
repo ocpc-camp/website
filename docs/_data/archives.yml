@@ -1,127 +1,363 @@
 - season: Winter 2026
   archive_link: 2026w
   announcement: https://codeforces.com/blog/entry/148847
-
+  wrap: https://codeforces.com/blog/entry/150922
+  rating: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/combined/standings.html
+  eolymp_space: https://ocpc2026w.eolymp.space
+  contests:
+  - day: Day 1
+    name: KIT-∞ Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/1/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/mi9vnankul3g72sfvkn0heloj8
+  - day: Day 2
+    name: FFT Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/2/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/9umgdpquih09n7lf096jj2cqvk
+  - day: Day 4
+    name: Kyoto Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/4/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/rofq4l68mt2dp1esn9ncjjllcg
+  - day: Day 5
+    name: Colin and His Friends’ Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/5/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/g6s5o5k4n93719vrc5sak0hi3k
+  - day: Day 6
+    name: Pizza Contest 3
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/6/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/r1t2e978517l1a1e5a39p463hs
+  - day: Day 8
+    name: Limas Sultan Agung 3
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/8/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/7ds15ifh194hve0pf1tgf05pqs
+  - day: Day 9
+    name: Trademark Contest 2
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2026/winter/9/standings.html
+      eolymp: https://ocpc2026w.eolymp.space/contests/ig3v7lohgt0vd43nv48bk2lb4o
 - season: Summer 2025
   archive_link: 2025s
   announcement: https://codeforces.com/blog/entry/142531
   wrap: https://codeforces.com/blog/entry/146017
   rating: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/combined/standings.html
   mirrors:
-    - name: India
-      url: https://codeforces.com/blog/entry/143921
-    - name: Indonesia
-      url: https://codeforces.com/blog/entry/144819
-
+  - name: India
+    url: https://codeforces.com/blog/entry/143921
+    eolymp: https://ocpc2025s-india.eolymp.space
+  - name: Indonesia
+    url: https://codeforces.com/blog/entry/144819
+    eolymp: https://ocpc2025s-indonesia.eolymp.space
+  eolymp_space: https://ocpc2025s.eolymp.space
+  contests:
+  - day: Day 1
+    name: Pizza Contest 2
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/1/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/sk55ojcma10djasruv04qdm2fo
+  - day: Day 2
+    name: KIT Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/2/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/1kvhss06dl7d13loo53cn0nk1k
+  - day: Day 4
+    name: Dilhan Salgado Contest 2
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/4/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/995jqjr9ep1vr04atvo1l2ifr0
+  - day: Day 5
+    name: Trademark Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/5/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/s47ok89k9t7evbt1ovdfvc933c
+  - day: Day 6
+    name: Limas Sultan Agung 2
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/6/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/mdpvbmkn7129t7jclok5kktmig
+  - day: Day 8
+    name: Chromate Sent This to Dominater in His DMs and Dominater Said 🤥 Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/8/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/m9rs3cu3vp6lv7kjgk9aaqsa1s
+  - day: Day 9
+    name: Indian Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/summer/9/standings.html
+      eolymp: https://ocpc2025s.eolymp.space/contests/ejd99p3q1p1tnem8befqm7318o
 - season: Winter 2025
   archive_link: 2025w
   announcement: https://codeforces.com/blog/entry/138091
   wrap: https://codeforces.com/blog/entry/140021
   rating: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/combined/standings.html
   mirrors:
-    - name: "Singapore"
-      url: "https://codeforces.com/blog/entry/136381"
+  - name: Singapore
+    url: https://codeforces.com/blog/entry/136381
+  eolymp_space: https://osijek2025w.eolymp.space
   contests:
-    - day: Day 9
-      name: New World
-      url: https://codeforces.com/gym/106299
-      title: "Osijek Competitive Programming Camp, Winter 2025, Day 9: New World"
-
+  - day: Day 1
+    name: Limas Sultan Agung (Indonesian Contest)
+    title: 'Osijek Competitive Programming Camp, Winter 2025, Day 1: Limas Sultan Agung'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/1/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/eo7jva8he16aba7e6l5uqglf40
+      gym: https://codeforces.com/gym/106444
+  - day: Day 2
+    name: Songyang Chen Contest 5
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/2/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/3cahde1ap13adf677iff6bdqio
+  - day: Day 4
+    name: Lviv University Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/4/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/sm2ds2rslh5c93m62thut9pleg
+  - day: Day 5
+    name: Pizza Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/5/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/6gt0v12hpl1flb2em16te38700
+  - day: Day 6
+    name: Little IR12660's Adventure
+    title: 'Osijek Competitive Programming Camp, Winter 2025, Day 6: Little IR12660''s Adventure'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/6/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/oivg9211rh76j64i6kel99okcg
+      gym: https://codeforces.com/gym/106559
+  - day: Day 8
+    name: Zagreb Contest 2
+    title: 'Osijek Competitive Programming Camp, Winter 2025, Day 8: Zagreb Contest 2 (The 4th Universal Cup. Stage 25: Zagreb)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/8/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/hrgg5i2sd51b537s5vasrjamak
+      gym: https://codeforces.com/gym/106600
+      ucup: https://contest.ucup.ac/contest/3773
+  - day: Day 9
+    name: New World
+    title: 'Osijek Competitive Programming Camp, Winter 2025, Day 9: New World'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2025/winter/9/standings.html
+      eolymp: https://osijek2025w.eolymp.space/contests/2362nlnosh3at10fdtpfnqhe08
+      gym: https://codeforces.com/gym/106299
 - season: Fall 2024
   archive_link: 2024s
   announcement: https://codeforces.com/blog/entry/130557
   wrap: https://codeforces.com/blog/entry/133836
   rating: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/combined/standings.html
+  eolymp_space: https://osijek2024s.eolymp.space
   contests:
-    - day: Day 2
-      name: Jagiellonian Contest
-      url: https://codeforces.com/gym/105869
-      title: "OCPC Fall 2024 Day 2 Jagiellonian Contest (The 3rd Universal Cup. Stage 35: Kraków)"
-    - day: Day 4
-      name: wuhudsm Contest
-      url: https://codeforces.com/gym/106298
-      title: "OCPC 2024 Summer, Day 4: wuhudsm Contest"
-    - day: Day 5
-      name: OCPC Potluck Contest 2
-      url: https://codeforces.com/gym/105698
-      title: "OCPC 2024 Summer, Day 5: OCPC Potluck Contest 2"
-    - day: Day 8
-      name: Xi'an Contest
-      url: https://codeforces.com/gym/105471
-      title: "The 2023 ICPC Asia Xian Regional Contest (The 3rd Universal Cup. Stage 9: Xian)"
-    - day: Day 9
-      name: Farhod Contest
-      url: https://codeforces.com/gym/106296
-      title: "The 4th Universal Cup. Extra Stage 3: Osijek (Farhod Contest)"
-
+  - day: Day 1
+    name: Kharkiv Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/1/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/vi93qv5e9d4ib4h5jbemqj4lng
+  - day: Day 2
+    name: Jagiellonian Contest
+    title: 'OCPC Fall 2024 Day 2 Jagiellonian Contest (The 3rd Universal Cup. Stage 35: Kraków)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/2/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/tufm09ngol12b0nmj9sorgvjls
+      gym: https://codeforces.com/gym/105869
+      ucup: https://contest.ucup.ac/contest/1993
+  - day: Day 4
+    name: wuhudsm Contest
+    title: 'OCPC 2024 Summer, Day 4: wuhudsm Contest'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/4/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/fdh9pkghr157lfkvm3dmsvdi0k
+      gym: https://codeforces.com/gym/106298
+  - day: Day 5
+    name: OCPC Potluck Contest 2
+    title: 'OCPC 2024 Summer, Day 5: OCPC Potluck Contest 2'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/5/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/8eoisg1iet4arfc36k5djviulo
+      gym: https://codeforces.com/gym/105698
+  - day: Day 6
+    name: Chinese NOI Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/6/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/fg46cul3k97el8qug8ss88adig
+  - day: Day 8
+    name: Xi'an Contest
+    title: 'The 2023 ICPC Asia Xian Regional Contest (The 3rd Universal Cup. Stage 9: Xian)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/8/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/h0vktfrh250030ra4ktdp3g3h8
+      gym: https://codeforces.com/gym/105471
+      ucup: https://contest.ucup.ac/contest/1784
+  - day: Day 9
+    name: Farhod Contest
+    title: 'The 4th Universal Cup. Extra Stage 3: Osijek (Farhod Contest)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/fall/9/standings.html
+      eolymp: https://osijek2024s.eolymp.space/contests/3q79kcoead4vfee7klv0cvujc8
+      gym: https://codeforces.com/gym/106296
+      ucup: https://contest.ucup.ac/contest/2757
 - season: Winter 2024
   archive_link: 2024w
   announcement: https://codeforces.com/blog/entry/124573
   wrap: https://codeforces.com/blog/entry/126432
   rating: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/combined/standings.html
+  eolymp_space: https://osijek2024w.eolymp.space
   contests:
-    - day: Day 1
-      name: Anton Trygub Contest 2
-      url: https://codeforces.com/gym/105384
-      title: "Anton Trygub Contest 2 (The 3rd Universal Cup, Stage 3: Ukraine)"
-    - day: Day 6
-      name: Potyczki Algorytmiczne Contest
-      url: https://codeforces.com/gym/105646
-      title: "Osijek Competitive Programming Camp, Winter 2024, Day 6: Potyczki Algorytmiczne Contest (The 3rd Universal Cup. Stage 2: Zielona Góra)"
-    - day: Day 8
-      name: Borys Minaiev Contest
-      url: https://codeforces.com/gym/105699
-      title: "OCPC 2024 Winter, Day 8: Borys Minaiev Contest 1 (The 3rd Universal Cup. Stage 27: London)"
-    - day: Day 9
-      name: Potluck Contest
-      url: https://codeforces.com/gym/105388
-      title: "OCPC Potluck Contest 1 (The 3rd Universal Cup. Stage 6: Osijek)"
-
+  - day: Day 1
+    name: Anton Trygub Contest 2
+    title: 'Anton Trygub Contest 2 (The 3rd Universal Cup, Stage 3: Ukraine)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/1/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/1p98bkcd2951l6f4kecm412g6g
+      gym: https://codeforces.com/gym/105384
+      ucup: https://contest.ucup.ac/contest/1714
+  - day: Day 2
+    name: Portuguese Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/2/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/sri1d20gl95kb9f8g44haog8d8
+  - day: Day 4
+    name: Latvian Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/4/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/b3amafs3i56fbe5lc9m485h420
+  - day: Day 5
+    name: Batrr Contest
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/5/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/f71cbkpdp94vl09m8o8ao3aa28
+  - day: Day 6
+    name: Potyczki Algorytmiczne Contest
+    title: 'Osijek Competitive Programming Camp, Winter 2024, Day 6: Potyczki Algorytmiczne Contest (The 3rd Universal Cup. Stage 2: Zielona Góra)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/6/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/21rbg5mfap37185o9so4im4oog
+      gym: https://codeforces.com/gym/105646
+      ucup: https://contest.ucup.ac/contest/1699
+  - day: Day 8
+    name: Borys Minaiev Contest
+    title: 'OCPC 2024 Winter, Day 8: Borys Minaiev Contest 1 (The 3rd Universal Cup. Stage 27: London)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/8/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/tjlkpng86d1q360pq64qh2boj0
+      gym: https://codeforces.com/gym/105699
+      ucup: https://contest.ucup.ac/contest/1901
+  - day: Day 9
+    name: Potluck Contest
+    title: 'OCPC Potluck Contest 1 (The 3rd Universal Cup. Stage 6: Osijek)'
+    links:
+      standings: https://acmallukrainian.ho.ua/camps/osijek/2024/winter/9/standings.html
+      eolymp: https://osijek2024w.eolymp.space/contests/p4dvu5bhep32d4r0lo1ppns8fo
+      gym: https://codeforces.com/gym/105388
+      ucup: https://contest.ucup.ac/contest/1762
 - season: Fall 2023
   archive_link: 2023s
   announcement: https://codeforces.com/blog/entry/118484
   wrap: https://codeforces.com/blog/entry/121684
+  eolymp_space: https://osijek2023s.eolymp.space
   contests:
-    - day: Day 1
-      name: Jeroen Op de Beek Contest
-      url: https://codeforces.com/gym/105214
-      title: "OCPC Fall 2023 - Day 1: Jeroen Op de Beek Contest"
-    - day: Day 6
-      name: Estonian Contest
-      url: https://codeforces.com/gym/104925
-      title: "Osijek Competitive Programming Camp, Fall 2023. Day 6: Estonian Contest (The 2nd Universal Cup. Stage 19: Estonia)"
-    - day: Day 9
-      name: Polish Kids Contest
-      url: https://codeforces.com/gym/106307
-      title: "Osijek Competitive Programming Camp, Fall 2023, Day 9: Polish Kids Contest"
-
+  - day: Day 1
+    name: Jeroen Op de Beek Contest
+    title: 'OCPC Fall 2023 - Day 1: Jeroen Op de Beek Contest'
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d1
+      eolymp: https://osijek2023s.eolymp.space/contests/8m0sbt5tgl6a7c0ub90p1n7a04
+      gym: https://codeforces.com/gym/105214
+      ucup: https://contest.ucup.ac/contest/1511
+  - day: Day 2
+    name: Zagreb Contest
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d2
+      eolymp: https://osijek2023s.eolymp.space/contests/si2gkie1495378r27g7359m7fo
+  - day: Day 4
+    name: Qinhuangdao Contest
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d4
+      eolymp: https://osijek2023s.eolymp.space/contests/9vaomfrdqp6814j6a2bthpvq2c
+      ucup: https://contest.ucup.ac/contest/1807
+  - day: Day 5
+    name: Jatin Yadav Contest
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d5
+      eolymp: https://osijek2023s.eolymp.space/contests/fs6noojahl3r750oudp55hpdfo
+  - day: Day 6
+    name: Estonian Contest
+    title: 'Osijek Competitive Programming Camp, Fall 2023. Day 6: Estonian Contest (The 2nd Universal Cup. Stage 19: Estonia)'
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d6
+      eolymp: https://osijek2023s.eolymp.space/contests/srruv6jckh0l32ifs50cddo880
+      gym: https://codeforces.com/gym/104925
+      ucup: https://contest.ucup.ac/contest/1487
+  - day: Day 8
+    name: Songyang Chen Contest 4
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d8
+      eolymp: https://osijek2023s.eolymp.space/contests/qnsb4omqmh18f3t46qou3n9jr8
+  - day: Day 9
+    name: Polish Kids Contest
+    title: 'Osijek Competitive Programming Camp, Fall 2023, Day 9: Polish Kids Contest'
+    links:
+      standings: https://osijek2023s.eolymp.space/s/d9
+      eolymp: https://osijek2023s.eolymp.space/contests/chdor3mdhh4o14h0lq5i7mp0hc
+      gym: https://codeforces.com/gym/106307
 - season: Winter 2023
   archive_link: 2023w
   announcement: https://codeforces.com/blog/entry/110945
   wrap: https://codeforces.com/blog/entry/113438
   rating: 2023w/rating.html
+  eolymp_space: https://osijek2023w.eolymp.space
   contests:
-    - day: Day 1
-      name: Anton Trygub Contest
-      url: https://codeforces.com/gym/104197
-      title: "Anton Trygub Contest 1 (The 1st Universal Cup, Stage 4: Ukraine)"
-    - day: Day 2
-      name: Oleksandr Kulkov Contest 3
-      url: https://codeforces.com/gym/104234
-      title: "OCPC 2023, Oleksandr Kulkov Contest 3"
-    - day: Day 5
-      name: Adam Gąsienica-Samek Contest
-      url: https://codeforces.com/gym/104479
-      title: "Adam Gąsienica‑Samek Contest 1"
-    - day: Day 6
-      name: Yuhao Du Contest 11
-      url: https://codeforces.com/gym/105645
-      title: "Osijek Competitive Programming Camp, Winter 2023, Day 6: Yuhao Du Contest 11 (The 1st Universal Cup. Stage 10: Zhejiang)"
-    - day: Day 8
-      name: Dilhan Salgado Contest
-      url: https://codeforces.com/gym/105644
-      title: "Osijek Competitive Programming Camp, Winter 2023, Day 8: Dilhan Salgado Contest (The 1st Universal Cup. Stage 5: Osijek)"
-    - day: Day 9
-      name: Magical Story of LaLa
-      url: https://codeforces.com/gym/104334
-      title: "Osijek Competitive Programming Camp, Winter 2023, Day 9: Magical Story of LaLa (The 1st Universal Cup. Stage 14: Ranoa)"
+  - day: Day 1
+    name: Anton Trygub Contest 1
+    title: 'Anton Trygub Contest 1 (The 1st Universal Cup, Stage 4: Ukraine)'
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d1
+      eolymp: https://osijek2023w.eolymp.space/contests/kn9g7a85h922fe2sq4b1lk7ev4
+      gym: https://codeforces.com/gym/104197
+      ucup: https://contest.ucup.ac/contest/1106
+  - day: Day 2
+    name: Oleksandr Kulkov Contest 3
+    title: OCPC 2023, Oleksandr Kulkov Contest 3
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d2
+      eolymp: https://osijek2023w.eolymp.space/contests/f4h7frb6e53gtc5j3dmvkcee20
+      gym: https://codeforces.com/gym/104234
+      ucup: https://contest.ucup.ac/contest/1129
+  - day: Day 4
+    name: Jatin Garg Contest 1
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d4
+      eolymp: https://osijek2023w.eolymp.space/contests/mvloa8rcpt47n2lltapm95hdcc
+  - day: Day 5
+    name: Adam Gąsienica-Samek Contest 1
+    title: Adam Gąsienica‑Samek Contest 1
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d5
+      eolymp: https://osijek2023w.eolymp.space/contests/qjap7j3ial5vn3qj0pjo52apus
+      gym: https://codeforces.com/gym/104479
+  - day: Day 6
+    name: Yuhao Du Contest 11
+    title: 'Osijek Competitive Programming Camp, Winter 2023, Day 6: Yuhao Du Contest 11 (The 1st Universal Cup. Stage 10: Zhejiang)'
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d6
+      eolymp: https://osijek2023w.eolymp.space/contests/f9mtd98t213ad1g96okg87mnuk
+      gym: https://codeforces.com/gym/105645
+      ucup: https://contest.ucup.ac/contest/1195
+  - day: Day 8
+    name: Dilhan Salgado Contest 1
+    title: 'Osijek Competitive Programming Camp, Winter 2023, Day 8: Dilhan Salgado Contest (The 1st Universal Cup. Stage 5: Osijek)'
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d8
+      eolymp: https://osijek2023w.eolymp.space/contests/ev28j0t7e178f257lbpflr74cg
+      gym: https://codeforces.com/gym/105644
+      ucup: https://contest.ucup.ac/contest/1111
+  - day: Day 9
+    name: Magical Story of LaLa
+    title: 'Osijek Competitive Programming Camp, Winter 2023, Day 9: Magical Story of LaLa (The 1st Universal Cup. Stage 14: Ranoa)'
+    links:
+      standings: https://osijek2023w.eolymp.space/s/d9
+      eolymp: https://osijek2023w.eolymp.space/contests/flfqi7lboh21r1p0tsjga9f784
+      gym: https://codeforces.com/gym/104334
+      ucup: https://contest.ucup.ac/contest/1214

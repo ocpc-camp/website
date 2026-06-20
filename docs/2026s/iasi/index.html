@@ -1,0 +1,101 @@
+---
+title: Index
+---
+{% include_relative before.html %}
+<img src="/images/iasi.jpg" class="header-image" style="width:100%; height:360px; object-fit:cover; object-position:center 70%;" alt="Palace of Culture, Iași" />
+<p class="text-muted small mb-4">
+  Header photo: <a href="https://commons.wikimedia.org/wiki/File:Palatul_Culturii_Ia%C8%99i_-_seara_din_fa%C8%9B%C4%83.jpg" target="_blank" rel="noopener">Palatul Culturii, Iași</a>
+  by Andrei Lucian Vaida, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+</p>
+
+<h2>OCPC, Summer 2026 — Iași</h2>
+
+<div class="text-center my-4">
+  <p class="lead mb-2">Join our Discord server to stay updated:</p>
+  <div data-discord-invite></div>
+</div>
+
+<ul>
+  <li>
+    <b>Dates:</b> September 2026
+  </li>
+  <li>
+    <b>Location:</b> Faculty of Computer Science, Alexandru Ioan Cuza University of Iași, Romania
+  </li>
+  <li>
+    <b>Participation fee:</b> <a href="/2026s/">see fees</a>
+  </li>
+</ul>
+
+<p class="text-muted">
+  New to OCPC? See <a href="/">what the camp is about, participant reviews and who can participate</a> on the OCPC home page.
+</p>
+
+<h4 class="mt-4">Who are we?</h4>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for m in site.data['2026s'].iasi.team.members %}
+    <div class="col">
+      <div class="card h-100">
+        {% if m.photo %}
+          <img src="{{ m.photo }}" class="card-img-top team-photo" alt="{{ m.name }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+            <span>{{ m.name }}</span>
+          </h5>
+          {% if m.role %}
+            <div class="text-muted small mb-2">{{ m.role }}</div>
+          {% endif %}
+          {% if m.orgs %}
+            <div class="small mb-2">
+              {% for o in m.orgs %}
+                <span class="badge text-bg-light me-1">{{ o }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if m.facts %}
+            <ul class="list-unstyled small mb-0">
+              {% for fact in m.facts %}
+                <li>• {{ fact }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if m.links %}
+          <div class="card-footer bg-white border-0 pt-0">
+            <div class="d-flex flex-wrap gap-2 small">
+              {% if m.links.codeforces %}
+                <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+              {% endif %}
+              {% if m.links.linkedin %}
+                <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+              {% endif %}
+              {% if m.links.email %}
+                <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h4 class="mt-4">Registration &amp; fees</h4>
+<p>
+  Participation is <b>198€ per team</b>. Registration is through a single shared form for all
+  OCPC Summer 2026 sites — it will be announced soon; join our <a href="https://discord.gg/yEWjcPs5qZ">Discord</a>
+  or <a href="contact.html">contact us</a> to be notified.
+</p>
+<p>
+  The fee, the early-bird / hardship / Ukraine discounts and what it covers are the same across all
+  sites — see <a href="/2026s/">registration &amp; participation fee</a> on the home page.
+</p>
+<p>
+  If you require a visa to enter Romania, please plan ahead — see
+  <a href="/2026s/info.html">Visa &amp; invitation letters</a> on the Info page.
+</p>
+
+{% include_relative after.html %}

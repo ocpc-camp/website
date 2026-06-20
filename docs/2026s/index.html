@@ -1,0 +1,202 @@
+---
+---
+{% include_relative before.html %}
+
+<div class="text-center my-4">
+  <h1 class="mb-2">Osijek Competitive Programming Camp</h1>
+  <p class="lead text-muted mb-0">
+    A camp to prepare top university teams for ICPC and similar programming competitions.
+  </p>
+</div>
+
+<p class="text-center fs-5 mb-4">
+  This Summer 2026 we are running the following <b>onsite camps</b>:
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+  {% for s in site.data['2026s'].sites %}
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <a href="/{{ s.slug }}/">
+          <img src="{{ s.image }}" class="card-img-top" alt="{{ s.city }}"
+               style="height:220px;object-fit:cover;" />
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title mb-1">
+            {{ s.city }}{% if s.country %}, {{ s.country }}{% endif %}
+          </h3>
+          <div class="text-muted mb-2">
+            {{ s.dates }}{% if s.dates_note %} <span class="fst-italic">({{ s.dates_note }})</span>{% endif %}
+            · {{ s.venue }}
+          </div>
+          <p class="card-text">{{ s.blurb }}</p>
+          {% assign venue = s.slug | split: '/' | last %}
+          {% assign vsponsors = site.data['2026s'][venue].sponsors | where_exp: "sp", "sp.tier != 'partner'" %}
+          {% assign vpartners = site.data['2026s'][venue].sponsors | where: "tier", "partner" %}
+          <div class="mt-auto">
+            <div class="d-flex flex-wrap justify-content-between gap-4 mb-3">
+              {% if vsponsors and vsponsors.size > 0 %}
+                <div>
+                  <div class="text-muted text-uppercase mb-2" style="font-size:0.7rem;letter-spacing:.05em;">Sponsors</div>
+                  <div class="d-flex flex-wrap align-items-center gap-3">
+                    {% for sp in vsponsors %}
+                      <a href="{% if sp.buttons and sp.buttons.size > 0 %}{{ sp.buttons[0].url }}{% else %}#{% endif %}" target="_blank" rel="noopener">
+                        <img src="{{ sp.footer_logo_src | default: sp.logo_src }}" alt="{{ sp.logo_alt }}"
+                             style="max-height:30px;width:auto;max-width:110px;object-fit:contain;" />
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if vpartners and vpartners.size > 0 %}
+                <div>
+                  <div class="text-muted text-uppercase mb-2" style="font-size:0.7rem;letter-spacing:.05em;">Partners</div>
+                  <div class="d-flex flex-wrap align-items-center gap-3">
+                    {% for p in vpartners %}
+                      <a href="{{ p.footer_url | default: '#' }}" target="_blank" rel="noopener">
+                        <img src="{{ p.footer_logo_src | default: p.logo_src }}" alt="{{ p.logo_alt }}"
+                             style="max-height:30px;width:auto;max-width:110px;object-fit:contain;" />
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+            <a href="/{{ s.slug }}/" class="btn btn-primary">
+              Visit the {{ s.city }} site →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="text-center my-4">
+  <p class="lead mb-2">Join our Discord server to stay updated:</p>
+  <div data-discord-invite></div>
+</div>
+
+<h4>What is this?</h4>
+<p>
+  OCPC is a camp to prepare students for ICPC and similar programming competitions. It is aimed at
+  the highest level of competition, i.e. teams who wish to show strong results in ICPC regionals and
+  participate seriously in ICPC World Finals. Each edition consists of a series of ICPC-style contests
+  (5 hours, 9–12 problems each) for 3-person teams, with analysis sessions and days off in between.
+</p>
+<p>
+  The camp was founded in 2023 and has since run editions in Osijek and other host cities. Browse all
+  past editions, contest mirrors and standings in the <a href="/archive.html">archive</a>.
+</p>
+
+<h4 class="mt-4">What people say about us?</h4>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+  {% for r in site.data['2026s'].reviews.reviews %}
+    {% assign rev_id = 'rev-' | append: forloop.index %}
+    <div class="col">
+      <div class="card h-100">
+
+        {% if r.photo %}
+          <img src="{{ r.photo }}" class="card-img-top review-photo" alt="{{ r.name | default: 'Anonymous' }}">
+        {% endif %}
+
+        <div class="card-body d-flex flex-column">
+
+          {% if r.short %}
+            <p class="card-text mb-2">“{{ r.short }}”</p>
+          {% endif %}
+
+          {% if r.extra %}
+            <div class="collapse" id="{{ rev_id }}">
+              <p class="card-text mb-2">“{{ r.extra }}”</p>
+            </div>
+            <a class="small text-decoration-none" data-bs-toggle="collapse" href="#{{ rev_id }}"
+               role="button" aria-expanded="false" aria-controls="{{ rev_id }}">
+              <span class="when-collapsed">Read more</span>
+              <span class="when-expanded">Read less</span>
+            </a>
+          {% endif %}
+
+          <div class="mt-3 small">
+            <div><strong>{{ r.name | default: "Anonymous" }}</strong></div>
+
+            {% assign meta = "" %}
+            {% if r.affiliation %}
+              {% assign meta = meta | append: r.affiliation %}
+            {% endif %}
+            {% if r.season %}
+              {% if meta != "" %}{% assign meta = meta | append: " · " %}{% endif %}
+              {% assign meta = meta | append: r.season %}
+            {% endif %}
+            {% if meta != "" %}
+              <div class="text-muted">{{ meta }}</div>
+            {% endif %}
+
+            {% if r.facts %}
+              <ul class="list-unstyled small mb-3">
+                {% for f in r.facts %}
+                  <li>• {{ f }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% if r.links %}
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                {% if r.links.cf %}
+                  {% assign cf = r.links.cf %}
+                  <a href="{% if cf contains '://' %}{{ cf }}{% else %}https://codeforces.com/profile/{{ cf }}{% endif %}"
+                     class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+                {% endif %}
+                {% if r.links.atcoder %}
+                  {% assign ac = r.links.atcoder %}
+                  <a href="{% if ac contains '://' %}{{ ac }}{% else %}https://atcoder.jp/users/{{ ac }}{% endif %}"
+                     class="text-decoration-none" target="_blank" rel="noopener">AtCoder</a>
+                {% endif %}
+              </div>
+            {% endif %}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h4 class="mt-4">Who can participate?</h4>
+<p>
+  Participation is open to anyone, but the camp is primarily aimed at ICPC-eligible teams
+  representing universities. You compete in teams of <b>up to three</b>; the participation fee is
+  charged <b>per team</b> rather than per person, so a fuller team pays less per participant.
+</p>
+<h4 class="mt-4">Participation fee</h4>
+<p>
+  The participation fee for both online and onsite participants is <b>198€ per team</b> (the same for
+  all sites). As in previous editions, it does not include regular meals, travel or accommodation.
+</p>
+<h5 class="mt-3">Discounts</h5>
+<ul>
+  <li>
+    <b>Early bird discount:</b> Reduced fee of <b>147€ per team</b> if you register before the early-bird deadline (to be announced).
+  </li>
+  <li>
+    <b>Hardship discount:</b> Fee reduction to <b>49€ per team</b>, on request, if the default fee creates a financial burden for you.
+    We do not require any proof or documentation, and trust your self-assessment. Nevertheless, we ask you to be mindful when using this option, as we rely on participation fees to run the camp.
+  </li>
+  <li>
+    <b>Ukraine support:</b> We support and empathize with those affected by the ongoing war in Ukraine, and offer <b>free participation</b> for affected individuals and teams affiliated with Ukrainian institutions.
+  </li>
+</ul>
+<p class="text-muted">
+  Individual sites may add their own arrangements (for example, free participation for local teams) — see each camp page.
+</p>
+
+<h4 class="mt-4">Registration</h4>
+<p>
+  Registration is through a <b>single shared form for all sites</b> (coming soon) — you pick your
+  location there; join our <a href="https://discord.gg/yEWjcPs5qZ">Discord</a> to be notified.
+  See each camp page above for its dates.
+</p>
+
+{% include_relative after.html %}

@@ -1,0 +1,21 @@
+# The venues shown on the Summer 2026 portal (docs/2026s/index.html).
+# Order is chronological. Each entry: slug (path under docs/, no trailing slash),
+# city, optional country, venue, dates, optional dates_note, image, blurb.
+- slug: 2026s/hk
+  city: "Hong Kong"
+  venue: "City University of Hong Kong"
+  dates: "August 2026"
+  image: "/images/hong-kong.jpg"
+  blurb: >
+    An OCPC onsite mirror at City University of Hong Kong, bringing the camp
+    to teams across Hong Kong and the wider region.
+
+- slug: 2026s/iasi
+  city: "Iași"
+  country: "Romania"
+  venue: "Alexandru Ioan Cuza University of Iași"
+  dates: "September 2026"
+  image: "/images/iasi.jpg"
+  blurb: >
+    The OCPC summer camp at the Faculty of Computer Science,
+    Alexandru Ioan Cuza University of Iași.

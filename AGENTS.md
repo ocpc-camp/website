@@ -23,9 +23,15 @@ Each edition lives in its own directory under `docs/`, named `<year><season>` wh
 
 New editions are created by **copying a previous edition's folder** and editing it — there is no shared template, so HTML/structure drift between editions is expected and fine. Only change the current edition unless explicitly asked otherwise.
 
-### "Current edition" pointer + redirect stubs
+A season with **multiple simultaneous venues** nests one folder per venue under the season code: e.g. `docs/2026s/hk/` and `docs/2026s/iasi/`, each a full self-contained edition (its own page set plus `before.html`/`after.html`). Their data lives under `docs/_data/2026s/<venue>/` and is read with nested bracket access — `site.data['2026s'].hk.*` / `site.data['2026s'].iasi.*`.
 
-`docs/_data/current.yml` contains a single key, `current_season` (e.g. `2026w`). The top-level `docs/*.html` files (`index.html`, `schedule.html`, `contest-info.html`, …) are **thin redirect stubs** that meta-refresh to `{{ site.data.current.current_season }}/...`. To make a new edition the live one, update `current.yml` — do not edit the redirect stubs.
+### Root redirect → current-season portal
+
+`docs/index.html` is a **thin redirect** to the current season: `docs/_data/current.yml` holds a single pointer, `current_season: 2026s`, and the root page meta-refreshes to `/{{ current_season }}/`. (The other top-level `docs/*.html` files — `schedule.html`, `sponsors.html`, … — are likewise redirect stubs to `/`.)
+
+The **portal itself lives in the season folder** (`docs/2026s/index.html`) — a normal, self-contained per-season artifact like any edition, so archiving is automatic: stop editing it and point `current.yml` at the next season. The portal renders the season's venue cards from `docs/_data/2026s/sites.yml`, and also carries the **shared/general content** — "What is this?", participant reviews (`docs/_data/2026s/reviews.yml`) and "Who can participate?" — so the lean venue sub-sites don't each duplicate it (they link back with a "New to OCPC →" link). Everything the portal reads is season-scoped, so it stays frozen once the season ends.
+
+> History: originally a single `current_season` pointer with `index.html` redirecting to `{{ current_season }}/...`. Summer 2026 added two simultaneous venues, so the "current edition" became a two-card portal at `docs/2026s/` — but the root-redirect + per-season-folder model is otherwise unchanged.
 
 ### Layout via `include_relative`, not `_layouts`/`_includes`
 
@@ -37,10 +43,14 @@ There are no Jekyll layouts. Each content page starts with YAML front matter (ju
 {% include_relative after.html %}
 ```
 
-- `before.html` = `<head>`, CSS/JS links, navbar, Discord-init script.
-- `after.html` = footer, which renders the Sponsors and Partners logo grids.
+- `before.html` = `<head>`, CSS/JS links, the navbar, Discord-init script.
+- `after.html` = footer (for venue sub-sites this renders the Sponsors and Partners logo grids).
 
 These are per-edition copies, so edits to the header/footer must be made in the relevant edition's `before.html`/`after.html`.
+
+**Uniform navbar.** Every page in the Summer 2026 cluster (the `2026s` portal, the `hk`/`iasi` sub-sites, and the root `archive.html`) shares the same navbar skeleton: `[OCPC logo →/] [ Hong Kong | Iași toggle ] …middle… [Discord blurple-SVG icon] [Archive]`. The toggle (left, by the logo) and the right-anchored (`ms-auto`) Discord+Archive group sit in the **same place on every page**; only the *middle* changes — the venue sub-sites slot in Details / Schedule / Contest info / Sponsors / Contact. On a sub-site the toggle highlights the current camp (`btn-primary active`) and the *other* button preserves the relative path (`{{ page.url | replace: '/2026s/hk/', '/2026s/iasi/' }}`), so e.g. HK→Sponsors toggles straight to Iași→Sponsors; on the portal/archive both toggle buttons just link to the two landing pages.
+
+The root `docs/before.html`/`after.html` (now used only by `archive.html`) carry the same navbar; their footer's contact email is **assembled in JavaScript** (so `oleksandr@ocpc.camp` / `mailto:` never appear literally in the HTML). The portal's own `docs/2026s/after.html` footer additionally shows the header-image credits.
 
 ### Data-driven content (`docs/_data/<season>/`)
 
@@ -48,9 +58,16 @@ Per-edition content lives in YAML under `docs/_data/<season>/`: `schedule.yml`, 
 
 So: editing schedule/sponsors/team/etc. means editing the YAML, not the HTML.
 
+For the multi-venue `2026s` season the data lives under `docs/_data/2026s/`:
+
+- `sites.yml` (a bare list) → `site.data['2026s'].sites` — the portal's venue cards.
+- `reviews.yml` → `site.data['2026s'].reviews.reviews` — the portal's participant reviews.
+- `hk/` and `iasi/` subdirs → `site.data['2026s'].hk.*` / `.iasi.*` — each venue's `sponsors.yml` + `team.yml` (Iași also `schedule.yml`). The sub-sites were stripped to site-specific content (no reviews/authors of their own); their `after.html` use the nested bracket form and guard the Partners block with `{% if partner_list.size > 0 %}`.
+
 ### Archive
 
-- `docs/archive.html` (top-level) iterates `docs/_data/archives.yml` to list all past editions with links to their archived site, Codeforces announcement/wrap blog posts, rating standings, and per-day contest gym links. Add a block here when an edition concludes.
+- `docs/archive.html` is a standalone page (reachable via the **Archive** button in the navbar) that iterates `docs/_data/archives.yml` to list all past editions with links to their archived site (**Website**), Codeforces announcement/wrap blog posts, rating standings, optional **Mirrors**, and per-day contest gym links. Add a block here when an edition concludes. It uses the **root** `before.html`/`after.html` chrome (the uniform navbar).
+- For a multi-venue season, the archive row points **Website → the season portal** and **Mirrors → each sub-site** (e.g. Summer 2026 → Website = the summer portal snapshot, Mirrors = `2026s/hk`, `2026s/iasi`).
 - An archived edition's site is preserved in place; the convention is to add an "archived website" banner to that edition's `before.html` pointing back to `/`.
 
 ### Other pieces
@@ -61,7 +78,7 @@ So: editing schedule/sponsors/team/etc. means editing the YAML, not the HTML.
 
 ## Publishing a new edition (summary)
 
-1. Copy the most recent `docs/<season>/` folder to the new season code; update its pages, `before.html`/`after.html` (including the hardcoded `site.data.<season>.sponsors` references).
-2. Create `docs/_data/<new-season>/` with `schedule.yml`, `sponsors.yml`, `team.yml`, `authors.yml`, `reviews.yml`.
-3. Point `docs/_data/current.yml` `current_season` at the new code.
-4. Add the previous edition to `docs/_data/archives.yml` and add the "archived" banner to its `before.html`.
+1. **Copy the previous season's folder** to the new code (e.g. `docs/2026s/` → `docs/2027w/`): its portal `index.html` + chrome, and for a multi-venue season the per-venue subfolders. Update the navbar toggle and the hardcoded `site.data[...].sponsors` references in `after.html`. Keep venue sub-sites **site-specific** (header, dates/location, team, sponsors, fees, registration) — the general "what is this / reviews / who can participate" stays on the portal.
+2. Copy/adjust the data dir `docs/_data/<new-season>/`: `sites.yml` (portal cards), `reviews.yml` (portal reviews), and per-venue `sponsors.yml` / `team.yml` / etc.
+3. **Repoint `docs/_data/current.yml`** (`current_season: <new-season>`) so the root `/` redirects to the new portal.
+4. Add the just-finished season to `docs/_data/archives.yml` (**Website → its portal**, **Mirrors → its sub-sites**) and add an "archived website" banner to its pages. Its folder stays in place, frozen.

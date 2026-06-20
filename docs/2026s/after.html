@@ -1,0 +1,32 @@
+<hr />
+<!-- Portal footer -->
+<div class="container footer-area">
+  <p class="text-center faded-link mb-0">
+    Contact: <span id="ocpc-email">join our <a href="https://discord.gg/yEWjcPs5qZ">Discord</a></span>
+  </p>
+  {% if page.url == '/2026s/' %}
+  <p class="text-center faded-link mb-0 mt-2" style="font-size:0.8rem;">
+    Photos:
+    <a href="https://commons.wikimedia.org/wiki/File:Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg">Hong Kong skyline</a>
+    by David Iliff (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>);
+    <a href="https://commons.wikimedia.org/wiki/File:Palatul_Culturii_Ia%C8%99i_-_seara_din_fa%C8%9B%C4%83.jpg">Palatul Culturii, Iași</a>
+    by Andrei Lucian Vaida (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>).
+  </p>
+  {% endif %}
+</div>
+<!-- End Footer -->
+
+<!-- Bootstrap JS Bundle -->
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Assemble the contact email at runtime so the literal address / mailto:
+  // never appears in the page source (defeats JS-less email harvesters).
+  (function () {
+    var el = document.getElementById('ocpc-email');
+    if (!el) return;
+    var u = 'oleksandr', d = 'ocpc.camp';
+    el.innerHTML = '<a href="mailto:' + u + '@' + d + '">' + u + '@' + d + '</a>';
+  })();
+</script>
+</body>
+</html>
