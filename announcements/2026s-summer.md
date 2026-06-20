@@ -18,7 +18,7 @@ simpler and easier to get onto the Codeforces front page.
 - [ ] **Exact dates** — Hong Kong (August) and Iași (September).
 - [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
-- [ ] **Per-site schedule** — confirm contest count / days off per site (Iași likely 7 contests + 2 days off; Hong Kong TBD), if we want to state it.
+- [ ] **Days-off schedule** — 7 contests is now stated for both editions; the exact days-off arrangement is only settled for Hong Kong (Iași TBD), so it's left unspecified.
 - [ ] **Problem-author list** (being collected) — fill the Problem authors section in the style of past announcements.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
@@ -47,7 +47,7 @@ The [OCPC](https://ocpc.camp/) (Osijek Competitive Programming Camp), an [award-
 - **Hong Kong** — **August 2026**, hosted at the City University of Hong Kong.
 - **Iași, Romania** — **September 2026**, hosted at Alexandru Ioan Cuza University of Iași.
 
-Both editions are organized by us together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them. As a rough guide, the **Iași** edition is most convenient for teams based in Europe, and **Hong Kong** for teams in APAC and East Asia — but you are welcome at whichever you prefer. The camp is inspired by the competitive programming camps we attended during our active ICPC years: a series of ICPC-style contests (5 hours, 9–12 problems each), with analysis sessions and days off in between.
+Both editions are organized by us together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them. As a rough guide, the **Iași** edition is most convenient for teams based in Europe, and **Hong Kong** for teams in APAC and East Asia — but you are welcome at whichever you prefer. The camp is inspired by the competitive programming camps we attended during our active ICPC years: **7 ICPC-style contests** (5 hours, 9–12 problems each), with analysis sessions and days off in between.
 
 ### Hong Kong — August 2026
 
