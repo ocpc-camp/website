@@ -28,7 +28,7 @@ simpler and easier to get onto the Codeforces front page.
 
 - Sponsors are shown **per site**: Jane Street appears in **both** (Hong Kong Platinum, Iași Gold); Pinely and Order Capital are Iași Gold. ICPC sits in the top header as the Foundation partner; each site shows its own host-university partner (CityU / UAIC).
 - Each site's logos sit on **one line directly under its title**, no "supported by" / "partnership" labels; below them a single italic link to that site's `sponsors.html` (rather than listing sponsor names), which also conveys "these are that site's sponsors". Sponsors are sized a touch larger than the host-university mark.
-- Order Capital renders a little taller (`54px` vs `40px`) to balance visual weight against the wider Jane Street / Pinely marks.
+- Logo sizing is **uniform across both sites**: sponsors at `48px`, host-university partners at `40px` — so e.g. Jane Street is the same size in Hong Kong and Iași.
 - **Contact / sponsors / visa links:** the root `contact.html` and `sponsors.html` only redirect in the multi-site setup, so the post links the **per-site** pages (HK / Iași). **Visa** is handled once in Registration, linking the portal `info.html` (applies to both sites).
 - We do **not** name the organizers explicitly ("organized by us …"), and avoid emphasising a "single shared form" — the registration link just gets dropped in when ready.
 - Discord invite: `yEWjcPs5qZ` (same as the site).
@@ -52,7 +52,7 @@ Both editions are organized by us together with local hosts at each site, and us
 ### Hong Kong — August 2026
 
 <center>
-<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="55px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://www.cityu.edu.hk/"><img src="https://ocpc.camp/images/cityu.svg" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
 <center><i><a href="https://ocpc.camp/2026s/hk/sponsors.html">Sponsors and partners of the Hong Kong camp</a></i></center>
@@ -64,10 +64,10 @@ Both editions are organized by us together with local hosts at each site, and us
 ### Iași, Romania — September 2026
 
 <center>
-<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="40px" style="margin:0 16px;vertical-align:middle;"></a>
-<a href="https://pinely.com/"><img src="https://ocpc.camp/images/Pinely.svg" height="40px" style="margin:0 16px;vertical-align:middle;"></a>
-<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="54px" style="margin:0 16px;vertical-align:middle;"></a>
-<a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="36px" style="margin:0 16px;vertical-align:middle;"></a>
+<a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://pinely.com/"><img src="https://ocpc.camp/images/Pinely.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
 <center><i><a href="https://ocpc.camp/2026s/iasi/sponsors.html">Sponsors and partners of the Iași camp</a></i></center>
 
