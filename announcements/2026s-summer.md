@@ -18,6 +18,8 @@ simpler and easier to get onto the Codeforces front page.
 - [ ] **Exact dates** — Hong Kong (August) and Iași (September).
 - [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
+- [ ] **Online participants** — finish the "clarify for online teams that …" thought (which edition's schedule / timezone do online teams follow?).
+- [ ] **Per-site schedule** — confirm contest count / days off per site (Iași likely 7 contests + 2 days off; Hong Kong TBD), if we want to state it.
 - [ ] **Problem-author list** (being collected) — fill the Problem authors section in the style of past announcements.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
@@ -26,9 +28,10 @@ simpler and easier to get onto the Codeforces front page.
 ## Conventions used here
 
 - Sponsors are shown **per site**: Jane Street appears in **both** (Hong Kong Platinum, Iași Gold); Pinely and Order Capital are Iași Gold. ICPC sits in the top header as the Foundation partner; each site shows its own host-university partner (CityU / UAIC).
-- Each site's logos sit on **one line under its title**, with a small italic caption below — no "supported by" / "hosted in partnership with" labels. Sponsors are sized a touch larger than the host-university mark.
+- Each site's logos sit on **one line directly under its title**, no "supported by" / "partnership" labels; below them a single italic link to that site's `sponsors.html` (rather than listing sponsor names), which also conveys "these are that site's sponsors". Sponsors are sized a touch larger than the host-university mark.
 - Order Capital renders a little taller (`54px` vs `40px`) to balance visual weight against the wider Jane Street / Pinely marks.
-- **Contact:** the root `contact.html` only redirects to the portal in the multi-site setup, so the post links the **per-site** contact pages (HK / Iași). **Visa** is handled once in Registration, linking the portal `info.html` (applies to both sites).
+- **Contact / sponsors / visa links:** the root `contact.html` and `sponsors.html` only redirect in the multi-site setup, so the post links the **per-site** pages (HK / Iași). **Visa** is handled once in Registration, linking the portal `info.html` (applies to both sites).
+- We do **not** name the organizers explicitly ("organized by us …"), and avoid emphasising a "single shared form" — the registration link just gets dropped in when ready.
 - Discord invite: `yEWjcPs5qZ` (same as the site).
 
 ---
@@ -45,26 +48,22 @@ The [OCPC](https://ocpc.camp/) (Osijek Competitive Programming Camp), an [award-
 - **Hong Kong** — **August 2026**, hosted at the City University of Hong Kong.
 - **Iași, Romania** — **September 2026**, hosted at Alexandru Ioan Cuza University of Iași.
 
-Both editions are organized by [user:adamant,2026-06-20] and [user:-is-this-fft-,2026-06-20] together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them: pick whichever fits your location and schedule. The camp is inspired by the competitive programming camps we attended during our active ICPC years, and each edition consists of **7 ICPC-style contests and 2 days off**.
+Both editions are organized by us together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them. As a rough guide, the **Iași** edition is most convenient for teams based in Europe, and **Hong Kong** for teams in APAC and East Asia — but you are welcome at whichever you prefer. The camp is inspired by the competitive programming camps we attended during our active ICPC years: a series of ICPC-style contests (5 hours, 9–12 problems each), with analysis sessions and days off in between.
 
 ### Hong Kong — August 2026
-
-- **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
-- **Onsite hosts:** Minming Li and [user:SGColin,2026-06-20] (City University of Hong Kong).
-- **Local teams:** participation is **free for teams representing Hong Kong universities**.
-- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
 
 <center>
 <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="55px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://www.cityu.edu.hk/"><img src="https://ocpc.camp/images/cityu.svg" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
-<center><i>Jane Street · City University of Hong Kong</i></center>
+<center><i><a href="https://ocpc.camp/2026s/hk/sponsors.html">Sponsors and partners of the Hong Kong camp</a></i></center>
+
+- **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
+- **Onsite hosts:** Minming Li and [user:SGColin,2026-06-20] (City University of Hong Kong).
+- **Local teams:** **in-person participation is free** for teams representing Hong Kong universities.
+- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
 
 ### Iași, Romania — September 2026
-
-- **Venue:** Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
-- **Onsite host:** [user:juve45,2026-06-20] (Alexandru Ioniță, UAIC Iași).
-- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 EEST**.
 
 <center>
 <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="40px" style="margin:0 16px;vertical-align:middle;"></a>
@@ -72,7 +71,11 @@ Both editions are organized by [user:adamant,2026-06-20] and [user:-is-this-fft-
 <a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="54px" style="margin:0 16px;vertical-align:middle;"></a>
 <a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="36px" style="margin:0 16px;vertical-align:middle;"></a>
 </center>
-<center><i>Jane Street · Pinely · Order Capital · Alexandru Ioan Cuza University of Iași</i></center>
+<center><i><a href="https://ocpc.camp/2026s/iasi/sponsors.html">Sponsors and partners of the Iași camp</a></i></center>
+
+- **Venue:** Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
+- **Onsite host:** [user:juve45,2026-06-20] (Alexandru Ioniță, UAIC Iași).
+- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 EEST**.
 
 ### Details
 
@@ -97,7 +100,7 @@ If you have any questions, please join our **[Discord server](https://discord.gg
 
 ### Registration
 
-Registration is through a **single shared form for all sites** ⟨link — or: opening soon⟩ — you pick your location (Hong Kong or Iași) in the form.
+The registration form will be posted here ⟨link — coming soon⟩; you pick your location (Hong Kong or Iași) in it.
 
 We ask you to register before ⟨remote deadline⟩ if you want to participate remotely and before ⟨onsite deadline⟩ if you want to participate onsite. If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
 
@@ -115,7 +118,7 @@ You can find more details about contest rules and technical setup on the [websit
 
 Finally, we say special thanks to
 
-- our [sponsors](https://ocpc.camp/sponsors.html), who make the camp possible;
+- our sponsors — for [Hong Kong](https://ocpc.camp/2026s/hk/sponsors.html) and [Iași](https://ocpc.camp/2026s/iasi/sponsors.html) — who make the camp possible;
 - the ICPC Foundation for their help and support;
 - Codeforces for support and guidance;
 - [eolymp](https://eolymp.com) for providing an online judge for the contests;
