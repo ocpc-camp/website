@@ -3,7 +3,7 @@ members:
   - name: "Oleksandr Kulkov"
     role: "Organizer, OCPC co-founder"
     photo: "/images/team/adamant.jpg"
-    orgs: ["OCPC", "ETH Zürich"]
+    orgs: ["OCPC"]
     facts:
       - Co-founded OCPC in 2023
       - ICPC Foundation <a href="https://www.linkedin.com/feed/update/urn:li:activity:7368330111089131522/">Outstanding Community Engagement Award</a> (2025)
