@@ -76,7 +76,7 @@
 - id: "ordercapital"
   name: "Order Capital"
   tier: "gold"
-  logo_src: "/images/order-capital.svg"
+  logo_src: "/images/order-capital-v2.svg"
   logo_alt: "Order Capital Logo"
   logo_style: "max-height:80px;"
   short_paragraphs:

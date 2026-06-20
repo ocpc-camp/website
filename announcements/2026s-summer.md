@@ -66,7 +66,7 @@ Both editions are organized by us together with local hosts at each site, and us
 <center>
 <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://pinely.com/"><img src="https://ocpc.camp/images/Pinely.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
-<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
+<a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital-v2.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
 <center><i><a href="https://ocpc.camp/2026s/iasi/sponsors.html">Sponsors and partners of the Iași camp</a></i></center>
