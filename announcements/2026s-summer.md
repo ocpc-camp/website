@@ -18,7 +18,6 @@ simpler and easier to get onto the Codeforces front page.
 - [ ] **Exact dates** — Hong Kong (August) and Iași (September).
 - [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
-- [ ] **Online participants** — finish the "clarify for online teams that …" thought (which edition's schedule / timezone do online teams follow?).
 - [ ] **Per-site schedule** — confirm contest count / days off per site (Iași likely 7 contests + 2 days off; Hong Kong TBD), if we want to state it.
 - [ ] **Problem-author list** (being collected) — fill the Problem authors section in the style of past announcements.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
@@ -88,7 +87,7 @@ Additionally, we offer the following discounts:
 - **Early bird discount:** reduced fee of **147€ per team** if you register before ⟨early-bird deadline⟩.
 - **Hardship discount:** fee reduction to **49€ per team**, on request, if the default fee makes it a financial burden for you. We do not require any proof or documentation and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
 
-For remote participants, the listed start time is still the preferred one, but we will make accommodations for virtual participation at a later time, when necessary.
+**Online participation.** Online teams get a **24-hour virtual window** for each contest, opening at the same time as the onsite start at your chosen site — you can begin your run any time within it. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online).
 
 Most of our contests are originally developed for the camp. A small number of contests may be based on previous contests that have not been released to the general public. If you have seen some problems of a contest before, you can't participate on that day, and we will privately contact participants who might be affected.
 
