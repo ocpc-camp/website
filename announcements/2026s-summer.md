@@ -15,10 +15,10 @@ simpler and easier to get onto the Codeforces front page.
 
 ## To fill in before posting
 
-- [ ] **Exact dates** — Hong Kong (August) and Iași (September).
+- [ ] **Exact dates** — Hong Kong (August) still TBA. Iași confirmed: **12–20 September 2026**.
 - [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
-- [ ] **Days-off schedule** — 7 contests is now stated for both editions; the exact days-off arrangement is only settled for Hong Kong (Iași TBD), so it's left unspecified.
+- [ ] **Days-off schedule** — 7 contests for both editions; days off on **Day 3 and Day 7** (the usual pattern) for Iași, and the Hong Kong arrangement is likewise settled. Still left unspecified in the body — decide whether to state it.
 - [ ] **Problem-author list** (being collected) — fill the Problem authors section in the style of past announcements.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
@@ -73,7 +73,7 @@ Both editions are organized by us together with local hosts at each site, and us
 
 - **Venue:** Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
 - **Onsite host:** [user:juve45,2026-06-20] (Alexandru Ioniță, UAIC Iași).
-- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 EEST**.
+- **Exact dates:** **12–20 September 2026**. Expected start time **10:00 EEST**.
 
 ### Details
 
