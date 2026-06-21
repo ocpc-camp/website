@@ -56,7 +56,6 @@ Both editions are organized by us together with local hosts at each site, and us
 <a href="https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations"><img src="https://ocpc.camp/images/Jane%20Street.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://www.cityu.edu.hk/"><img src="https://ocpc.camp/images/cityu.svg" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
-<center><i><a href="https://ocpc.camp/2026s/hk/sponsors.html">Sponsors and partners of the Hong Kong camp</a></i></center>
 
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:SGColin,2026-06-20] (City University of Hong Kong).
@@ -70,7 +69,6 @@ Both editions are organized by us together with local hosts at each site, and us
 <a href="https://ordercapital.com/"><img src="https://ocpc.camp/images/order-capital-v2.svg" height="48px" style="margin:0 18px;vertical-align:middle;"></a>
 <a href="https://www.uaic.ro/en/"><img src="https://ocpc.camp/images/uaic.png" height="40px" style="margin:0 18px;vertical-align:middle;"></a>
 </center>
-<center><i><a href="https://ocpc.camp/2026s/iasi/sponsors.html">Sponsors and partners of the Iași camp</a></i></center>
 
 - **Venue:** Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
 - **Onsite host:** [user:juve45,2026-06-20] (Alexandru Ioniță, UAIC Iași).
@@ -85,8 +83,10 @@ We support and empathize with those affected by the ongoing war in Ukraine, ther
 Additionally, we offer the following discounts:
 
 - **Early bird discount:** reduced fee of **147€ per team** if you register before ⟨early-bird deadline⟩.
-- **Hardship discount:** fee reduction to **48€ per team**, on request, if the default fee makes it a financial burden for you. We do not require any proof or documentation and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
+- **Hardship discount:** fee reduction to **48€ per team**, on request, if the default fee makes it a financial burden for you.
 - **Hong Kong local teams:** in-person participation in the Hong Kong edition is **free** for teams representing Hong Kong universities.
+
+We do not require any proof or documentation for hardship discount and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
 
 **Online participation.** Online teams get a virtual window for each contest, opening at the same time as the onsite start at your chosen site. Start any time within **24 hours** of the opening and you get your full **5-hour** run; the window then stays open for 29 hours in total, so a later start is still possible but will be truncated at the close. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online).
 
