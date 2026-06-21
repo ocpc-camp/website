@@ -19,7 +19,7 @@ simpler and easier to get onto the Codeforces front page.
 - [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
 - [ ] **Days-off schedule** — 7 contests for both editions; days off on **Day 3 and Day 7** (the usual pattern) for Iași, and the Hong Kong arrangement is likewise settled. Still left unspecified in the body — decide whether to state it.
-- [ ] **Problem-author list** (being collected) — fill the Problem authors section in the style of past announcements.
+- [ ] **Problem-author list** (being collected) — section seeded with the authors who responded so far (SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988); add the rest as they confirm.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
 - [ ] **Deploy ocpc.camp first** — Codeforces rehosts images at post time, so the cropped Order Capital logo / dropped affiliation only appear if the site is redeployed before posting.
@@ -32,6 +32,7 @@ simpler and easier to get onto the Codeforces front page.
 - **Contact / sponsors / visa links:** the root `contact.html` and `sponsors.html` only redirect in the multi-site setup, so the post links the **per-site** pages (HK / Iași). **Visa** is handled once in Registration, linking the portal `info.html` (applies to both sites).
 - We do **not** name the organizers explicitly ("organized by us …"), and avoid emphasising a "single shared form" — the registration link just gets dropped in when ready.
 - Discord invite: `yEWjcPs5qZ` (same as the site).
+- **SanguineChameleon's bio:** this CF post uses "slash fiction enthusiast" (participant-oriented); the website (`_data/2026s/authors.yml`) and the email/PDF invitations use "AO3 enthusiast" instead.
 
 ---
 
@@ -109,7 +110,13 @@ Also, if your university or organization has a lively ICPC community that may be
 
 We'd like to thank and praise the authors of the contests in the camp:
 
-⟨problemsetter list — to be filled, in the style of previous announcements⟩
+- [user:SanguineChameleon,2026-06-20] (Nguyen Ngoc Dang Khoa) — IOI gold medalist, Project Euler perfectionist, slash fiction enthusiast.
+- **NTU ICPC Group** ([user:baluteshih,2026-06-20]) — experienced ICPC participants from National Taiwan University, regular participants at the World Finals.
+- [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
+- [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
+- [user:marks39,2026-06-20] (Tyler Marks) & [user:ssk4988,2026-06-20] (Sachin Sivakumar) — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
+
+⟨more authors to be added as they confirm their info⟩
 
 You can find more details about contest rules and technical setup on the [website](https://ocpc.camp/contest-info.html).
 

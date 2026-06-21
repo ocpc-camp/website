@@ -1,0 +1,34 @@
+# Problem authors for the Summer 2026 contest set (shared by both venues).
+# Populated from the authors who responded to the "@2026s author" call on Discord;
+# more may be added as they confirm their info.
+# NOTE: SanguineChameleon's "AO3 enthusiast" fact is rendered as "slash fiction
+# enthusiast" in the Codeforces announcement (participant-oriented) but kept as
+# "AO3 enthusiast" here on the website and in email invitations.
+authors:
+  - name: Nguyen Ngoc Dang Khoa
+    handle: SanguineChameleon
+    facts:
+      - IOI gold medalist
+      - Project Euler perfectionist
+      - AO3 enthusiast
+
+  - name: NTU ICPC Group
+    facts:
+      - Experienced ICPC participants from National Taiwan University
+      - Regular participant at the World Finals
+
+  - handle: Pyqe
+    facts:
+      - IOI gold medalist
+      - Author of IOI 2024 Nile and Tree (Xylem)
+
+  - handle: Kinon
+    facts:
+      - IMO bronze, silver, and gold medalist
+
+  - handles: [marks39, ssk4988]
+    names: ["Tyler Marks", "Sachin Sivakumar"]
+    facts:
+      - 2025 North America Big South champions
+      - Participants in the 2025 NAC and WF
+      - Currently coaching for UCF
