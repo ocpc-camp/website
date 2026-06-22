@@ -1,4 +1,3 @@
-# Onsite hosts' bios are still being finalized with them — kept minimal for now.
 members:
   - name: "Oleksandr Kulkov"
     role: "Organizer, OCPC co-founder"
@@ -32,10 +31,20 @@ members:
 
   - name: "Minming Li"
     role: "Onsite host"
+    photo: "/images/team/minming.jpg"
     orgs: ["City University of Hong Kong"]
+    facts:
+      - Professor at the City University of Hong Kong
+      - Regional Contest Director of the ICPC Asia East Hong Kong &amp; Macau Regional Contest
+      - Coach of CityU's competitive programming team
 
   - name: "Yixiong (Colin) Gao"
     role: "Onsite host"
+    photo: "/images/team/colin.jpg"
     orgs: ["City University of Hong Kong"]
+    facts:
+      - Student coach of CityU's competitive programming team
+      - Staff of the <a href="https://ucup.ac/">Universal Cup</a>
+      - Codeforces Grandmaster
     links:
       codeforces: SGColin
