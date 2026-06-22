@@ -33,51 +33,74 @@ title: Index
 
 <h4 class="mt-4">Who are we?</h4>
 
+<style>
+  /* Team photos are portrait, so on wide screens show them in a portrait column
+     beside the bio rather than as a stretched full-width banner; stack on narrow. */
+  .team-card { overflow: hidden; }
+  .team-card .team-photo {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top center;
+  }
+  @media (min-width: 992px) {
+    .team-card .team-photo {
+      width: 210px;
+      height: auto;
+      align-self: stretch;   /* match the card's height */
+    }
+  }
+</style>
+
 <div class="row row-cols-1 row-cols-md-2 g-4">
   {% for m in site.data['2026s'].hk.team.members %}
     <div class="col">
-      <div class="card h-100">
-        {% if m.photo %}
-          <img src="{{ m.photo }}" class="card-img-top team-photo" alt="{{ m.name }}">
-        {% endif %}
-        <div class="card-body">
-          <h5 class="card-title mb-1 d-flex align-items-center gap-2">
-            <span>{{ m.name }}</span>
-          </h5>
-          {% if m.role %}
-            <div class="text-muted small mb-2">{{ m.role }}</div>
+      <div class="card team-card h-100">
+        <div class="d-flex flex-column flex-lg-row h-100">
+          {% if m.photo %}
+            <img src="{{ m.photo }}" class="team-photo" alt="{{ m.name }}">
           {% endif %}
-          {% if m.orgs %}
-            <div class="small mb-2">
-              {% for o in m.orgs %}
-                <span class="badge text-bg-light me-1">{{ o }}</span>
-              {% endfor %}
-            </div>
-          {% endif %}
+          <div class="d-flex flex-column flex-grow-1">
+            <div class="card-body">
+              <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+                <span>{{ m.name }}</span>
+              </h5>
+              {% if m.role %}
+                <div class="text-muted small mb-2">{{ m.role }}</div>
+              {% endif %}
+              {% if m.orgs %}
+                <div class="small mb-2">
+                  {% for o in m.orgs %}
+                    <span class="badge text-bg-light me-1">{{ o }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
 
-          {% if m.facts %}
-            <ul class="list-unstyled small mb-0">
-              {% for fact in m.facts %}
-                <li>• {{ fact }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-        {% if m.links %}
-          <div class="card-footer bg-white border-0 pt-0">
-            <div class="d-flex flex-wrap gap-2 small">
-              {% if m.links.codeforces %}
-                <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
-              {% endif %}
-              {% if m.links.linkedin %}
-                <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
-              {% endif %}
-              {% if m.links.email %}
-                <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+              {% if m.facts %}
+                <ul class="list-unstyled small mb-0">
+                  {% for fact in m.facts %}
+                    <li>• {{ fact }}</li>
+                  {% endfor %}
+                </ul>
               {% endif %}
             </div>
+            {% if m.links %}
+              <div class="card-footer bg-white border-0 pt-0 mt-auto">
+                <div class="d-flex flex-wrap gap-2 small">
+                  {% if m.links.codeforces %}
+                    <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+                  {% endif %}
+                  {% if m.links.linkedin %}
+                    <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+                  {% endif %}
+                  {% if m.links.email %}
+                    <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
           </div>
-        {% endif %}
+        </div>
       </div>
     </div>
   {% endfor %}
