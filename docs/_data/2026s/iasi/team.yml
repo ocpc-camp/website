@@ -31,6 +31,7 @@ members:
 
   - name: "Alexandru Ioniță"
     role: "Onsite host, Alexandru Ioan Cuza University of Iași"
+    photo: "/images/team/ionita.jpg"
     orgs: ["UAIC Iași"]
     facts:
       - ICPC 2019 World Finals participant
