@@ -32,3 +32,22 @@ authors:
       - 2025 North America Big South champions
       - Participants in the 2025 NAC and WF
       - Currently coaching for UCF
+
+  # Problem-setting team for the Hong Kong contest.
+  - name: Yixiong Gao
+    handle: Yixiong
+    facts:
+      - Problemsetter for ICPC Asia East contests
+      - Universal Cup staff
+
+  - name: Songyang Chen
+    handle: Claris
+    facts:
+      - ICPC 2017 and 2018 World Finalist
+      - Top contributor of QOJ
+
+  - name: Xiao Yang
+    handle: Little_Sheep_Yawn
+    facts:
+      - A competitive programming enthusiast
+      - Rank 3 on LeetCode globally

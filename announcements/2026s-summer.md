@@ -16,10 +16,10 @@ simpler and easier to get onto the Codeforces front page.
 ## To fill in before posting
 
 - [ ] **Exact dates** — Hong Kong (August) still TBA. Iași confirmed: **12–20 September 2026**.
-- [ ] **Registration form** link — or change the Registration section to "opening soon, watch Discord".
+- [x] **Registration form** link — https://forms.gle/FGPh3uivqHwcqhiN7 (dropped into the Registration section).
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
 - [ ] **Days-off schedule** — 7 contests for both editions; days off on **Day 3 and Day 7** (the usual pattern) for Iași, and the Hong Kong arrangement is likewise settled. Still left unspecified in the body — decide whether to state it.
-- [ ] **Problem-author list** (being collected) — section seeded with the authors who responded so far (SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988); add the rest as they confirm.
+- [ ] **Problem-author list** (being collected) — section seeded with the authors who responded so far (SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988, and the Hong Kong contest team Yixiong / Claris / Little_Sheep_Yawn); add the rest as they confirm.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
 - [ ] **Deploy ocpc.camp first** — Codeforces rehosts images at post time, so the cropped Order Capital logo / dropped affiliation only appear if the site is redeployed before posting.
@@ -58,7 +58,7 @@ Both editions are organized by us together with local hosts at each site, and us
 </center>
 
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
-- **Onsite hosts:** Minming Li and [user:SGColin,2026-06-20] (City University of Hong Kong).
+- **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
 - **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
 
 ### Iași, Romania — September 2026
@@ -100,7 +100,7 @@ If you have any questions, please join our **[Discord server](https://discord.gg
 
 ### Registration
 
-The registration form will be posted here ⟨link — coming soon⟩; you pick your location (Hong Kong or Iași) in it.
+The registration form is **[here](https://forms.gle/FGPh3uivqHwcqhiN7)**; you pick your location (Hong Kong or Iași) in it.
 
 We ask you to register before ⟨remote deadline⟩ if you want to participate remotely and before ⟨onsite deadline⟩ if you want to participate onsite. If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
 
@@ -115,6 +115,7 @@ We'd like to thank and praise the authors of the contests in the camp:
 - [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
 - [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
 - [user:marks39,2026-06-20] (Tyler Marks) & [user:ssk4988,2026-06-20] (Sachin Sivakumar) — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
+- The **Hong Kong contest** is set by a team of three: [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff; [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ; and [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.
 
 ⟨more authors to be added as they confirm their info⟩
 
