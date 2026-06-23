@@ -15,7 +15,7 @@ simpler and easier to get onto the Codeforces front page.
 
 ## To fill in before posting
 
-- [ ] **Exact dates** — Hong Kong (August) still TBA. Iași confirmed: **12–20 September 2026**.
+- [x] **Exact dates** — Hong Kong: **8–16 August 2026**. Iași: **12–20 September 2026**.
 - [x] **Registration form** link — https://forms.gle/FGPh3uivqHwcqhiN7 (dropped into the Registration section).
 - [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
 - [ ] **Days-off schedule** — 7 contests for both editions; days off on **Day 3 and Day 7** (the usual pattern) for Iași, and the Hong Kong arrangement is likewise settled. Still left unspecified in the body — decide whether to state it.
@@ -37,7 +37,6 @@ simpler and easier to get onto the Codeforces front page.
 ---
 
 === ANNOUNCEMENT SOURCE (paste into Codeforces) ===
-
 Hi everyone!
 
 <center><a href="https://ocpc.camp"><img src="https://ocpc.camp/images/ocpc_light.svg" height="80px"></a>
@@ -59,7 +58,7 @@ Both editions are organized by us together with local hosts at each site, and us
 
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
-- **Exact dates:** ⟨TBA⟩. Expected start time **10:00 HKT**.
+- **Exact dates:** **8–16 August 2026**. Expected start time **10:00 HKT**.
 
 ### Iași, Romania — September 2026
 
@@ -115,7 +114,9 @@ We'd like to thank and praise the authors of the contests in the camp:
 - [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
 - [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
 - [user:marks39,2026-06-20] (Tyler Marks) & [user:ssk4988,2026-06-20] (Sachin Sivakumar) — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
-- The **Hong Kong contest** is set by a team of three: [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff; [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ; and [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.
+- [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff;
+- [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ;
+- [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.
 
 ⟨more authors to be added as they confirm their info⟩
 
