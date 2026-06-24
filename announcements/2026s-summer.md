@@ -59,6 +59,7 @@ Both editions are organized by us together with local hosts at each site, and us
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
 - **Exact dates:** **8–16 August 2026**. Expected start time **10:00 HKT**.
+- **Accommodation:** on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) — about HK$900 (single) / HK$1,000 (twin) / HK$1,300 (deluxe) per night; we can book a room for onsite teams (choose the option on the registration form).
 
 ### Iași, Romania — September 2026
 
@@ -114,6 +115,7 @@ We'd like to thank and praise the authors of the contests in the camp:
 - [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
 - [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
 - [user:marks39,2026-06-20] (Tyler Marks) & [user:ssk4988,2026-06-20] (Sachin Sivakumar) — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
+- [user:wuhudsm,2026-06-20] — maintainer of TheForce community, author of over 100 competitive programming problems.
 - [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff;
 - [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ;
 - [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.

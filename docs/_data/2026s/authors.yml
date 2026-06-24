@@ -33,6 +33,11 @@ authors:
       - Participants in the 2025 NAC and WF
       - Currently coaching for UCF
 
+  - handle: wuhudsm
+    facts:
+      - Maintainer of TheForce community
+      - Author of over 100 competitive programming problems
+
   # Problem-setting team for the Hong Kong contest.
   - name: Yixiong Gao
     handle: Yixiong
