@@ -1,0 +1,79 @@
+# Schedule for OCPC Hong Kong 2026 — 8–16 August (dates confirmed).
+# First contest Aug 8, last Aug 16; days off on Day 3 (Aug 10) and Day 7 (Aug 14),
+# confirmed with the host (Minming Li). Daily times below mirror a typical edition
+# and are still placeholders that may change.
+total_days: 9
+days:
+  - date: "August 8"
+    label: "Contest day"
+    blocks:
+      - time: "09:30 - 10:00"
+        text: "Registration"
+      - time: "10:00 - 10:30"
+        text: "Opening notes"
+      - time: "10:30 - 12:30"
+        text: "Practice round & lunch"
+      - time: "12:30 - 17:30"
+        text: "Contest"
+      - time: "18:30 - 20:00"
+        text: "Analysis & discussion"
+
+  - date: "August 9"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "August 10"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "August 11"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "August 12"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "August 13"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "August 14"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "August 15"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "August 16"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "15:30 - 17:00"
+        text: "Analysis & discussion"
+      - time: "TBA"
+        text: "Closing dinner"

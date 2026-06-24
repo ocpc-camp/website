@@ -17,8 +17,8 @@ simpler and easier to get onto the Codeforces front page.
 
 - [x] **Exact dates** — Hong Kong: **8–16 August 2026**. Iași: **12–20 September 2026**.
 - [x] **Registration form** link — https://forms.gle/FGPh3uivqHwcqhiN7 (dropped into the Registration section).
-- [ ] **Deadlines** — early-bird date, plus remote / onsite registration cutoffs (depend on dates).
-- [ ] **Days-off schedule** — 7 contests for both editions; days off on **Day 3 and Day 7** (the usual pattern) for Iași, and the Hong Kong arrangement is likewise settled. Still left unspecified in the body — decide whether to state it.
+- [x] **Deadlines** — rule: early-bird = 1 month before start, onsite = 2 weeks before, online = 1 week before. So Hong Kong **8 Jul / 25 Jul / 1 Aug** and Iași **12 Aug / 29 Aug / 5 Sep** (early-bird / onsite / online; all 2026). Filled into the body, the site, and the invitation letter.
+- [x] **Days-off schedule** — settled: 7 contests for both editions, days off on **Day 3 and Day 7** (the usual pattern): Hong Kong **Aug 10 & 14** (confirmed with Minming), Iași **Sep 14 & 18**. Now published on each site's `schedule.html`. The post body still leaves them unspecified — optionally link the per-site schedule pages.
 - [ ] **Problem-author list** (being collected) — section seeded with the authors who responded so far (SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988, and the Hong Kong contest team Yixiong / Claris / Little_Sheep_Yawn); add the rest as they confirm.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
@@ -81,9 +81,9 @@ We support and empathize with those affected by the ongoing war in Ukraine, ther
 
 Additionally, we offer the following discounts:
 
-- **Early bird discount:** reduced fee of **147€ per team** if you register before ⟨early-bird deadline⟩.
+- **Early bird discount:** reduced fee of **147€ per team** if you register at least a month before your edition starts — by **8 July 2026** for Hong Kong, or **12 August 2026** for Iași.
 - **Hardship discount:** fee reduction to **48€ per team**, on request, if the default fee makes it a financial burden for you.
-- **Hong Kong local teams:** in-person participation in the Hong Kong edition is **free** for teams representing Hong Kong universities.
+- **Hong Kong onsite teams:** in-person participation in the Hong Kong edition is **free** for all onsite teams.
 
 We do not require any proof or documentation for hardship discount and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
 
@@ -99,9 +99,9 @@ If you have any questions, please join our **[Discord server](https://discord.gg
 
 ### Registration
 
-The registration form is **[here](https://forms.gle/FGPh3uivqHwcqhiN7)**; you pick your location (Hong Kong or Iași) in it.
+The registration form is **[here](https://forms.gle/FGPh3uivqHwcqhiN7)**; you pick your location (Hong Kong or Iași) in it. Onsite capacity at both sites is limited, and applications for onsite participation are processed on a **first-come-first-served** basis, so please register early.
 
-We ask you to register before ⟨remote deadline⟩ if you want to participate remotely and before ⟨onsite deadline⟩ if you want to participate onsite. If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
+Registration closes **two weeks before each edition's start for onsite teams** and **one week before for remote teams** — for **Hong Kong**, by **25 July 2026** (onsite) and **1 August 2026** (remote); for **Iași**, by **29 August 2026** (onsite) and **5 September 2026** (remote). If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
 
 Also, if your university or organization has a lively ICPC community that may be interested in attending, and you have contacts of people in charge (e.g. coaches), we would highly appreciate if you could share some details in a direct message to me. Thanks!
 
