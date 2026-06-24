@@ -87,6 +87,9 @@ title: Index
             {% if m.links %}
               <div class="card-footer bg-white border-0 pt-0 mt-auto">
                 <div class="d-flex flex-wrap gap-2 small">
+                  {% if m.links.website %}
+                    <a href="{{ m.links.website }}" class="text-decoration-none" target="_blank" rel="noopener">Website</a>
+                  {% endif %}
                   {% if m.links.codeforces %}
                     <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
                   {% endif %}

@@ -37,6 +37,8 @@ members:
       - Professor at the City University of Hong Kong
       - Regional Contest Director of the ICPC Asia East Hong Kong &amp; Macau Regional Contest
       - Coach of CityU's competitive programming team
+    links:
+      website: https://www.cs.cityu.edu.hk/~minmli/
 
   - name: "Yixiong (Colin) Gao"
     role: "Onsite host"
@@ -48,3 +50,4 @@ members:
       - Codeforces Grandmaster
     links:
       codeforces: Yixiong
+      website: https://yixionggao.com/
