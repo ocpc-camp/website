@@ -122,6 +122,9 @@ We'd like to thank and praise the authors of the contests in the camp:
 - [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff;
 - [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ;
 - [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.
+- [user:AmShZ,2026-06-20] (AmirMohammad Shahrezaei) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author, Codeforces problemsetter and tester, Iran gold and APIO silver medalist;
+- Alireza Keshavarz (⟨Codeforces handle — to confirm⟩) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author and IOI gold medalist, Codeforces problemsetter and tester;
+- [user:Amoo_Safar,2026-06-20] (Ali Safari) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI gold medalist, Codeforces problemsetter and tester.
 
 ⟨more authors to be added as they confirm their info⟩
 

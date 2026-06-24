@@ -56,3 +56,27 @@ authors:
     facts:
       - A competitive programming enthusiast
       - Rank 3 on LeetCode globally
+
+  # Authors from the Iranian team (shared ICPC World Finals placements).
+  - name: AmirMohammad Shahrezaei
+    handle: AmShZ
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI 2023 problem author
+      - Codeforces problemsetter and tester
+      - Iran gold and APIO silver medalist
+
+  - name: Alireza Keshavarz
+    # TODO: confirm Codeforces handle — Discord "haengsyo" maps to an expert-rank CF account with no name set, unlikely to be his contest handle
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI 2023 problem author
+      - IOI gold medalist
+      - Codeforces problemsetter and tester
+
+  - name: Ali Safari
+    handle: Amoo_Safar
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI gold medalist
+      - Codeforces problemsetter and tester
