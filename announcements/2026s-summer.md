@@ -59,7 +59,10 @@ Both editions are organized by us together with local hosts at each site, and us
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
 - **Exact dates:** **8–16 August 2026**. Expected start time **10:00 HKT**.
-- **Accommodation:** on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) — about HK$900 (single) / HK$1,000 (twin) / HK$1,300 (deluxe) per night; we can book a room for onsite teams (choose the option on the registration form).
+- **Accommodation:** on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) (we can book a room for onsite teams — choose the option on the registration form). Indicative rates per night:
+  - Single — ~HK$900
+  - Twin — ~HK$1,000
+  - Deluxe — ~HK$1,300
 
 ### Iași, Romania — September 2026
 
