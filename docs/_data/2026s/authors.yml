@@ -67,7 +67,7 @@ authors:
       - Iran gold and APIO silver medalist
 
   - name: Alireza Keshavarz
-    # TODO: confirm Codeforces handle — Discord "haengsyo" maps to an expert-rank CF account with no name set, unlikely to be his contest handle
+    handle: Keshi
     facts:
       - ICPC World Finalist (23rd in 2024, 16th in 2025)
       - IOI 2023 problem author
