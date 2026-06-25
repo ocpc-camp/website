@@ -19,7 +19,7 @@ simpler and easier to get onto the Codeforces front page.
 - [x] **Registration form** link — https://forms.gle/FGPh3uivqHwcqhiN7 (dropped into the Registration section).
 - [x] **Deadlines** — rule: early-bird = 1 month before start, onsite = 2 weeks before, online = 1 week before. So Hong Kong **8 Jul / 25 Jul / 1 Aug** and Iași **12 Aug / 29 Aug / 5 Sep** (early-bird / onsite / online; all 2026). Filled into the body, the site, and the invitation letter.
 - [x] **Days-off schedule** — settled: 7 contests for both editions, days off on **Day 3 and Day 7** (the usual pattern): Hong Kong **Aug 10 & 14** (confirmed with Minming), Iași **Sep 14 & 18**. Now published on each site's `schedule.html`. The post body still leaves them unspecified — optionally link the per-site schedule pages.
-- [ ] **Problem-author list** (being collected) — section seeded with the authors who responded so far (SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988, and the Hong Kong contest team Yixiong / Claris / Little_Sheep_Yawn); add the rest as they confirm.
+- [x] **Problem-author list** — complete: SanguineChameleon, NTU ICPC Group, Pyqe, Kinon, marks39 & ssk4988, wuhudsm, the Hong Kong contest team (Yixiong / Claris / Little_Sheep_Yawn), and the Iranian authors (AmShZ / Keshi / Amoo_Safar). CF post lists handles only; the email/PDF invitations use names only.
 - [ ] **Post date** — the `[user:…,2026-06-20]` tags use today's date; bump to the actual posting date so ranks render correctly.
 - [ ] **Decide:** also remove "ETH Zürich" from the archived seasons (`_data/2026w/team.yml`, `_data/2025s/team.yml`), or leave the archive frozen?
 - [ ] **Deploy ocpc.camp first** — Codeforces rehosts images at post time, so the cropped Order Capital logo / dropped affiliation only appear if the site is redeployed before posting.
@@ -37,6 +37,7 @@ simpler and easier to get onto the Codeforces front page.
 ---
 
 === ANNOUNCEMENT SOURCE (paste into Codeforces) ===
+
 Hi everyone!
 
 <center><a href="https://ocpc.camp"><img src="https://ocpc.camp/images/ocpc_light.svg" height="80px"></a>
@@ -44,8 +45,8 @@ Hi everyone!
 
 The [OCPC](https://ocpc.camp/) (Osijek Competitive Programming Camp), an [award-winning](https://www.linkedin.com/feed/update/urn:li:activity:7368330111089131522/) camp for university students preparing for ICPC and other coding competitions, is back this **Summer 2026** — this time with **two onsite editions**:
 
-- **Hong Kong** — **August 2026**, hosted at the City University of Hong Kong.
-- **Iași, Romania** — **September 2026**, hosted at Alexandru Ioan Cuza University of Iași.
+- **Hong Kong** — **8–16 August 2026**, hosted at the City University of Hong Kong.
+- **Iași, Romania** — **12–20 September 2026**, hosted at Alexandru Ioan Cuza University of Iași.
 
 Both editions are organized by us together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them. As a rough guide, the **Iași** edition is most convenient for teams based in Europe, and **Hong Kong** for teams in APAC and East Asia — but you are welcome at whichever you prefer. The camp is inspired by the competitive programming camps we attended during our active ICPC years: **7 ICPC-style contests** (5 hours, 9–12 problems each), with analysis sessions and days off in between.
 
@@ -60,9 +61,9 @@ Both editions are organized by us together with local hosts at each site, and us
 - **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
 - **Exact dates:** **8–16 August 2026**. Expected start time **10:00 HKT**.
 - **Accommodation:** on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) (we can book a room for onsite teams — choose the option on the registration form). Indicative rates per night:
-  - Single — ~HK$900
-  - Twin — ~HK$1,000
-  - Deluxe — ~HK$1,300
+  - Single — about HKD 900
+  - Twin — about HKD 1,000
+  - Deluxe — about HKD 1,300
 
 ### Iași, Romania — September 2026
 
@@ -91,7 +92,7 @@ Additionally, we offer the following discounts:
 
 We do not require any proof or documentation for hardship discount and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
 
-**Online participation.** Online teams get a virtual window for each contest, opening at the same time as the onsite start at your chosen site. Start any time within **24 hours** of the opening and you get your full **5-hour** run; the window then stays open for 29 hours in total, so a later start is still possible but will be truncated at the close. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online).
+**Online participation.** Online teams get a virtual window for each contest, opening at the same time as the onsite start at your chosen site. Start any time within **24 hours** of the opening and you get your full **5-hour** run; the window itself stays open for 29 hours in total, so a start later than the 24-hour mark is still possible but your run will be truncated at the close. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online). If you miss your contest day entirely, you can still attempt the contest virtually at a later date, but **out of competition** — it won't be reflected on the final scoreboard or change other teams' ranks.
 
 Most of our contests are originally developed for the camp. A small number of contests may be based on previous contests that have not been released to the general public. If you have seen some problems of a contest before, you can't participate on that day, and we will privately contact participants who might be affected.
 
@@ -113,22 +114,20 @@ Also, if your university or organization has a lively ICPC community that may be
 
 We'd like to thank and praise the authors of the contests in the camp:
 
-- [user:SanguineChameleon,2026-06-20] (Nguyen Ngoc Dang Khoa) — IOI gold medalist, Project Euler perfectionist, slash fiction enthusiast.
+- [user:SanguineChameleon,2026-06-20] — IOI gold medalist, Project Euler perfectionist, slash fiction enthusiast.
 - **NTU ICPC Group** ([user:baluteshih,2026-06-20]) — experienced ICPC participants from National Taiwan University, regular participants at the World Finals.
 - [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
 - [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
-- [user:marks39,2026-06-20] (Tyler Marks) & [user:ssk4988,2026-06-20] (Sachin Sivakumar) — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
+- [user:marks39,2026-06-20] & [user:ssk4988,2026-06-20] — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
 - [user:wuhudsm,2026-06-20] — maintainer of TheForce community, author of over 100 competitive programming problems.
-- [user:Yixiong,2026-06-20] (Yixiong Gao) — problemsetter for ICPC Asia East contests and Universal Cup staff;
-- [user:Claris,2026-06-20] (Songyang Chen) — ICPC 2017 and 2018 World Finalist and top contributor of QOJ;
-- [user:Little_Sheep_Yawn,2026-06-20] (Xiao Yang) — a competitive programming enthusiast and rank 3 on LeetCode globally.
-- [user:AmShZ,2026-06-20] (AmirMohammad Shahrezaei) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author, Codeforces problemsetter and tester, Iran gold and APIO silver medalist;
-- [user:Keshi,2026-06-20] (Alireza Keshavarz) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author and IOI gold medalist, Codeforces problemsetter and tester;
-- [user:Amoo_Safar,2026-06-20] (Ali Safari) — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI gold medalist, Codeforces problemsetter and tester.
+- [user:Yixiong,2026-06-20] — problemsetter for ICPC Asia East contests and Universal Cup staff;
+- [user:Claris,2026-06-20] — ICPC 2017 and 2018 World Finalist and top contributor of QOJ;
+- [user:Little_Sheep_Yawn,2026-06-20] — a competitive programming enthusiast and rank 3 on LeetCode globally.
+- [user:AmShZ,2026-06-20] — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author, Codeforces problemsetter and tester, Iran gold and APIO silver medalist;
+- [user:Keshi,2026-06-20] — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI 2023 problem author and IOI gold medalist, Codeforces problemsetter and tester;
+- [user:Amoo_Safar,2026-06-20] — ICPC World Finalist (23rd in 2024, 16th in 2025), IOI gold medalist, Codeforces problemsetter and tester.
 
-⟨more authors to be added as they confirm their info⟩
-
-You can find more details about contest rules and technical setup on the [website](https://ocpc.camp/contest-info.html).
+You can find more details about contest rules and technical setup on the [website](https://ocpc.camp/2026s/info.html).
 
 ### Special thanks
 
