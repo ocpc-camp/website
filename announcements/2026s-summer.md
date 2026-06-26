@@ -50,6 +50,8 @@ The [OCPC](https://ocpc.camp/) (Osijek Competitive Programming Camp), an [award-
 
 Both editions are organized by us together with local hosts at each site, and use the **same contest set** — so you take part in **one** of them. As a rough guide, the **Iași** edition is most convenient for teams based in Europe, and **Hong Kong** for teams in APAC and East Asia — but you are welcome at whichever you prefer. The camp is inspired by the competitive programming camps we attended during our active ICPC years: **7 ICPC-style contests** (5 hours, 9–12 problems each), with analysis sessions and days off in between.
 
+Please use **[this form](https://forms.gle/FGPh3uivqHwcqhiN7)** to register for the camp!
+
 ### Hong Kong — August 2026
 
 <center>
@@ -60,10 +62,7 @@ Both editions are organized by us together with local hosts at each site, and us
 - **Venue:** City University of Hong Kong, Kowloon Tong, Hong Kong.
 - **Onsite hosts:** Minming Li and [user:Yixiong,2026-06-20] (City University of Hong Kong).
 - **Exact dates:** **8–16 August 2026**. Expected start time **10:00 HKT**.
-- **Accommodation:** on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) (we can book a room for onsite teams — choose the option on the registration form). Indicative rates per night:
-  - Single — about HKD 900
-  - Twin — about HKD 1,000
-  - Deluxe — about HKD 1,300
+- **Accommodation:** We recommend using on-campus [CityUHK Lodge](https://www.lodge.cityu.edu.hk/accommodation) (you can request reservation in the registration form).
 
 ### Iași, Romania — September 2026
 
@@ -88,11 +87,13 @@ Additionally, we offer the following discounts:
 
 - **Early bird discount:** reduced fee of **147€ per team** if you register at least a month before your edition starts — by **8 July 2026** for Hong Kong, or **12 August 2026** for Iași.
 - **Hardship discount:** fee reduction to **48€ per team**, on request, if the default fee makes it a financial burden for you.
-- **Hong Kong onsite teams:** in-person participation in the Hong Kong edition is **free** for all onsite teams.
+- **Hong Kong onsite teams:** in-person participation in the Hong Kong edition is **free** for all onsite teams (accommodation not included).
 
 We do not require any proof or documentation for hardship discount and trust your self-assessment. Nevertheless, we ask you to be mindful when using it, as we rely on participation fees as the baseline for running the camp.
 
-**Online participation.** Online teams get a virtual window for each contest, opening at the same time as the onsite start at your chosen site. Start any time within **24 hours** of the opening and you get your full **5-hour** run; the window itself stays open for 29 hours in total, so a start later than the 24-hour mark is still possible but your run will be truncated at the close. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. You can still compete whenever suits you, though: recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels (or with whoever is online). If you miss your contest day entirely, you can still attempt the contest virtually at a later date, but **out of competition** — it won't be reflected on the final scoreboard or change other teams' ranks.
+**Online participation.** Online teams get a virtual window for each contest, opening at the same time as the onsite start at your chosen site. Start any time within **24 hours** of the opening and you get your full **5-hour** run; the window itself stays open for 29 hours in total, so a start later than the 24-hour mark is still possible but your run will be truncated at the close. Tutorial streams and discussions happen live, in sync with the onsite teams, so we recommend picking the edition whose time zone is closest to you. Recordings are available afterwards, and you can catch up asynchronously in the post-contest discussion channels.
+
+If you miss your contest day entirely, you can still attempt the contest virtually at a later date, but **out of competition** — it won't be reflected on the final scoreboard or change other teams' ranks.
 
 Most of our contests are originally developed for the camp. A small number of contests may be based on previous contests that have not been released to the general public. If you have seen some problems of a contest before, you can't participate on that day, and we will privately contact participants who might be affected.
 
@@ -106,7 +107,12 @@ If you have any questions, please join our **[Discord server](https://discord.gg
 
 The registration form is **[here](https://forms.gle/FGPh3uivqHwcqhiN7)**; you pick your location (Hong Kong or Iași) in it. Onsite capacity at both sites is limited, and applications for onsite participation are processed on a **first-come-first-served** basis, so please register early.
 
-Registration closes **two weeks before each edition's start for onsite teams** and **one week before for remote teams** — for **Hong Kong**, by **25 July 2026** (onsite) and **1 August 2026** (remote); for **Iași**, by **29 August 2026** (onsite) and **5 September 2026** (remote). If you require a visa (for Romania or Hong Kong), please register **as soon as possible**, as it can take a few weeks depending on your location — see [Visa & invitation letters](https://ocpc.camp/2026s/info.html).
+Registration closes **two weeks** before each edition's start for **onsite** teams and **one week** before for **remote** teams:
+
+- for **Hong Kong**, by **25 July 2026** (onsite) and **1 August 2026** (remote);
+- for **Iași**, by **29 August 2026** (onsite) and **5 September 2026** (remote).
+
+If you require a visa, please register **as soon as possible**, as it can take a few weeks depending on your location.
 
 Also, if your university or organization has a lively ICPC community that may be interested in attending, and you have contacts of people in charge (e.g. coaches), we would highly appreciate if you could share some details in a direct message to me. Thanks!
 
@@ -115,7 +121,7 @@ Also, if your university or organization has a lively ICPC community that may be
 We'd like to thank and praise the authors of the contests in the camp:
 
 - [user:SanguineChameleon,2026-06-20] — IOI gold medalist, Project Euler perfectionist, slash fiction enthusiast.
-- **NTU ICPC Group** ([user:baluteshih,2026-06-20]) — experienced ICPC participants from National Taiwan University, regular participants at the World Finals.
+- **NTU ICPC Group** — experienced ICPC participants from National Taiwan University, regular participants at the World Finals.
 - [user:Pyqe,2026-06-20] — IOI gold medalist, author of IOI 2024 Nile and Tree (Xylem).
 - [user:Kinon,2026-06-20] — IMO bronze, silver, and gold medalist.
 - [user:marks39,2026-06-20] & [user:ssk4988,2026-06-20] — 2025 North America Big South champions, participants in the 2025 NAC and WF, currently coaching for UCF.
