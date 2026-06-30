@@ -33,7 +33,8 @@ authors:
       - Participants in the 2025 NAC and WF
       - Currently coaching for UCF
 
-  - handle: wuhudsm
+  - name: Jinlong Han
+    handle: wuhudsm
     facts:
       - Maintainer of TheForce community
       - Author of over 100 competitive programming problems
