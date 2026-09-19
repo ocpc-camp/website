@@ -1,5 +1,6 @@
 # Schedule for OCPC Iași 2026 — 12–20 September (dates confirmed).
 # Contest starts confirmed on 2026-09-07: same local times as Hong Kong, in EEST.
+# September 20 start moved to 09:00 on 2026-09-19.
 # Other activity times remain provisional.
 total_days: 9
 days:
@@ -70,7 +71,7 @@ days:
   - date: "September 20"
     label: "Contest day"
     blocks:
-      - time: "10:00 - 15:00"
+      - time: "09:00 - 14:00"
         text: "Contest"
       - time: "15:30 - 17:00"
         text: "Analysis & discussion"
