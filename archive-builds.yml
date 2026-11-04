@@ -1,0 +1,11 @@
+# Opt editions into tag-based builds here; existing folders remain supported.
+# Publish the tag first, then add its peeled commit (git rev-parse TAG^{commit}).
+# Example:
+# 2026s:
+#   tag: archive/2026s
+#   commit: <full 40-character commit SHA>
+# Migration snapshot of the existing Winter 2026 archive, taken November 2026.
+# This is not asserted to be the original end-of-camp revision.
+2026w:
+  tag: archive/2026w
+  commit: 7c97a59135ca1e03578983c23be4611206364d64

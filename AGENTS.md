@@ -4,16 +4,19 @@ Guidance for AI coding agents (e.g. Claude Code) working in this repository. `CL
 
 ## What this is
 
-The Jekyll source for https://ocpc.camp/ — the website for the Osijek Competitive Programming Camp (OCPC). It is a static, data-driven Bootstrap 5 site. There is no application code, no test suite, and no lint step.
+The Jekyll source for https://ocpc.camp/ — the website for the Osijek Competitive Programming Camp (OCPC). It is a static, data-driven Bootstrap 5 site. Archive build tooling lives in `scripts/build_site.py`, with integration tests in `tests/`.
 
 ## Serving locally
 
 ```sh
-cd docs
-jekyll serve   # http://127.0.0.1:4000
+bundle install
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-build.txt
+.venv/bin/python scripts/build_site.py --output _site/preview
+python3 -m http.server 4000 --directory _site/preview
 ```
 
-The Jekyll site root is `docs/` (GitHub Pages serves from this subdirectory; `docs/CNAME` maps it to ocpc.camp). There is no Gemfile — Jekyll/Bootstrap are expected to be available globally / via GitHub Pages' build. `docs/_config.yml` is intentionally minimal; its `include: [_includes]` is vestigial — there is no `_includes` directory, and pages compose layout via `include_relative` instead (see below).
+The Jekyll source root is `docs/`. `Gemfile.lock` pins the Ruby build dependencies; `requirements-build.txt` pins the Python archive tooling. `.github/workflows/pages.yml` builds the live site plus archives and deploys the combined output after Pages is switched to GitHub Actions (see README for activation and rollback). `docs/CNAME` records ocpc.camp; preserve the custom domain in Pages settings. Use a new output directory for each build. `docs/_config.yml` is intentionally minimal; its `include: [_includes]` is vestigial — there is no `_includes` directory, and pages compose layout via `include_relative` instead (see below).
 
 ## Architecture
 
@@ -29,7 +32,7 @@ A season with **multiple simultaneous venues** nests one folder per venue under 
 
 `docs/index.html` is a **thin redirect** to the current season: `docs/_data/current.yml` holds a single pointer, `current_season: 2026s`, and the root page meta-refreshes to `/{{ current_season }}/`. (The other top-level `docs/*.html` files — `schedule.html`, `sponsors.html`, … — are likewise redirect stubs to `/`.)
 
-The **portal itself lives in the season folder** (`docs/2026s/index.html`) — a normal, self-contained per-season artifact like any edition, so archiving is automatic: stop editing it and point `current.yml` at the next season. The portal renders the season's venue cards from `docs/_data/2026s/sites.yml`, and also carries the **shared/general content** — "What is this?", participant reviews (`docs/_data/2026s/reviews.yml`) and "Who can participate?" — so the lean venue sub-sites don't each duplicate it (they link back with a "New to OCPC →" link). Everything the portal reads is season-scoped, so it stays frozen once the season ends.
+The **portal itself lives in the season folder** (`docs/2026s/index.html`) — a per-season artifact like any edition. Its content data is season-scoped, while CSS/JS/images are shared in the working tree. Use the tagged archive build below to freeze both content and shared assets. The portal renders the season's venue cards from `docs/_data/2026s/sites.yml`, and also carries the **shared/general content** — "What is this?", participant reviews (`docs/_data/2026s/reviews.yml`) and "Who can participate?" — so the lean venue sub-sites don't each duplicate it (they link back with a "New to OCPC →" link).
 
 > History: originally a single `current_season` pointer with `index.html` redirecting to `{{ current_season }}/...`. Summer 2026 added two simultaneous venues, so the "current edition" became a two-card portal at `docs/2026s/` — but the root-redirect + per-season-folder model is otherwise unchanged.
 
@@ -78,9 +81,9 @@ For the multi-venue `2026s` season the data lives under `docs/_data/2026s/`:
 
 ### Archive
 
-- `docs/archive.html` is a standalone page (reachable via the **Archive** button in the navbar) that iterates `docs/_data/archives.yml` to list all past editions with links to their archived site (**Website**), Codeforces announcement/wrap blog posts, rating standings, optional **Mirrors**, and per-day contest gym links. Add a block here when an edition concludes. It uses the **root** `before.html`/`after.html` chrome (the uniform navbar).
+- `docs/archive.html` is a standalone page (reachable via the **Archive** button in the navbar) that iterates `docs/_data/archives.yml` to list all past editions with links to their archived site (**Website**), Codeforces announcement/wrap blog posts, rating standings, optional **Mirrors**, and per-day contest gym links. Add a block here when an edition concludes. It uses the current season's `before.html`/`after.html` chrome.
 - For a multi-venue season, the archive row points **Website → the season portal** and **Mirrors → each sub-site** (e.g. Summer 2026 → Website = the summer portal snapshot, Mirrors = `2026s/hk`, `2026s/iasi`).
-- An archived edition's site is preserved in place; the convention is to add an "archived website" banner to that edition's `before.html` pointing back to `/`.
+- `archive-builds.yml` opts seasons into builds from `archive/<season>` tags with pinned commit SHAs. The builder freezes shared assets under `/<season>/_assets/` and adds the banner automatically. It rejects missing/moved tags and the active season. Existing public season/venue URLs are retained. Seasons without manifest entries still build from their folders. See README for the complete procedure, limitations and correction tags.
 
 ### Other pieces
 
@@ -93,4 +96,4 @@ For the multi-venue `2026s` season the data lives under `docs/_data/2026s/`:
 1. **Copy the previous season's folder** to the new code (e.g. `docs/2026s/` → `docs/2027w/`): its portal `index.html` + chrome, and for a multi-venue season the per-venue subfolders. Update the navbar toggle and the hardcoded `site.data[...].sponsors` references in `after.html`. Keep venue sub-sites **site-specific** (header, dates/location, team, sponsors, fees, registration) — the general "what is this / reviews / who can participate" stays on the portal.
 2. Copy/adjust the data dir `docs/_data/<new-season>/`: `sites.yml` (portal cards), `reviews.yml` (portal reviews), and per-venue `sponsors.yml` / `team.yml` / etc.
 3. **Repoint `docs/_data/current.yml`** (`current_season: <new-season>`) so the root `/` redirects to the new portal.
-4. Add the just-finished season to `docs/_data/archives.yml` (**Website → its portal**, **Mirrors → its sub-sites**) and add an "archived website" banner to its pages. Its folder stays in place, frozen.
+4. Tag the reviewed final revision of the just-finished season and publish the tag. Add the season to `docs/_data/archives.yml` (**Website → its portal**, **Mirrors → its sub-sites**) and pin the tag/commit in `archive-builds.yml`. Build and check the combined site before publication. The archive banner and asset isolation are automatic; old source folders may remain during migration. Do not move published tags. See README for the full workflow.
