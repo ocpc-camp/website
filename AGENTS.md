@@ -22,9 +22,9 @@ The Jekyll source root is `docs/`. `Gemfile.lock` pins the Ruby build dependenci
 
 ### One self-contained folder per camp edition
 
-Each edition lives in its own directory under `docs/`, named `<year><season>` where season is `w` (winter) or `s` (summer): e.g. `docs/2026w/`, `docs/2025s/`. A directory holds the full set of pages for that edition (`index.html`, `details.html`, `schedule.html`, `contest-info.html`, `sponsors.html`, `contact.html`, `legal.html`) plus two layout fragments, `before.html` and `after.html`.
+Each edition is served at its own `<year><season>/` path, where season is `w` (winter) or `s` (summer). The working tree retains the active season under `docs/2026s/`; the seven older editions are reconstructed from pinned Git tags. Their HTML and season-data folders were removed from `main` after migration checks. A source directory holds the full set of pages for that edition (`index.html`, `details.html`, `schedule.html`, `contest-info.html`, `sponsors.html`, `contact.html`, `legal.html`) plus two layout fragments, `before.html` and `after.html`.
 
-New editions are created by **copying a previous edition's folder** and editing it — there is no shared template, so HTML/structure drift between editions is expected and fine. Only change the current edition unless explicitly asked otherwise.
+New editions are created by **copying the current edition's folder** and editing it — there is no shared template, so HTML/structure drift between editions is expected and fine. For an archived edition's sources, use a separate worktree at its pinned tag; do not recreate redundant folders on `main`. Only change the current edition unless explicitly asked otherwise.
 
 A season with **multiple simultaneous venues** nests one folder per venue under the season code: e.g. `docs/2026s/hk/` and `docs/2026s/iasi/`, each a full self-contained edition (its own page set plus `before.html`/`after.html`). Their data lives under `docs/_data/2026s/<venue>/` and is read with nested bracket access — `site.data['2026s'].hk.*` / `site.data['2026s'].iasi.*`.
 
