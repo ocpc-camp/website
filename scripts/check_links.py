@@ -41,11 +41,13 @@ def check_site(root):
     sources = [p for p in files if p.suffix in (".html", ".css")]
     errors, skipped = [], []
     checked = references = external = 0
+    fragments = 0
+    anchors = {}
 
-    def check(value, base, source):
-        nonlocal references, external
+    def check(value, base, source, html_fragment=True):
+        nonlocal references, external, fragments
         value = value.strip()
-        if not value or value.startswith("#"):
+        if not value or (not html_fragment and value.startswith("#")):
             return
         url = urlsplit(urljoin(base, value))
         if url.scheme not in ("http", "https") or url.netloc != "ocpc.camp":
@@ -58,6 +60,21 @@ def check_site(root):
             errors.append(f"{source}: {value!r} escapes site root")
         elif not target.is_file() and not (target / "index.html").is_file():
             errors.append(f"{source}: {value!r} -> {path} (missing)")
+        elif html_fragment and url.fragment:
+            if target.is_dir():
+                target = target / "index.html"
+            # Non-HTML fragments (PDF pages, SVG views, media times) have
+            # different semantics. Text-fragment directives are browser searches.
+            fragment = unquote(url.fragment.split(":~:", 1)[0])
+            if target.suffix != ".html" or not fragment or fragment.lower() == "top":
+                return
+            fragments += 1
+            if target not in anchors:
+                document = BeautifulSoup(target.read_text(), "html.parser")
+                anchors[target] = {el["id"] for el in document.find_all(id=True)}
+                anchors[target].update(el["name"] for el in document.find_all("a", attrs={"name": True}))
+            if fragment not in anchors[target]:
+                errors.append(f"{source}: {value!r} -> {path} (missing fragment #{fragment})")
 
     for path in sources:
         name = path.relative_to(root).as_posix()
@@ -70,7 +87,7 @@ def check_site(root):
         text = path.read_text()
         if path.suffix == ".css":
             for url in css_links(text):
-                check(url, base, name)
+                check(url, base, name, html_fragment=False)
             continue
         soup = BeautifulSoup(text, "html.parser")
         base_element = soup.find("base", href=True)
@@ -84,15 +101,16 @@ def check_site(root):
                 errors.append(f"{name}: srcset needs explicit checker support")
             if element.has_attr("style"):
                 for url in css_links(element["style"]):
-                    check(url, base, name)
+                    check(url, base, name, html_fragment=False)
             if element.name == "style":
                 for url in css_links(element.get_text()):
-                    check(url, base, name)
+                    check(url, base, name, html_fragment=False)
             if element.name == "meta" and element.get("http-equiv", "").lower() == "refresh":
                 match = re.search(r";\s*url\s*=\s*(.*)", element.get("content", ""), re.I)
                 if match:
                     check(match[1].strip().strip("\"'"), base, name)
     print(f"Checked {checked}/{len(sources)} HTML/CSS files; {references} local references; {external} external/non-HTTP references not fetched")
+    print(f"Checked {fragments} local HTML section fragments")
     print(f"Not checked: {len(skipped)} Jekyll include fragments: {', '.join(skipped) or 'none'}")
     for error in errors:
         print(error)
