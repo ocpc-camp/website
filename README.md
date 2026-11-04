@@ -49,7 +49,10 @@ After archive source folders are removed, keep Pages on GitHub Actions. Changing
 ```sh
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/build_site.py --output _site/check
+.venv/bin/python scripts/check_links.py _site/check
 ```
 
 The integration test builds a real temporary Git repository before and after changing the live assets and removing an archived season's source. It checks portal and venue paths, frozen assets, live navigation, automatic banners, and missing/moved-tag failures.
+
+CI checks local URL targets after assembling all tagged archives and before uploading the Pages artifact. It checks HTML links/assets, inline and standalone CSS URLs/imports, and meta-refresh redirects, including absolute `ocpc.camp` URLs. Missing targets block deployment. Directory URLs require an `index.html`; query strings and fragments do not change the file target. External URLs are not fetched. Fragment IDs and dynamically constructed JavaScript URLs are not checked. `srcset` fails explicitly until supported. Copied `before.html`/`after.html` include fragments are listed as skipped because they contain raw Liquid; their rendered content is checked in the assembled pages. The checker prints its inventory and coverage on every run.
 
