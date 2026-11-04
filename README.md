@@ -36,6 +36,8 @@ The archive freezes repository content, not third-party websites, registration f
 
 ## Deployment
 
+Production uses GitHub Actions (activated 4 November 2026), with the custom domain `ocpc.camp`.
+
 `.github/workflows/pages.yml` tests and builds pull requests without deploying them. Pushes to `main` and manual runs on `main` deploy the combined artifact. Tag pushes alone do not publish a site: the manifest change controls publication. Checkout must fetch full history and tags.
 
 **One-time activation:** after reviewing and merging the workflow, change Settings → Pages → Build and deployment → Source to **GitHub Actions**, then run the workflow on `main`. The previous setting is **Deploy from a branch**, `main`, `/docs`. Until that switch, the branch-based build does not assemble tagged archives. Keep the legacy season folders during activation so the previous publishing method remains available for rollback. Preserve the custom domain `ocpc.camp`.
