@@ -28,9 +28,9 @@ Open http://127.0.0.1:4000. Use another output directory for each build; the bui
 
 Existing season URLs stay unchanged, including venue paths such as `/2026s/hk/`. Each tagged season is built from its own Git revision using the locked build dependencies. Its CSS, JavaScript, images and favicon are copied under `/<season>/_assets/`; HTML and CSS asset references are adjusted automatically. Links to `/`, `/archive.html` and other seasons continue to use the live site. Canonical URLs retain their existing public paths. The generated `/archive-builds.json` records the deployed archive revisions.
 
-Once a season uses a tag, its working-tree HTML and YAML folders are no longer needed for its build. Removing them is optional: first check that other seasons do not reference that data. Leave shared assets needed by the live site in place. Legacy seasons without manifest entries continue to build from their existing folders. Winter 2026 is the first migration: its tag captures the existing archive in November 2026, rather than claiming an original closing-day snapshot.
+All seven past editions, Winter 2023 through Winter 2026, are registered in `archive-builds.yml`. Their tags capture the preserved archives in November 2026, rather than claiming original closing-day snapshots. Once a season uses a tag, its working-tree HTML and YAML folders can be removed after checking dependencies and comparing the complete built URL inventory before and after removal. Keep the active season, shared assets and `docs/_data/archives.yml` in place. The builder also supports legacy seasons without manifest entries, which continue to build from their folders.
 
-For a later archive correction, commit the correction and publish a **new** tag such as `archive/2026s-2`, then update the manifest's tag and commit together. Keep the old tag. Rolling back a manifest change selects the previous snapshot.
+For a later archive correction, create a separate worktree from that season's existing tag, edit and commit the correction there, and publish a **new** tag such as `archive/2023w-2`. Update the manifest's tag and commit together on `main`. Keep the old tag; rolling back the manifest change selects the previous snapshot. This does not require restoring archive source folders to `main`.
 
 The archive freezes repository content, not third-party websites, registration forms or live Discord responses. Shared asset roots are defined in `scripts/build_site.py`; add new roots there if the website gains another asset directory. Dynamically constructed JavaScript URLs are not rewritten. The builder rejects `<base>` and `srcset` in tagged pages until explicit handling is added, rather than silently publishing incorrect links.
 
@@ -42,7 +42,7 @@ Production uses GitHub Actions (activated 4 November 2026), with the custom doma
 
 **One-time activation:** after reviewing and merging the workflow, change Settings → Pages → Build and deployment → Source to **GitHub Actions**, then run the workflow on `main`. The previous setting is **Deploy from a branch**, `main`, `/docs`. Until that switch, the branch-based build does not assemble tagged archives. Keep the legacy season folders during activation so the previous publishing method remains available for rollback. Preserve the custom domain `ocpc.camp`.
 
-To roll back the initial deployment, restore the branch publishing setting above while the legacy folders remain. After removing legacy source folders, restore the necessary source revision before returning to branch publishing.
+After archive source folders are removed, keep Pages on GitHub Actions. Changing back to branch publishing alone would omit those editions. To undo a source-removal migration, restore the removed folders from the pre-removal commit and commit that restoration; use the reviewed pre-migration manifest too if reverting the tag migration itself. Restore all required source folders before considering branch publishing again.
 
 ## Checks
 

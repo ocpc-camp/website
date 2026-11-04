@@ -9,3 +9,23 @@
 2026w:
   tag: archive/2026w
   commit: 7c97a59135ca1e03578983c23be4611206364d64
+# Migration snapshots of the six older archives as preserved on 5 November 2026.
+# Each tag includes the edition's original paths, data and shared assets.
+2025s:
+  tag: archive/2025s
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
+2025w:
+  tag: archive/2025w
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
+2024s:
+  tag: archive/2024s
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
+2024w:
+  tag: archive/2024w
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
+2023s:
+  tag: archive/2023s
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
+2023w:
+  tag: archive/2023w
+  commit: 6f56e58e3ed21c562d057e168cdf85b558c35847
