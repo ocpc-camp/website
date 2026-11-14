@@ -1,0 +1,46 @@
+---
+title: Contact
+---
+{% include_relative before.html %}
+
+<h2>Contact</h2>
+
+<p>
+  For anything camp-related, reach us at <b><span id="ocpc-email"><a href="https://discord.gg/yEWjcPs5qZ">Discord</a></span></b> or join the server below:
+</p>
+
+<div class="mb-4">
+  <div data-discord-invite></div>
+</div>
+
+<h4>Organizing team</h4>
+<ul>
+  <li>Oleksandr Kulkov (<a href="https://codeforces.com/profile/adamant">codeforces</a>)</li>
+  <li>Tähvend Uustalu (<a href="https://codeforces.com/profile/-is-this-fft-">codeforces</a>)</li>
+  <li>Alexandru Ioniță (<a href="https://codeforces.com/profile/juve45">codeforces</a>) — onsite host, UAIC Iași</li>
+</ul>
+
+<h4>Host university</h4>
+<p>
+  Alexandru Ioan Cuza University of Iași <br />
+  Faculty of Computer Science <br />
+  Str. General Henri Mathias Berthelot 16 <br />
+  700483 Iași <br />
+  Romania <br />
+  <br />
+  Faculty contact: <a href="https://info.uaic.ro/contact/" target="_blank" rel="noopener">info.uaic.ro/contact</a> <br />
+  University contact: <a href="https://www.uaic.ro/despre-uaic/contact/" target="_blank" rel="noopener">uaic.ro/despre-uaic/contact</a>
+</p>
+
+<script>
+  // Assemble the contact email at runtime so the literal address / mailto:
+  // never appears in the page source (defeats JS-less email harvesters).
+  (function () {
+    var el = document.getElementById('ocpc-email');
+    if (!el) return;
+    var u = 'oleksandr', d = 'ocpc.camp';
+    el.innerHTML = '<a href="mailto:' + u + '@' + d + '">' + u + '@' + d + '</a>';
+  })();
+</script>
+
+{% include_relative after.html %}

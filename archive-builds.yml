@@ -1,0 +1,37 @@
+# Opt editions into tag-based builds here; existing folders remain supported.
+# Publish the tag first, then add its peeled commit (git rev-parse TAG^{commit}).
+# Example:
+# 2026s:
+#   tag: archive/2026s
+#   commit: <full 40-character commit SHA>
+# Migration snapshot of the existing Winter 2026 archive, taken November 2026.
+# This is not asserted to be the original end-of-camp revision.
+2026w:
+  tag: archive/2026w-2
+  commit: 0116d7ce844c00d2bf6334e7cc76f4e16bd7b9d0
+# Migration snapshots of the six older archives as preserved on 5 November 2026.
+# Each tag includes the edition's original paths, data and shared assets.
+2025s:
+  tag: archive/2025s-3
+  commit: 6f85a1e2892a4d7e67a79e4bda0f3728616c7d3a
+2025w:
+  tag: archive/2025w-2
+  commit: 05cd4612b1dfd2001a5ee430f005635ee16f8377
+2024s:
+  tag: archive/2024s-2
+  commit: 2eff074545671966ce9c963b85a117e897b7678c
+2024w:
+  tag: archive/2024w-2
+  commit: 882d1ca40016b5f029fc613800ceb5c7c45915c8
+2023s:
+  tag: archive/2023s-2
+  commit: 549cfa387d1452522c625eccd443bd46a00e5796
+2023w:
+  tag: archive/2023w-3
+  commit: 0007769b659d631561397d3d8554c9c5a09add4e
+
+# Final Summer 2026 site before the Winter 2027 launch, with a November 2026
+# correction to the header photo and footer.
+2026s:
+  tag: archive/2026s-3
+  commit: cb1cff93619058d7f18e10863053bd6ced5375ea

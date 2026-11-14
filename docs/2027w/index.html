@@ -1,0 +1,64 @@
+---
+title: Winter 2027
+---
+{% include_relative before.html %}
+<h1 class="text-center my-4">OCPC Winter 2027</h1><p class="lead text-center">Join us this winter for a week of solving problems with your teammates, sharing ideas, and meeting fellow competitive programmers.</p><div class="row g-4 my-3"><div class="col-md-6"><div class="card h-100"><img src="/images/hong-kong-harbour.jpg" class="card-img-top" alt="Hong Kong skyline" style="height:230px;object-fit:cover"><div class="card-body"><h2>Hong Kong SAR, China</h2><p class="lead">2–8 January 2027</p><p>City University of Hong Kong · onsite and online</p><p>A compact seven-day camp immediately before the Hong Kong ICPC Regional Contest on 9–10 January.</p><p>Supported by Jane Street</p><a href="hk/" class="btn btn-outline-primary">Hong Kong details</a></div></div></div><div class="col-md-6"><div class="card h-100"><img src="/images/bridge.jpg" class="card-img-top" alt="Osijek bridge" style="height:230px;object-fit:cover"><div class="card-body"><h2>Osijek, Croatia</h2><p class="lead">30 January–7 February 2027</p><p>School of Applied Mathematics and Informatics, University of Osijek · onsite and online</p><p>Seven contest days over nine days, with breaks between contests.</p><p>Supported by Jane Street</p><a href="osijek/" class="btn btn-outline-primary">Osijek details</a></div></div></div></div><p class="small text-muted">Photos: <a href="https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_from_Kowloon_-_DSC00674.JPG">Hong Kong Island from Kowloon</a> by Daderot (public domain, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg">Bridge in Osijek</a> by Zdenko Brkanić (public domain).</p><h2>What is OCPC?</h2><p>OCPC is a training camp for university teams preparing for ICPC and similar competitions. Both winter editions use the same seven contests, so choose one edition.</p><p>Online teams can start each contest within 24 hours of its onsite start and get the full five-hour run. Solution discussions follow the onsite schedule, with recordings available afterwards.</p><p>See the <a href="hk/schedule.html">Hong Kong schedule</a> or <a href="osijek/schedule.html">Osijek schedule</a>. Please keep the problems private until their release is authorized.</p><h2 id="authors" class="mt-4">Meet the authors</h2>
+<p>Our planned contest lineup includes these teams. We look forward to seeing what they have in store!</p>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+  {% for a in site.data['2027w'].authors.authors %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {% if a.team %}
+            <h5 class="card-title mb-1">{{ a.team }}</h5>
+            <div class="small mb-2">
+              {% for h in a.handles %}
+                {% if forloop.first == false %} & {% endif %}{% if a.names[forloop.index0] != "" %}{{ a.names[forloop.index0] }}{% else %}{{ h }}{% endif %}
+              {% endfor %}
+            </div>
+          {% elsif a.name %}
+            <h5 class="card-title mb-1">{{ a.name }}</h5>
+          {% elsif a.handle %}
+            <h5 class="card-title mb-1">{{ a.handle }}</h5>
+          {% elsif a.handles %}
+            <h5 class="card-title mb-1">
+              {% for h in a.handles %}
+                {% if forloop.first == false %} & {% endif %}{% if a.names[forloop.index0] != "" %}{{ a.names[forloop.index0] }}{% else %}{{ h }}{% endif %}
+              {% endfor %}
+            </h5>
+          {% endif %}
+
+          {% if a.rank %}
+            <div class="text-muted small mb-2">{{ a.rank }}</div>
+          {% endif %}
+
+          {% if a.facts %}
+            <ul class="list-unstyled small mb-0">
+              {% for fact in a.facts %}
+                <li>• {{ fact }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if a.handle or a.handles %}
+          <div class="card-footer bg-white border-0 pt-0">
+            <div class="d-flex flex-wrap gap-2 small">
+              {% if a.handle %}
+                <a href="https://codeforces.com/profile/{{ a.handle }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+              {% elsif a.handles %}
+                <span>Codeforces:</span>
+                {% for h in a.handles %}
+                  <a href="https://codeforces.com/profile/{{ h }}" class="text-decoration-none" target="_blank" rel="noopener">{{ h }}</a>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+<h2 id="fees">Participation fees</h2><p>Fees are per team of up to three people:</p><ul><li><b>€198</b> regular.</li><li><b>€147</b> early bird: register by 2 December 2026 for Hong Kong or 30 December 2026 for Osijek.</li><li><b>€48</b> hardship, based on your own assessment of financial need.</li><li><b>Free</b> for Hong Kong onsite participants, people affected by the war in Ukraine and teams affiliated with Ukrainian institutions.</li></ul><h2 id="registration">Registration</h2><p>Teams cover their own travel, accommodation and regular meals. Onsite places are subject to confirmation. If you need a visa invitation letter, register early.</p><table class="table"><thead><tr><th>Edition</th><th>Onsite deadline</th><th>Online deadline</th></tr></thead><tbody><tr><td>Hong Kong</td><td>19 December 2026</td><td>26 December 2026</td></tr><tr><td>Osijek</td><td>16 January 2027</td><td>23 January 2027</td></tr></tbody></table><p><a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc4P0oErxBJq7u66eNHJJzmlkQQWoJxZaU5fHYqEmfvOD1a0g/viewform">Register your team</a></p><p>By registering you agree to the <a href="legal.html">Terms &amp; Refund Policy</a>.</p>
+{% include_relative after.html %}

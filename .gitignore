@@ -1,0 +1,6 @@
+docs/_site
+_site/
+.bundle/
+.venv/
+__pycache__/
+.jekyll-cache/

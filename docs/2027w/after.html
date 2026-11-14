@@ -1,0 +1,27 @@
+<hr />
+<!-- Portal footer -->
+<div class="container footer-area">
+  <p class="text-center faded-link mb-0">
+    Contact: <span id="ocpc-email">join our <a href="https://discord.gg/yEWjcPs5qZ">Discord</a></span>
+  </p>
+  <p class="text-center faded-link mb-0 mt-1" style="font-size:0.85rem;">
+    <a href="/2027w/legal.html">Terms &amp; Refund Policy</a>
+  </p>
+
+</div>
+<!-- End Footer -->
+
+<!-- Bootstrap JS Bundle -->
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Assemble the contact email at runtime so the literal address / mailto:
+  // never appears in the page source (defeats JS-less email harvesters).
+  (function () {
+    var el = document.getElementById('ocpc-email');
+    if (!el) return;
+    var u = 'oleksandr', d = 'ocpc.camp';
+    el.innerHTML = '<a href="mailto:' + u + '@' + d + '">' + u + '@' + d + '</a>';
+  })();
+</script>
+</body>
+</html>

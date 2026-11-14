@@ -1,0 +1,91 @@
+---
+title: Osijek
+---
+{% include_relative before.html %}
+<h1>OCPC Winter 2027 — Osijek</h1><p class="lead">30 January–7 February 2027 · School of Applied Mathematics and Informatics, University of Osijek</p><img src="/images/bridge.jpg" alt="Osijek" style="width:100%;max-height:350px;object-fit:cover">
+<p class="text-muted small mb-4">
+  Header photo: <a href="https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg" target="_blank" rel="noopener">Bridge in Osijek</a> by Zdenko Brkanić (public domain).
+</p>
+<h2 class="mt-4">Onsite and online participation</h2><p>Join seven ICPC-style contests and solution discussions. The Hong Kong and Osijek editions use the same contests; choose one edition.</p><p>Thank you to Jane Street for supporting this edition.</p><h2 class="mt-4" id="team">Who we are</h2>
+
+<style>
+  /* Team photos are portrait, so on wide screens show them in a portrait column
+     beside the bio rather than as a stretched full-width banner; stack on narrow. */
+  .team-card { overflow: hidden; }
+  .team-card .team-photo {
+    width: auto;
+    max-width: 100%;
+    height: 280px;
+    align-self: center;
+    object-fit: contain;
+    object-position: top center;
+  }
+  @media (min-width: 992px) {
+    .team-card .team-photo {
+      width: 210px;
+      height: auto;
+      object-fit: cover;
+      align-self: stretch;   /* match the card's height */
+    }
+  }
+</style>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+  {% for m in site.data['2027w'].osijek.team.members %}
+    <div class="col">
+      <div class="card team-card h-100">
+        <div class="d-flex flex-column flex-lg-row h-100">
+          {% if m.photo %}
+            <img src="{{ m.photo }}" class="team-photo" alt="{{ m.name }}">
+          {% endif %}
+          <div class="d-flex flex-column flex-grow-1">
+            <div class="card-body">
+              <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+                <span>{{ m.name }}</span>
+              </h5>
+              {% if m.role %}
+                <div class="text-muted small mb-2">{{ m.role }}</div>
+              {% endif %}
+              {% if m.orgs %}
+                <div class="small mb-2">
+                  {% for o in m.orgs %}
+                    <span class="badge text-bg-light me-1">{{ o }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              {% if m.facts %}
+                <ul class="list-unstyled small mb-0">
+                  {% for fact in m.facts %}
+                    <li>• {{ fact }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+            {% if m.links %}
+              <div class="card-footer bg-white border-0 pt-0 mt-auto">
+                <div class="d-flex flex-wrap gap-2 small">
+                  {% if m.links.website %}
+                    <a href="{{ m.links.website }}" class="text-decoration-none" target="_blank" rel="noopener">Website</a>
+                  {% endif %}
+                  {% if m.links.codeforces %}
+                    <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+                  {% endif %}
+                  {% if m.links.linkedin %}
+                    <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+                  {% endif %}
+                  {% if m.links.email %}
+                    <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 id="registration">Registration and fees</h2><p>See <a href="/2027w/#registration">registration, fees and deadlines</a>. Travel, accommodation and regular meals are separate.</p><p>New to OCPC? Read <a href="/2027w/">about the camp</a> or <a href="/2027w/info.html">contest rules</a>.</p>
+{% include_relative after.html %}

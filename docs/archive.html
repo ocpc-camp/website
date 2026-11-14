@@ -1,0 +1,90 @@
+---
+title: Archive
+---
+{% include_relative {{ site.data.current.current_season }}/before.html %}
+
+<style>
+  .platform-icon { display: inline-block; height: 18px; width: 18px; object-fit: contain; vertical-align: middle; }
+</style>
+
+<h2 class="mb-2 mt-3 text-center">Archive of Camps and Contests</h2>
+<div class="text-muted small mb-4 mx-auto" style="max-width: 560px;">
+  <p class="mb-1">Each contest <strong>name</strong> links to its standings. The icons link to:</p>
+  <ul class="list-unstyled mb-1">
+    <li><img class="platform-icon" src="/images/platforms/eolymp.png" alt=""> <strong>eolymp</strong> — the contest's login / entry page</li>
+    <li><img class="platform-icon" src="/images/platforms/codeforces.png" alt=""> <strong>Codeforces gym</strong></li>
+    <li><img class="platform-icon" src="/images/platforms/ucup.png" alt=""> <strong>Universal Cup</strong></li>
+  </ul>
+  <p class="mb-0">Each icon appears only where that link exists.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+  {% for season_data in site.data.archives %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ season_data.season }}</h5>
+            <div class="d-flex flex-wrap gap-2 small mb-2 align-items-center">
+            {% if season_data.archive_link %}
+              <a href="{{ season_data.archive_link }}" class="text-decoration-none">
+                <strong>Website</strong>
+              </a>
+            {% endif %}
+            {% if season_data.announcement %}
+              <a href="{{ season_data.announcement }}" class="text-decoration-none">
+                <strong>Announcement</strong>
+              </a>
+            {% endif %}
+            {% if season_data.wrap %}
+              <a href="{{ season_data.wrap }}" class="text-decoration-none">
+                <strong>Wrap</strong>
+              </a>
+            {% endif %}
+            {% if season_data.rating %}
+              <a href="{{ season_data.rating }}" class="text-decoration-none">
+                <strong>Rating</strong>
+              </a>
+            {% endif %}
+            {% if season_data.eolymp_space %}
+              <a href="{{ season_data.eolymp_space }}" target="_blank" rel="noopener" title="eolymp space" class="d-inline-flex align-items-center">
+                <img class="platform-icon" src="/images/platforms/eolymp.png" alt="eolymp space">
+              </a>
+            {% endif %}
+          </div>
+          {% if season_data.mirrors %}
+            <div class="d-flex flex-wrap gap-2 small mb-2 align-items-center">
+              <strong class="me-1">Mirrors:</strong>
+              {% for mirror in season_data.mirrors %}
+                <span class="d-inline-flex align-items-center gap-1">
+                  <a href="{{ mirror.url }}" class="text-decoration-none">{{ mirror.name }}</a>
+                  {% if mirror.eolymp %}<a href="{{ mirror.eolymp }}" target="_blank" rel="noopener" title="eolymp space"><img class="platform-icon" src="/images/platforms/eolymp.png" alt="eolymp"></a>{% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <ul class="list-unstyled mb-0">
+            {% for contest in season_data.contests %}
+              {% assign namelink = contest.links.standings %}
+              <li class="d-flex align-items-center justify-content-between gap-3 mb-1">
+                <span>
+                  {% if contest.name %}{{ contest.day }}:
+                    {% if namelink %}<a href="{{ namelink }}" target="_blank" rel="noopener" class="text-decoration-none"{% if contest.title %} title="{{ contest.title }}"{% endif %}>{{ contest.name }}</a>{% else %}{{ contest.name }}{% endif %}
+                  {% else %}
+                    {% if namelink %}<a href="{{ namelink }}" target="_blank" rel="noopener" class="text-decoration-none">{{ contest.day }}</a>{% else %}{{ contest.day }}{% endif %}
+                  {% endif %}
+                </span>
+                <span class="d-flex align-items-center gap-2 flex-shrink-0">
+                  {% if contest.links.eolymp %}<a href="{{ contest.links.eolymp }}" target="_blank" rel="noopener" title="eolymp — contest login"><img class="platform-icon" src="/images/platforms/eolymp.png" alt="eolymp"></a>{% else %}<span class="platform-icon"></span>{% endif %}
+                  {% if contest.links.gym %}<a href="{{ contest.links.gym }}" target="_blank" rel="noopener" title="Codeforces gym"><img class="platform-icon" src="/images/platforms/codeforces.png" alt="Codeforces gym"></a>{% else %}<span class="platform-icon"></span>{% endif %}
+                  {% if contest.links.ucup %}<a href="{{ contest.links.ucup }}" target="_blank" rel="noopener" title="Universal Cup"><img class="platform-icon" src="/images/platforms/ucup.png" alt="Universal Cup"></a>{% else %}<span class="platform-icon"></span>{% endif %}
+                </span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% include_relative {{ site.data.current.current_season }}/after.html %}

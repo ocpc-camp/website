@@ -1,0 +1,19 @@
+---
+title: Contest information
+---
+{% include_relative before.html %}
+<h1>Contests and standings</h1>
+<p>Both winter editions use the same seven contests. Choose one edition and keep the problems private until their release is authorized.</p>
+<p>Contest order and access links will be added here before the camp. Dates follow the <a href="schedule.html">schedule</a>.</p>
+<div class="table-responsive"><table class="table align-middle"><thead><tr><th scope="col">Contest</th><th scope="col">Date</th><th scope="col">Contest access</th><th scope="col">Scoreboard</th><th scope="col">Rating</th></tr></thead><tbody>
+{% for day in site.data['2027w'].hk.schedule.days %}{% if day.contest %}
+<tr><th scope="row">Day {{ day.day_number }}</th><td>{{ day.short_date }}</td><td class="text-muted">Link to follow</td><td class="text-muted">Link to follow</td><td class="text-muted">Link to follow</td></tr>
+{% endif %}{% endfor %}
+<tr><th scope="row">Overall</th><td colspan="2"></td><td class="text-muted">Link to follow</td><td class="text-muted">Link to follow</td></tr>
+</tbody></table></div>
+<h2>Taking part online</h2>
+<p>You may start within 24 hours of the onsite start and receive the full five-hour run. Solution discussions follow the onsite schedule, with recordings available afterwards.</p>
+<h2>Contest environment</h2>
+<p>Contests run on <a href="https://www.eolymp.com/en/">Eolymp</a>. We’ll send access instructions to your registration contact before the camp.</p>
+<p>See the <a href="/2027w/info.html">contest rules</a> for team format, allowed resources and upsolving, and meet the <a href="/2027w/#authors">contest authors</a>.</p>
+{% include_relative after.html %}

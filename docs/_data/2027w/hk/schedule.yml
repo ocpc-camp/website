@@ -1,0 +1,209 @@
+{
+  "total_days": 7,
+  "days": [
+    {
+      "date": "Saturday, 2 January",
+      "short_date": "2 January",
+      "label": "Contest 1",
+      "contest": 1,
+      "blocks": [
+        {
+          "time": "09:30\u201310:00",
+          "text": "Check-in"
+        },
+        {
+          "time": "10:00\u201310:30",
+          "text": "Welcome and opening notes"
+        },
+        {
+          "time": "10:30\u201312:30",
+          "text": "Practice round and lunch break"
+        },
+        {
+          "time": "12:30\u201317:30",
+          "text": "Contest"
+        },
+        {
+          "time": "18:30\u201320:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 1
+    },
+    {
+      "date": "Sunday, 3 January",
+      "short_date": "3 January",
+      "label": "Contest 2",
+      "contest": 2,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 2
+    },
+    {
+      "date": "Monday, 4 January",
+      "short_date": "4 January",
+      "label": "Contest 3",
+      "contest": 3,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 3
+    },
+    {
+      "date": "Tuesday, 5 January",
+      "short_date": "5 January",
+      "label": "Contest 4",
+      "contest": 4,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 4
+    },
+    {
+      "date": "Wednesday, 6 January",
+      "short_date": "6 January",
+      "label": "Contest 5",
+      "contest": 5,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 5
+    },
+    {
+      "date": "Thursday, 7 January",
+      "short_date": "7 January",
+      "label": "Contest 6",
+      "contest": 6,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "day_number": 6
+    },
+    {
+      "date": "Friday, 8 January",
+      "short_date": "8 January",
+      "label": "Contest 7",
+      "contest": 7,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "15:30\u201317:00",
+          "text": "Solution discussion"
+        },
+        {
+          "time": "17:00\u201317:30",
+          "text": "Closing notes"
+        }
+      ],
+      "day_number": 7
+    }
+  ],
+  "groups": [
+    {
+      "start_date": "2 January",
+      "end_date": "2 January",
+      "start_day": 1,
+      "end_day": 1,
+      "blocks": [
+        {
+          "time": "09:30\u201310:00",
+          "text": "Check-in"
+        },
+        {
+          "time": "10:00\u201310:30",
+          "text": "Welcome and opening notes"
+        },
+        {
+          "time": "10:30\u201312:30",
+          "text": "Practice round and lunch break"
+        },
+        {
+          "time": "12:30\u201317:30",
+          "text": "Contest"
+        },
+        {
+          "time": "18:30\u201320:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "label": "Contest day"
+    },
+    {
+      "start_date": "3 January",
+      "end_date": "7 January",
+      "start_day": 2,
+      "end_day": 6,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "16:30\u201318:00",
+          "text": "Solution discussion"
+        }
+      ],
+      "label": "Contest day"
+    },
+    {
+      "start_date": "8 January",
+      "end_date": "8 January",
+      "start_day": 7,
+      "end_day": 7,
+      "blocks": [
+        {
+          "time": "10:00\u201315:00",
+          "text": "Contest"
+        },
+        {
+          "time": "15:30\u201317:00",
+          "text": "Solution discussion"
+        },
+        {
+          "time": "17:00\u201317:30",
+          "text": "Closing notes"
+        }
+      ],
+      "label": "Contest day"
+    }
+  ]
+}

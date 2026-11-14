@@ -1,0 +1,79 @@
+# Schedule for OCPC Iași 2026 — 12–20 September (dates confirmed).
+# Contest starts confirmed on 2026-09-07: same local times as Hong Kong, in EEST.
+# September 20 start moved to 09:00 on 2026-09-19.
+# Other activity times remain provisional.
+total_days: 9
+days:
+  - date: "September 12"
+    label: "Contest day"
+    blocks:
+      - time: "09:30 - 10:00"
+        text: "Registration"
+      - time: "10:00 - 10:30"
+        text: "Opening notes"
+      - time: "10:30 - 12:30"
+        text: "Practice round & lunch"
+      - time: "12:30 - 17:30"
+        text: "Contest"
+      - time: "18:30 - 20:00"
+        text: "Analysis & discussion"
+
+  - date: "September 13"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "September 14"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "September 15"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "September 16"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "September 17"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "September 18"
+    label: "Leisure day"
+    blocks:
+      - text: "Activities TBA"
+
+  - date: "September 19"
+    label: "Contest day"
+    blocks:
+      - time: "10:00 - 15:00"
+        text: "Contest"
+      - time: "16:30 - 18:00"
+        text: "Analysis & discussion"
+
+  - date: "September 20"
+    label: "Contest day"
+    blocks:
+      - time: "09:00 - 14:00"
+        text: "Contest"
+      - time: "15:30 - 17:00"
+        text: "Analysis & discussion"
+      - time: "TBA"
+        text: "Closing dinner"

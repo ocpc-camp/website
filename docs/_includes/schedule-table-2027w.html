@@ -1,0 +1,29 @@
+<style>
+.schedule-table { width:100%; border-collapse:collapse; margin-top:1.5rem; }
+.schedule-table th, .schedule-table td { padding:.8rem 1rem; border-bottom:1px solid #dee2e6; vertical-align:top; }
+.schedule-table thead th { background:#f8f9fa; }
+.schedule-table tbody th { width:26%; font-weight:600; }
+.schedule-day { display:block; margin-top:.2rem; font-size:.875rem; font-weight:400; color:#6c757d; }
+.schedule-block { display:flex; gap:1rem; margin:.15rem 0; }
+.schedule-time { flex:0 0 7.5rem; font-weight:600; white-space:nowrap; }
+@media (max-width:767.98px) {
+  .schedule-table, .schedule-table tbody { display:block; }
+  .schedule-table thead { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+  .schedule-table tr { display:block; border:1px solid #dee2e6; border-radius:.5rem; margin-bottom:1rem; overflow:hidden; }
+  .schedule-table tbody th { display:block; width:auto; background:#f8f9fa; }
+  .schedule-table td { display:block; border:0; }
+  .schedule-block { flex-wrap:wrap; gap:.15rem .75rem; margin:.5rem 0; }
+}
+</style>
+<table class="schedule-table">
+  <caption class="visually-hidden">Camp schedule; all times are local.</caption>
+  <thead><tr><th scope="col">Date</th><th scope="col">Programme</th></tr></thead>
+  <tbody>
+  {% for day in site.data['2027w'][include.venue].schedule.groups %}
+    <tr>
+      <th scope="row">{{ day.start_date }}{% if day.end_date != day.start_date %}–{{ day.end_date }}{% endif %}<span class="schedule-day">Day {{ day.start_day }}{% if day.end_day != day.start_day %}–{{ day.end_day }}{% endif %} · {{ day.label }}</span></th>
+      <td>{% for block in day.blocks %}<div class="schedule-block">{% if block.time %}<span class="schedule-time">{{ block.time }}</span>{% endif %}<span>{{ block.text }}</span></div>{% endfor %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
