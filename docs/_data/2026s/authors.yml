@@ -1,0 +1,83 @@
+# Problem authors for the Summer 2026 contest set (shared by both venues).
+# Populated from the authors who responded to the "@2026s author" call on Discord;
+# more may be added as they confirm their info.
+# NOTE: SanguineChameleon's "AO3 enthusiast" fact is rendered as "slash fiction
+# enthusiast" in the Codeforces announcement (participant-oriented) but kept as
+# "AO3 enthusiast" here on the website and in email invitations.
+authors:
+  - name: Nguyen Ngoc Dang Khoa
+    handle: SanguineChameleon
+    facts:
+      - IOI gold medalist
+      - Project Euler perfectionist
+      - AO3 enthusiast
+
+  - name: NTU ICPC Group
+    facts:
+      - Experienced ICPC participants from National Taiwan University
+      - Regular participant at the World Finals
+
+  - handle: Pyqe
+    facts:
+      - IOI gold medalist
+      - Author of IOI 2024 Nile and Tree (Xylem)
+
+  - handle: Kinon
+    facts:
+      - IMO bronze, silver, and gold medalist
+
+  - handles: [marks39, ssk4988]
+    names: ["Tyler Marks", "Sachin Sivakumar"]
+    facts:
+      - 2025 North America Big South champions
+      - Participants in the 2025 NAC and WF
+      - Currently coaching for UCF
+
+  - name: Jinlong Han
+    handle: wuhudsm
+    facts:
+      - Maintainer of TheForce community
+      - Author of over 100 competitive programming problems
+
+  # Problem-setting team for the Hong Kong contest.
+  - name: Yixiong Gao
+    handle: Yixiong
+    facts:
+      - Problemsetter for ICPC Asia East contests
+      - Universal Cup staff
+
+  - name: Songyang Chen
+    handle: Claris
+    facts:
+      - ICPC 2017 and 2018 World Finalist
+      - Top contributor of QOJ
+
+  - name: Xiao Yang
+    handle: Little_Sheep_Yawn
+    facts:
+      - A competitive programming enthusiast
+      - Rank 3 on LeetCode globally
+
+  # Authors from the Iranian team (shared ICPC World Finals placements).
+  - name: AmirMohammad Shahrezaei
+    handle: AmShZ
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI 2023 problem author
+      - Codeforces problemsetter and tester
+      - Iran gold and APIO silver medalist
+
+  - name: Alireza Keshavarz
+    handle: Keshi
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI 2023 problem author
+      - IOI gold medalist
+      - Codeforces problemsetter and tester
+
+  - name: Ali Safari
+    handle: Amoo_Safar
+    facts:
+      - ICPC World Finalist (23rd in 2024, 16th in 2025)
+      - IOI gold medalist
+      - Codeforces problemsetter and tester

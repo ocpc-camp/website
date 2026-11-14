@@ -1,0 +1,131 @@
+---
+title: Index
+---
+{% include_relative before.html %}
+<img src="/images/iasi.jpg" class="header-image" style="width:100%; height:360px; object-fit:cover; object-position:center 70%;" alt="Palace of Culture, Iași" />
+<p class="text-muted small mb-4">
+  Header photo: <a href="https://commons.wikimedia.org/wiki/File:Palatul_Culturii_Ia%C8%99i_-_seara_din_fa%C8%9B%C4%83.jpg" target="_blank" rel="noopener">Palatul Culturii, Iași</a>
+  by Andrei Lucian Vaida, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+</p>
+
+<h2>OCPC, Summer 2026 — Iași</h2>
+
+<div class="text-center my-4">
+  <p class="lead mb-2">Join our Discord server to stay updated:</p>
+  <div data-discord-invite></div>
+</div>
+
+<ul>
+  <li>
+    <b>Dates:</b> 12–20 September 2026
+  </li>
+  <li>
+    <b>Location:</b> Faculty of Computer Science, Alexandru Ioan Cuza University of Iași, Romania
+  </li>
+  <li>
+    <b>Participation fee:</b> <a href="/2026s/">see fees</a>
+  </li>
+</ul>
+
+<p class="text-muted">
+  New to OCPC? See <a href="/">what the camp is about, participant reviews and who can participate</a> on the OCPC home page.
+</p>
+
+<h4 class="mt-4">Who are we?</h4>
+
+<style>
+  /* Team photos are portrait, so on wide screens show them in a portrait column
+     beside the bio rather than as a stretched full-width banner; stack on narrow. */
+  .team-card { overflow: hidden; }
+  .team-card .team-photo {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top center;
+  }
+  @media (min-width: 992px) {
+    .team-card .team-photo {
+      width: 210px;
+      height: auto;
+      align-self: stretch;   /* match the card's height */
+    }
+  }
+</style>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+  {% for m in site.data['2026s'].iasi.team.members %}
+    <div class="col">
+      <div class="card team-card h-100">
+        <div class="d-flex flex-column flex-lg-row h-100">
+          {% if m.photo %}
+            <img src="{{ m.photo }}" class="team-photo" alt="{{ m.name }}">
+          {% endif %}
+          <div class="d-flex flex-column flex-grow-1">
+            <div class="card-body">
+              <h5 class="card-title mb-1 d-flex align-items-center gap-2">
+                <span>{{ m.name }}</span>
+              </h5>
+              {% if m.role %}
+                <div class="text-muted small mb-2">{{ m.role }}</div>
+              {% endif %}
+              {% if m.orgs %}
+                <div class="small mb-2">
+                  {% for o in m.orgs %}
+                    <span class="badge text-bg-light me-1">{{ o }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              {% if m.facts %}
+                <ul class="list-unstyled small mb-0">
+                  {% for fact in m.facts %}
+                    <li>• {{ fact }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+            {% if m.links %}
+              <div class="card-footer bg-white border-0 pt-0 mt-auto">
+                <div class="d-flex flex-wrap gap-2 small">
+                  {% if m.links.codeforces %}
+                    <a href="https://codeforces.com/profile/{{ m.links.codeforces }}" class="text-decoration-none" target="_blank" rel="noopener">Codeforces</a>
+                  {% endif %}
+                  {% if m.links.linkedin %}
+                    <a href="https://linkedin.com/in/{{ m.links.linkedin }}" class="text-decoration-none" target="_blank" rel="noopener">LinkedIn</a>
+                  {% endif %}
+                  {% if m.links.email %}
+                    <a href="mailto:{{ m.links.email }}" class="text-decoration-none">Email</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h4 class="mt-4">Registration &amp; fees</h4>
+<p>
+  Participation is <b>198€ per team</b>. Register using the
+  <a href="https://forms.gle/FGPh3uivqHwcqhiN7"><b>registration form</b></a>
+  (pick "Iași — onsite", or remote participation following the Iași schedule);
+  join our <a href="https://discord.gg/yEWjcPs5qZ">Discord</a>
+  or <a href="contact.html">contact us</a> with any questions. Registration closes
+  <b>29 August 2026</b> for onsite teams and <b>5 September 2026</b> for remote teams; the early-bird
+  fee applies until <b>12 August 2026</b>. Onsite capacity is limited, and applications for onsite
+  participation are processed on a first-come-first-served basis, so please register early.
+</p>
+<p>
+  The fee, the early-bird / hardship / Ukraine discounts and what it covers are the same across all
+  sites — see <a href="/2026s/">registration &amp; participation fee</a> on the home page.
+  Payments are processed by the camp operator — by registering you agree
+  to the <a href="/2026s/legal.html">Terms &amp; Refund Policy</a>.
+</p>
+<p>
+  If you require a visa to enter Romania, please plan ahead — see
+  <a href="/2026s/info.html">Visa &amp; invitation letters</a> on the Info page.
+</p>
+
+{% include_relative after.html %}
