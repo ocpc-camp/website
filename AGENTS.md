@@ -57,16 +57,16 @@ These are per-edition copies, so edits to the header/footer must be made in the 
 
 ### Photo credits — carry them across every season fork
 
-**Every page that shows a photo carries a credit on that page**: the author, the work's title linked to its source page, a licence link where a licence applies, and a note if the image was changed. We credit public-domain photos too, as a courtesy. Forking a season copies the layout but can drop credit lines, so after creating a new season, grep the new folder for every photo and confirm each page that shows one has its credit.
+**Every page that shows a photo carries a credit on that page**: the author, the work's title linked to its source page, a licence link where a licence applies, and a note if the image was changed ("resized", "cropped"). The 4.0 Creative Commons licences require that note; a crop made by the page layout counts. We credit public-domain photos too, as a courtesy. Forking a season copies the layout but can drop credit lines, so after creating a new season, grep the new folder for every photo and confirm each page that shows one has its credit.
 
 **Choosing a photo.** Prefer public-domain or CC0 photos. Avoid works under version 3.0 or older Creative Commons licences: unlike 4.0 they have no grace period for fixing a missing credit. Check a photo's upload history as well as its licence tag; a public-domain tag on a crop of someone else's licensed photo is worthless. Prefer the photographer's own upload from a long-standing account, or a Flickr import that passed Commons' licence review.
 
 Current photos:
 
 - `images/hong-kong-harbour.jpg` — *Hong Kong Island from Kowloon – DSC00674* by Daderot, [Commons](https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_from_Kowloon_-_DSC00674.JPG), own work dedicated to the public domain (CC0). Our file is a 5472×1990 crop of the original (SHA-1 `61db9e28c3ac9f3a0233671eeb9a7cdf126b7634`) scaled to 1920×698. Its header frame uses `aspect-ratio:2.75/1` because a flatter strip cuts off the tallest tower. Used by Winter 2027 and by the Summer 2026 archive.
-- `images/iasi.jpg` (archived Summer 2026) — *Palatul Culturii, Iași* by Andrei Lucian Vaida, CC BY-SA 4.0.
-- `images/uaic-informatics.jpg` (archived Summer 2026) — by Argenna, CC BY-SA 3.0 or GFDL.
-- `images/cityu-building.jpg` — City University of Hong Kong, CC BY-SA 4.0.
+- `images/iasi.jpg` (archived Summer 2026) — *Palatul Culturii, Iași* by Andrei Lucian Vaida, CC BY-SA 4.0. Our file is the original scaled to 1920×1080; the pages show it cropped to a strip.
+- `images/uaic-informatics.jpg` (archived Summer 2026) — by Argenna, CC BY-SA 3.0 or GFDL. Our file is the original scaled to 750×1000.
+- `images/cityu-building.jpg` — City University of Hong Kong, CC BY-SA 4.0. Our file is the original scaled to 1100×733.
 - `images/Bucharest_Business_District.jpg` (archived Summer 2025) — *Bucharest Business District* by Madalin Pentelie, [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Business_District.jpg), CC0 confirmed by Flickr review. Our file is a crop.
 - `images/bridge.jpg` — *Bridge in Osijek* by Zdenko Brkanić, [Commons](https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg), public domain. Our file is a crop. Credited on the Winter 2027 pages and on the six archived seasons that show it.
 
@@ -122,4 +122,4 @@ For the multi-venue `2026s` season the data lives under `docs/_data/2026s/`:
 
 ## Winter 2027 launch
 
-The current season is `2027w`, with Hong Kong and Osijek venue pages. Summer 2026 is frozen by `archive/2026s-4` in `archive-builds.yml`; its source remains in place. Winter schedules share `_includes/schedule-table-2027w.html`, rendering a compact desktop table and stacked mobile cards from each venue’s schedule groups. This is an exception to the older include_relative-only structure described above.
+The current season is `2027w`, with Hong Kong and Osijek venue pages. Summer 2026 is frozen by `archive/2026s-5` in `archive-builds.yml`; its source remains in place. Winter schedules share `_includes/schedule-table-2027w.html`, rendering a compact desktop table and stacked mobile cards from each venue’s schedule groups. This is an exception to the older include_relative-only structure described above.
