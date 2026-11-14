@@ -1,0 +1,155 @@
+---
+title: Sponsors
+---
+{% include_relative before.html %}
+
+<div class="container my-5">
+  <h2 class="mb-4 text-center">Our Sponsors</h2>
+
+  {% assign non_partner_sponsors = site.data['2025s'].sponsors | where_exp: 'item', 'item.tier != "partner"' %}
+  {% assign platinum_sponsors = non_partner_sponsors | where: "tier", "platinum" %}
+  {% assign other_sponsors = non_partner_sponsors | where_exp: 'item', 'item.tier != "platinum"' %}
+
+  <!-- ================== PLATINUM SPONSOR (FULL WIDTH) ================== -->
+  <div class="row g-4 mb-4">
+    {% for sponsor in platinum_sponsors %}
+      <div class="col-12">
+        <div class="card h-100">
+          <div
+            class="card-body d-flex flex-column"
+            style="background-color: #f8f9fa; border: 2px solid #adb5bd;"
+          >
+            <!-- Logo -->
+            <div class="text-center mb-3">
+              <img
+                src="{{ sponsor.logo_src }}"
+                alt="{{ sponsor.logo_alt }}"
+                class="img-fluid"
+                style="{{ sponsor.logo_style }}"
+              />
+            </div>
+
+            <!-- Short Preview -->
+            {% for paragraph in sponsor.short_paragraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+
+            <!-- "Read More" + Buttons -->
+            <div class="mt-auto">
+              <button
+                class="btn btn-outline-primary btn-sm w-100"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#{{ sponsor.id }}Modal"
+              >
+                Read More
+              </button>
+              <div class="d-grid gap-2 mt-2">
+                {% for button in sponsor.buttons %}
+                  <a
+                    href="{{ button.url }}"
+                    target="_blank"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    {{ button.text }}
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div> <!-- End card-body -->
+        </div> <!-- End card -->
+      </div> <!-- End col-12 -->
+    {% endfor %}
+  </div> <!-- End row for platinum sponsor -->
+
+  <!-- ================== OTHER SPONSORS ================== -->
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+    {% for sponsor in other_sponsors %}
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <!-- Logo -->
+            <div class="text-center mb-3">
+              <img
+                src="{{ sponsor.logo_src }}"
+                alt="{{ sponsor.logo_alt }}"
+                class="img-fluid"
+                style="{{ sponsor.logo_style }}"
+              />
+            </div>
+            
+            <!-- Short Preview -->
+            {% for paragraph in sponsor.short_paragraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+            
+            <!-- "Read More" + Buttons -->
+            <div class="mt-auto">
+              <button
+                class="btn btn-outline-primary btn-sm w-100"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#{{ sponsor.id }}Modal"
+              >
+                Read More
+              </button>
+              <div class="d-grid gap-2 mt-2">
+                {% for button in sponsor.buttons %}
+                  <a
+                    href="{{ button.url }}"
+                    target="_blank"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    {{ button.text }}
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div> <!-- End card-body -->
+        </div> <!-- End card -->
+      </div> <!-- End col -->
+    {% endfor %}
+  </div> <!-- End row for other sponsors -->
+
+
+<!-- ========================= MODALS SECTION ========================= -->
+
+{% assign displayed_sponsors = non_partner_sponsors %}
+{% for sponsor in displayed_sponsors %}
+<div
+  class="modal fade"
+  id="{{ sponsor.id }}Modal"
+  tabindex="-1"
+  aria-labelledby="{{ sponsor.id }}ModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <!-- Modal header: Logo in place of title -->
+      <div class="modal-header">
+        <div class="flex-grow-1 text-center">
+          <img
+            src="{{ sponsor.logo_src }}"
+            alt="{{ sponsor.logo_alt }}"
+            class="img-fluid"
+            style="{{ sponsor.logo_style }}"
+          />
+        </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        {% for paragraph in sponsor.modal_paragraphs %}
+          <p>{{ paragraph | markdownify }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+{% include_relative after.html %}

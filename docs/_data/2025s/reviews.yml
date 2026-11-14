@@ -1,0 +1,31 @@
+reviews:
+  - name: Andres Alumets
+    affiliation: U of Tartu
+    season: 2023w, 2023s, 2024s, 2024w, 2025w
+    links: { cf: Andres_Alumets, atcoder: Andres_Alumets }
+    facts:
+      - 9th place in NWERC 2024 (Bronze)
+      - 13th place in EUC 2025
+      - ICPC 2025 World Finalist
+    short: I really like the camp and try to participate in it whenever I get a team together.
+    extra: Because our university doesn't have a top team, we don't get invited to any other camps, so it is great to participate at least in this camp. I would say it is organized quite well and the quality of contests is high. Participating in the camp is also useful because that way I have the motivation to train competetive programming. I would definitely recommend this camp to others because it will help with competetive programming.
+
+  - name: Konstantin Amelichev
+    affiliation: Ecole Polytechnique
+    season: 2025w, 2025s
+    links: { cf: KiKoS, atcoder: KiKoS }
+    facts:
+      - 12th place in EUC 2025 (Bronze)
+      - ICPC 2025 World Finalist
+    short: Really great experience, enjoyable problems and wide range of techniques to learn. For me, ~2200 codeforces enjoyer, there was a lot new or unfamiliar topics, or some interesting applications
+
+  - name: Voicu Mihai-Valeriu
+    affiliation: ICHB
+    season: 2023w, 2023s, 2024w, 2025w
+    photo: /images/reviews/voicu.jpg
+    links: { cf: ntherner }
+    facts:
+      - 6th place in IOI 2024 (Gold)
+      - 14th place in IOI 2025 (Gold)
+    short: For me, OCPC is a time of the year I always highly await. The high quality selection of contests have always proven to be a great and fun challenge to bond over and learn more and new tricks and topics.
+    extra: The organizers also made sure to always provide the best conditions for us the contestants (e.g. snacks outside the contest halls during the competition days) and organized very efficiently icebreaker and teambuilding events in the break days. Overall, I highly recommend participation to this camp for everyone regardless of their skill as they have a lot to gain from participating.
