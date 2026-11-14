@@ -7,31 +7,31 @@
 # Migration snapshot of the existing Winter 2026 archive, taken November 2026.
 # This is not asserted to be the original end-of-camp revision.
 2026w:
-  tag: archive/2026w-2
-  commit: 0116d7ce844c00d2bf6334e7cc76f4e16bd7b9d0
+  tag: archive/2026w-3
+  commit: 38c957b4e91c0181899aee14457aa64e2129939c
 # Migration snapshots of the six older archives as preserved on 5 November 2026.
 # Each tag includes the edition's original paths, data and shared assets.
 2025s:
-  tag: archive/2025s-3
-  commit: 6f85a1e2892a4d7e67a79e4bda0f3728616c7d3a
+  tag: archive/2025s-4
+  commit: 796560b4981789bc67e47bb361d1fe0b0fe643bb
 2025w:
-  tag: archive/2025w-2
-  commit: 05cd4612b1dfd2001a5ee430f005635ee16f8377
+  tag: archive/2025w-3
+  commit: fc1de25b700f2d390c20b96d13259f0cb22ee087
 2024s:
-  tag: archive/2024s-2
-  commit: 2eff074545671966ce9c963b85a117e897b7678c
+  tag: archive/2024s-3
+  commit: 829a1cbf0851c308116cfceb646a91cab62f719a
 2024w:
-  tag: archive/2024w-2
-  commit: 882d1ca40016b5f029fc613800ceb5c7c45915c8
+  tag: archive/2024w-3
+  commit: 568bebda7892308af237f762ceaf2fc7767fef2a
 2023s:
-  tag: archive/2023s-2
-  commit: 549cfa387d1452522c625eccd443bd46a00e5796
+  tag: archive/2023s-3
+  commit: 49fc93e63aa2b04ced9c59ea20566dad14e06ad8
 2023w:
-  tag: archive/2023w-3
-  commit: 0007769b659d631561397d3d8554c9c5a09add4e
+  tag: archive/2023w-4
+  commit: c0a45f375852de8f84537131385a08c009448ef0
 
 # Final Summer 2026 site before the Winter 2027 launch, with a November 2026
 # correction to the header photo and footer.
 2026s:
-  tag: archive/2026s-3
-  commit: cb1cff93619058d7f18e10863053bd6ced5375ea
+  tag: archive/2026s-4
+  commit: 8f78a5918c485700d7d241561a9f2525e74de432

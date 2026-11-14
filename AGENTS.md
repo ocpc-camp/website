@@ -67,8 +67,10 @@ Current photos:
 - `images/iasi.jpg` — *Palatul Culturii, Iași* by Andrei Lucian Vaida, CC BY-SA 4.0.
 - `images/uaic-informatics.jpg` — by Argenna, CC BY-SA 3.0 or GFDL.
 - `images/cityu-building.jpg` — City University of Hong Kong, CC BY-SA 4.0.
-- `images/Bucharest_Business_District.jpg` (archived Summer 2025) — by Madalin Pentelie, [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Business_District.jpg), CC0 confirmed by Flickr review.
-- `images/bridge.jpg` — *Bridge in Osijek* by Zdenko Brkanić, [Commons](https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg), public domain. Credited on the Winter 2027 pages; older archives predate the courtesy-credit rule.
+- `images/Bucharest_Business_District.jpg` (archived Summer 2025) — *Bucharest Business District* by Madalin Pentelie, [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Business_District.jpg), CC0 confirmed by Flickr review. Our file is a crop.
+- `images/bridge.jpg` — *Bridge in Osijek* by Zdenko Brkanić, [Commons](https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg), public domain. Our file is a crop. Credited on the Winter 2027 pages and on the six archived seasons that show it.
+
+**Archives carry only the photos they show.** The builder publishes every file in an archive tag's `docs/images/` under `/<season>/_assets/`, whether or not a page uses it, so a photo left in the tree is reachable by direct URL without any credit. When cutting or correcting an archive tag, remove photos that the season's own pages and data do not name.
 
 ### Legal pages
 
@@ -120,4 +122,4 @@ For the multi-venue `2026s` season the data lives under `docs/_data/2026s/`:
 
 ## Winter 2027 launch
 
-The current season is `2027w`, with Hong Kong and Osijek venue pages. Summer 2026 is frozen by `archive/2026s-3` in `archive-builds.yml`; its source remains in place. Winter schedules share `_includes/schedule-table-2027w.html`, rendering a compact desktop table and stacked mobile cards from each venue’s schedule groups. This is an exception to the older include_relative-only structure described above.
+The current season is `2027w`, with Hong Kong and Osijek venue pages. Summer 2026 is frozen by `archive/2026s-4` in `archive-builds.yml`; its source remains in place. Winter schedules share `_includes/schedule-table-2027w.html`, rendering a compact desktop table and stacked mobile cards from each venue’s schedule groups. This is an exception to the older include_relative-only structure described above.
