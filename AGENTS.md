@@ -64,13 +64,13 @@ These are per-edition copies, so edits to the header/footer must be made in the 
 Current photos:
 
 - `images/hong-kong-harbour.jpg` — *Hong Kong Island from Kowloon – DSC00674* by Daderot, [Commons](https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_from_Kowloon_-_DSC00674.JPG), own work dedicated to the public domain (CC0). Our file is a 5472×1990 crop of the original (SHA-1 `61db9e28c3ac9f3a0233671eeb9a7cdf126b7634`) scaled to 1920×698. Its header frame uses `aspect-ratio:2.75/1` because a flatter strip cuts off the tallest tower. Used by Winter 2027 and by the Summer 2026 archive.
-- `images/iasi.jpg` — *Palatul Culturii, Iași* by Andrei Lucian Vaida, CC BY-SA 4.0.
-- `images/uaic-informatics.jpg` — by Argenna, CC BY-SA 3.0 or GFDL.
+- `images/iasi.jpg` (archived Summer 2026) — *Palatul Culturii, Iași* by Andrei Lucian Vaida, CC BY-SA 4.0.
+- `images/uaic-informatics.jpg` (archived Summer 2026) — by Argenna, CC BY-SA 3.0 or GFDL.
 - `images/cityu-building.jpg` — City University of Hong Kong, CC BY-SA 4.0.
 - `images/Bucharest_Business_District.jpg` (archived Summer 2025) — *Bucharest Business District* by Madalin Pentelie, [Commons](https://commons.wikimedia.org/wiki/File:Bucharest_Business_District.jpg), CC0 confirmed by Flickr review. Our file is a crop.
 - `images/bridge.jpg` — *Bridge in Osijek* by Zdenko Brkanić, [Commons](https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg), public domain. Our file is a crop. Credited on the Winter 2027 pages and on the six archived seasons that show it.
 
-**Archives carry only the photos they show.** The builder publishes every file in an archive tag's `docs/images/` under `/<season>/_assets/`, whether or not a page uses it, so a photo left in the tree is reachable by direct URL without any credit. When cutting or correcting an archive tag, remove photos that the season's own pages and data do not name.
+**Archives carry only the photos they show.** The builder publishes every file in an archive tag's `docs/images/` under `/<season>/_assets/`, whether or not a page uses it, so a photo left in the tree is reachable by direct URL without any credit. When cutting or correcting an archive tag, remove photos that the season's own pages and data do not name. The same holds for `docs/images/` on `main`, which is published at `/images/`: photos marked "archived" above exist only in that season's archive tag. The Summer 2026 source kept in `docs/2026s/` is not published from `main` and still names two of them.
 
 ### Legal pages
 
