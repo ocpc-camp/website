@@ -85,6 +85,8 @@ Keep these when forking a season:
 
 **This repository is public.** Keep business correspondence, disputes and anything else not meant for publication out of its files and commit messages; the private superproject is the place for that.
 
+**History starts on 14 November 2026.** `main` and each archive tag were recreated then as single commits; earlier history is kept privately. A clone made before that date still holds the old branches and tags: never push from it. Re-clone, and push only `main` and tags created after that date.
+
 ### Data-driven content (`docs/_data/<season>/`)
 
 Per-edition content lives in YAML under `docs/_data/<season>/`: `schedule.yml`, `sponsors.yml`, `team.yml`, `authors.yml`, `reviews.yml`. Pages iterate over these. Because the data keys begin with a digit, they must be accessed with bracket syntax: `site.data['2026w'].schedule`, **not** `site.data.2026w` (note that `after.html` currently uses the dotted form `site.data.2026w.sponsors` — when forking a new edition, update that hardcoded season reference in the new `after.html`).
