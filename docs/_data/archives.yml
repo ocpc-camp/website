@@ -2,9 +2,9 @@
   archive_link: 2026s
   rating: https://acmallukrainian.ho.ua/camps/osijek/2026/summer/combined/standings.html
   mirrors:
-  - name: Hong Kong SAR, China
+  - name: Hong Kong
     url: /2026s/hk/
-  - name: Iași, Romania
+  - name: Iași
     url: /2026s/iasi/
   announcement: https://codeforces.com/blog/entry/154739
   wrap: https://codeforces.com/blog/entry/157026
