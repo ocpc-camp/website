@@ -1,0 +1,30 @@
+{% assign vsponsors = site.data['2027w'][include.venue].sponsors | where_exp: "sp", "sp.tier != 'partner'" %}
+{% assign vpartners = site.data['2027w'][include.venue].sponsors | where: "tier", "partner" %}
+  <div class="d-flex flex-wrap justify-content-between gap-4 mb-3">
+    {% if vsponsors and vsponsors.size > 0 %}
+      <div>
+        <div class="text-muted text-uppercase mb-2" style="font-size:0.7rem;letter-spacing:.05em;">Sponsors</div>
+        <div class="d-flex flex-wrap align-items-center gap-3">
+          {% for sp in vsponsors %}
+            <a href="{% if sp.buttons and sp.buttons.size > 0 %}{{ sp.buttons[0].url }}{% else %}#{% endif %}" target="_blank" rel="noopener">
+              <img src="{{ sp.footer_logo_src | default: sp.logo_src }}" alt="{{ sp.logo_alt }}"
+                   style="max-height:30px;width:auto;max-width:110px;object-fit:contain;" />
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    {% if vpartners and vpartners.size > 0 %}
+      <div>
+        <div class="text-muted text-uppercase mb-2" style="font-size:0.7rem;letter-spacing:.05em;">Partners</div>
+        <div class="d-flex flex-wrap align-items-center gap-3">
+          {% for p in vpartners %}
+            <a href="{{ p.footer_url | default: '#' }}" target="_blank" rel="noopener">
+              <img src="{{ p.footer_logo_src | default: p.logo_src }}" alt="{{ p.logo_alt }}"
+                   style="max-height:30px;width:auto;max-width:110px;object-fit:contain;" />
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>

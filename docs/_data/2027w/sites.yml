@@ -1,0 +1,16 @@
+- venue: hk
+  city: Hong Kong
+  location: Hong Kong SAR, China
+  dates: 2–8 January 2027
+  host: City University of Hong Kong
+  blurb: Seven consecutive contest days before the Hong Kong ICPC Regional on 9–10 January.
+  image: /images/hong-kong-harbour.jpg
+  photo: '<a href="https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_from_Kowloon_-_DSC00674.JPG">Hong Kong Island from Kowloon</a> by Daderot (public domain, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>), cropped.'
+- venue: osijek
+  city: Osijek
+  location: Osijek, Croatia
+  dates: 30 January–7 February 2027
+  host: School of Applied Mathematics and Informatics, University of Osijek
+  blurb: Seven contest days with breaks on 1 and 5 February.
+  image: /images/bridge.jpg
+  photo: '<a href="https://commons.wikimedia.org/wiki/File:OS-Most-na-dravi.jpg">Bridge in Osijek</a> by Zdenko Brkanić (public domain), cropped.'
